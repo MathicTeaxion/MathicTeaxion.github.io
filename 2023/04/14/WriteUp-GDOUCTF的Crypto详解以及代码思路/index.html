@@ -19,27 +19,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":24},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="CryptoAbsolute_Baby_Encrytpion题目附件链接 babylua题目附件链接 Magic of Encoding题目附件链接 Math Problem题目附件链接">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2023/04/15/hello-world/index.html">
+<meta property="og:title" content="WriteUp_GDOUCTF的Crypto详解以及代码思路">
+<meta property="og:url" content="http://example.com/2023/04/14/WriteUp-GDOUCTF%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/index.html">
 <meta property="og:site_name" content="Mathic&#39;s OI&amp;&amp;CTF">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="CryptoAbsolute_Baby_Encrytpion题目附件链接 babylua题目附件链接 Magic of Encoding题目附件链接 Math Problem题目附件链接">
 <meta property="og:locale">
-<meta property="article:published_time" content="2023-04-15T08:51:12.696Z">
-<meta property="article:modified_time" content="2022-10-13T09:23:11.164Z">
+<meta property="og:image" content="https://www.nssctf.cn/files/2023/4/5/2dd3efcc6a.png">
+<meta property="article:published_time" content="2023-04-14T09:26:03.000Z">
+<meta property="article:modified_time" content="2023-04-24T09:39:09.612Z">
 <meta property="article:author" content="Mathic_Teaxion">
+<meta property="article:tag" content="CTF_WriteUp">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.nssctf.cn/files/2023/4/5/2dd3efcc6a.png">
 
 
-<link rel="canonical" href="http://example.com/2023/04/15/hello-world/">
+<link rel="canonical" href="http://example.com/2023/04/14/WriteUp-GDOUCTF%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"http://example.com/2023/04/15/hello-world/","path":"2023/04/15/hello-world/","title":"Hello World"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"http://example.com/2023/04/14/WriteUp-GDOUCTF%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/","path":"2023/04/14/WriteUp-GDOUCTF的Crypto详解以及代码思路/","title":"WriteUp_GDOUCTF的Crypto详解以及代码思路"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hello World | Mathic's OI&&CTF</title>
+<title>WriteUp_GDOUCTF的Crypto详解以及代码思路 | Mathic's OI&&CTF</title>
   
 
 
@@ -87,7 +90,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">0</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">0</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">2</span></a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>Commonweal 404</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">1</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">0</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">1</span></a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>Commonweal 404</a></li>
   </ul>
 </nav>
 
@@ -112,7 +115,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Crypto"><span class="nav-number">1.</span> <span class="nav-text">Crypto</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Absolute-Baby-Encrytpion"><span class="nav-number">1.1.</span> <span class="nav-text">Absolute_Baby_Encrytpion</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#babylua"><span class="nav-number">1.2.</span> <span class="nav-text">babylua</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Magic-of-Encoding"><span class="nav-number">1.3.</span> <span class="nav-text">Magic of Encoding</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Math-Problem"><span class="nav-number">1.4.</span> <span class="nav-text">Math Problem</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -127,9 +130,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
@@ -173,7 +180,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/15/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/14/WriteUp-GDOUCTF%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -186,12 +193,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Hello World | Mathic's OI&&CTF">
+      <meta itemprop="name" content="WriteUp_GDOUCTF的Crypto详解以及代码思路 | Mathic's OI&&CTF">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          WriteUp_GDOUCTF的Crypto详解以及代码思路
         </h1>
 
         <div class="post-meta-container">
@@ -202,14 +209,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2023-04-15 16:51:12" itemprop="dateCreated datePublished" datetime="2023-04-15T16:51:12+08:00">2023-04-15</time>
+      <time title="Created: 2023-04-14 17:26:03" itemprop="dateCreated datePublished" datetime="2023-04-14T17:26:03+08:00">2023-04-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-10-13 17:23:11" itemprop="dateModified" datetime="2022-10-13T17:23:11+08:00">2022-10-13</time>
+      <time title="Modified: 2023-04-24 17:39:09" itemprop="dateModified" datetime="2023-04-24T17:39:09+08:00">2023-04-24</time>
     </span>
 
   
@@ -229,19 +236,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p><img src="https://www.nssctf.cn/files/2023/4/5/2dd3efcc6a.png"></p>
+<h1 id="Crypto"><a href="#Crypto" class="headerlink" title="Crypto"></a>Crypto</h1><h2 id="Absolute-Baby-Encrytpion"><a href="#Absolute-Baby-Encrytpion" class="headerlink" title="Absolute_Baby_Encrytpion"></a>Absolute_Baby_Encrytpion</h2><p><a target="_blank" rel="noopener" href="https://www.nssctf.cn/problem/3675">题目附件链接</a></p>
+<h2 id="babylua"><a href="#babylua" class="headerlink" title="babylua"></a>babylua</h2><p><a target="_blank" rel="noopener" href="https://www.nssctf.cn/problem/3673">题目附件链接</a></p>
+<h2 id="Magic-of-Encoding"><a href="#Magic-of-Encoding" class="headerlink" title="Magic of Encoding"></a>Magic of Encoding</h2><p><a target="_blank" rel="noopener" href="https://www.nssctf.cn/problem/3674">题目附件链接</a></p>
+<h2 id="Math-Problem"><a href="#Math-Problem" class="headerlink" title="Math Problem"></a>Math Problem</h2><p><a target="_blank" rel="noopener" href="https://www.nssctf.cn/problem/3677">题目附件链接</a></p>
 
     </div>
 
@@ -289,18 +288,12 @@
   </div>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/CTF-WriteUp/" rel="tag"># CTF_WriteUp</a>
+          </div>
 
         
 
-          <div class="post-nav">
-            <div class="post-nav-item">
-            </div>
-            <div class="post-nav-item">
-                <a href="/2023/04/16/WriteUp-GDUCTF%E7%9A%84Crypro%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/" rel="next" title="WriteUp_GDUCTF的Crypro详解以及代码思路">
-                  WriteUp_GDUCTF的Crypro详解以及代码思路 <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-          </div>
     </footer>
   </article>
 </div>
