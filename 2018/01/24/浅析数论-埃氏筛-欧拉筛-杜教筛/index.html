@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","width":300,"display":"post","padding":18,"offset":24},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","width":300,"display":"post","padding":18,"offset":24},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="质数的判定试除法 or 六倍原理、埃氏筛(稍加优化版的筛法)、线性筛">
 <meta property="og:type" content="article">
@@ -27,7 +27,7 @@
 <meta property="og:description" content="质数的判定试除法 or 六倍原理、埃氏筛(稍加优化版的筛法)、线性筛">
 <meta property="og:locale">
 <meta property="article:published_time" content="2018-01-24T13:27:41.000Z">
-<meta property="article:modified_time" content="2023-05-06T02:36:09.985Z">
+<meta property="article:modified_time" content="2023-05-06T06:38:50.871Z">
 <meta property="article:author" content="Mathic_Teaxion">
 <meta property="article:tag" content="埃氏筛">
 <meta property="article:tag" content="欧拉筛">
@@ -63,6 +63,10 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/dist/music.js"></script>
   <div class="headband"></div>
 
   <main class="main">
@@ -88,6 +92,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -95,12 +100,38 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">14</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">16</span></a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>Schedule</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>Commonweal 404</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">9</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">17</span></a></li><li class="menu-item menu-item-friendslinks"><a href="/friends/" rel="section"><i class="fa fa-users fa-fw"></i>FriendsLinks</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </header>
         
@@ -120,7 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#mathcal-0x01-%E7%BB%AA%E8%AE%BA"><span class="nav-number">1.</span> <span class="nav-text">$\mathcal{0x01 绪论}$</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#mathcal-%E8%B4%A8%E6%95%B0%E7%9A%84%E5%88%A4%E5%AE%9A%E8%AF%95%E9%99%A4%E6%B3%95-or-%E5%85%AD%E5%80%8D%E5%8E%9F%E7%90%86"><span class="nav-number">1.1.</span> <span class="nav-text">$\mathcal{质数的判定试除法 or 六倍原理}$</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E8%AF%95%E9%99%A4%E6%B3%95%E5%88%A4%E6%96%AD%E7%B4%A0%E6%95%B0"><span class="nav-number">1.1.1.</span> <span class="nav-text">(1)试除法判断素数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E8%AF%95%E9%99%A4%E6%B3%95%E5%88%86%E8%A7%A3%E8%B4%A8%E5%9B%A0%E6%95%B0%EF%BC%88%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86%EF%BC%89"><span class="nav-number">1.1.2.</span> <span class="nav-text">(2)试除法分解质因数（唯一分解定理）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E4%B8%80%E4%B8%AA%E5%90%88%E6%95%B0%E5%88%86%E8%A7%A3%E8%80%8C%E6%88%90%E7%9A%84%E8%B4%A8%E5%9B%A0%E6%95%B0%E6%9C%80%E5%A4%9A%E5%8F%AA%E5%8C%85%E5%90%AB%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8E-sqrt-n-%E7%9A%84%E8%B4%A8%E5%9B%A0%E6%95%B0%E3%80%82"><span class="nav-number">1.1.3.</span> <span class="nav-text">(3)一个合数分解而成的质因数最多只包含一个大于$sqrt(n)$的质因数。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E5%BD%93%E6%9E%9A%E4%B8%BE%E5%88%B0%E6%9F%90%E4%B8%80%E4%B8%AA%E6%95%B0-i-%E7%9A%84%E6%97%B6%E5%80%99-n-%E7%9A%84%E5%9B%A0%E5%AD%90%E9%87%8C%E9%9D%A2%E5%B7%B2%E7%BB%8F%E4%B8%8D%E5%8C%85%E5%90%AB-2-i-1-%E9%87%8C%E9%9D%A2%E7%9A%84%E6%95%B0"><span class="nav-number">1.1.4.</span> <span class="nav-text">(4)当枚举到某一个数$i$的时候,$n$的因子里面已经不包含$2-i-1$里面的数,</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E7%AE%97%E6%95%B0%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86-%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86-%E4%BB%BB%E4%BD%95%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8E1%E7%9A%84%E8%87%AA%E7%84%B6%E6%95%B0-N-%E5%A6%82%E6%9E%9C-N-%E4%B8%8D%E4%B8%BA%E8%B4%A8%E6%95%B0-%E9%82%A3%E4%B9%88-N-%E5%8F%AF%E4%BB%A5%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E6%88%90%E6%9C%89%E9%99%90%E4%B8%AA%E8%B4%A8%E6%95%B0%E7%9A%84%E4%B9%98%E7%A7%AF"><span class="nav-number">1.1.5.</span> <span class="nav-text">(5)算数基本定理(唯一分解定理):任何一个大于1的自然数$N$,如果$N$不为质数,那么$N$可以唯一分解成有限个质数的乘积</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E8%B4%A8%E5%9B%A0%E5%AD%90%EF%BC%88%E6%88%96%E8%B4%A8%E5%9B%A0%E6%95%B0%EF%BC%89%E5%9C%A8%E6%95%B0%E8%AE%BA%E9%87%8C%E6%98%AF%E6%8C%87%E8%83%BD%E6%95%B4%E9%99%A4%E7%BB%99%E5%AE%9A%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9A%84%E8%B4%A8%E6%95%B0%E3%80%82%E6%A0%B9%E6%8D%AE%E7%AE%97%E6%9C%AF%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%EF%BC%8C%E4%B8%8D%E8%80%83%E8%99%91%E6%8E%92%E5%88%97%E9%A1%BA%E5%BA%8F%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C"><span class="nav-number">1.1.6.</span> <span class="nav-text">(6)质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-%E4%B8%A4%E4%B8%AA%E6%B2%A1%E6%9C%89%E5%85%B1%E5%90%8C%E8%B4%A8%E5%9B%A0%E5%AD%90%E7%9A%84%E6%AD%A3%E6%95%B4%E6%95%B0%E7%A7%B0%E4%B8%BA%E4%BA%92%E8%B4%A8%E3%80%82%E5%9B%A0%E4%B8%BA-1-%E6%B2%A1%E6%9C%89%E8%B4%A8%E5%9B%A0%E5%AD%90%EF%BC%8C-1-%E4%B8%8E%E4%BB%BB%E4%BD%95%E6%AD%A3%E6%95%B4%E6%95%B0%EF%BC%88%E5%8C%85%E6%8B%AC-1-%E6%9C%AC%E8%BA%AB%EF%BC%89%E9%83%BD%E6%98%AF%E4%BA%92%E8%B4%A8%E3%80%82"><span class="nav-number">1.1.7.</span> <span class="nav-text">(7)两个没有共同质因子的正整数称为互质。因为$1$没有质因子，$1$与任何正整数（包括$1$本身）都是互质。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-%E5%8F%AA%E6%9C%89%E4%B8%80%E4%B8%AA%E8%B4%A8%E5%9B%A0%E5%AD%90%E7%9A%84%E6%AD%A3%E6%95%B4%E6%95%B0%E4%B8%BA%E8%B4%A8%E6%95%B0%E3%80%82"><span class="nav-number">1.1.8.</span> <span class="nav-text">(8)只有一个质因子的正整数为质数。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mathcal-%E7%AD%9B%E8%B4%A8%E6%95%B0"><span class="nav-number">1.2.</span> <span class="nav-text">$\mathcal{筛质数}$</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#mathcal-%E6%9C%B4%E7%B4%A0%E7%AD%9B%E6%B3%95"><span class="nav-number">1.2.1.</span> <span class="nav-text">$\mathcal{朴素筛法}$</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#mathcal-%E5%9F%83%E6%B0%8F%E7%AD%9B-%E7%A8%8D%E5%8A%A0%E4%BC%98%E5%8C%96%E7%89%88%E7%9A%84%E7%AD%9B%E6%B3%95"><span class="nav-number">1.2.2.</span> <span class="nav-text">$\mathcal{埃氏筛(稍加优化版的筛法)}$</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#mathcal-%E7%BA%BF%E6%80%A7%E7%AD%9B"><span class="nav-number">1.2.3.</span> <span class="nav-text">$\mathcal{线性筛}$</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0x01-%E7%BB%AA%E8%AE%BA"><span class="nav-number">1.</span> <span class="nav-text"> 0x01 绪论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%A8%E6%95%B0%E7%9A%84%E5%88%A4%E5%AE%9A%E8%AF%95%E9%99%A4%E6%B3%95-or-%E5%85%AD%E5%80%8D%E5%8E%9F%E7%90%86"><span class="nav-number">1.1.</span> <span class="nav-text"> 质数的判定试除法 or 六倍原理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%95%E9%99%A4%E6%B3%95%E5%88%A4%E6%96%AD%E7%B4%A0%E6%95%B0"><span class="nav-number">1.1.1.</span> <span class="nav-text"> 试除法判断素数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%95%E9%99%A4%E6%B3%95%E5%88%86%E8%A7%A3%E8%B4%A8%E5%9B%A0%E6%95%B0%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86"><span class="nav-number">1.1.2.</span> <span class="nav-text"> 试除法分解质因数（唯一分解定理）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%90%88%E6%95%B0%E5%88%86%E8%A7%A3%E8%80%8C%E6%88%90%E7%9A%84%E8%B4%A8%E5%9B%A0%E6%95%B0%E6%9C%80%E5%A4%9A%E5%8F%AA%E5%8C%85%E5%90%AB%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8E-sqrtn-%E7%9A%84%E8%B4%A8%E5%9B%A0%E6%95%B0"><span class="nav-number">1.1.3.</span> <span class="nav-text"> 一个合数分解而成的质因数最多只包含一个大于 sqrt(n)  的质因数。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BD%93%E6%9E%9A%E4%B8%BE%E5%88%B0%E6%9F%90%E4%B8%80%E4%B8%AA%E6%95%B0-i-%E7%9A%84%E6%97%B6%E5%80%99-n-%E7%9A%84%E5%9B%A0%E5%AD%90%E9%87%8C%E9%9D%A2%E5%B7%B2%E7%BB%8F%E4%B8%8D%E5%8C%85%E5%90%AB-2-i-1-%E9%87%8C%E9%9D%A2%E7%9A%84%E6%95%B0"><span class="nav-number">1.1.4.</span> <span class="nav-text"> 当枚举到某一个数  i  的时候，  n  的因子里面已经不包含  2-i-1  里面的数，</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%95%B0%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86%E4%BB%BB%E4%BD%95%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8E1%E7%9A%84%E8%87%AA%E7%84%B6%E6%95%B0-n-%E5%A6%82%E6%9E%9C-n-%E4%B8%8D%E4%B8%BA%E8%B4%A8%E6%95%B0%E9%82%A3%E4%B9%88-n-%E5%8F%AF%E4%BB%A5%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E6%88%90%E6%9C%89%E9%99%90%E4%B8%AA%E8%B4%A8%E6%95%B0%E7%9A%84%E4%B9%98%E7%A7%AF"><span class="nav-number">1.1.5.</span> <span class="nav-text"> 算数基本定理(唯一分解定理):任何一个大于1的自然数  N  ，如果  N  不为质数，那么  N  可以唯一分解成有限个质数的乘积</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%A8%E6%95%B0%E7%AD%9B%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text"> 质数筛法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%B4%E7%B4%A0%E7%AD%9B%E6%B3%95"><span class="nav-number">2.1.</span> <span class="nav-text"> 朴素筛法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%81%9A%E6%B3%95"><span class="nav-number">2.1.1.</span> <span class="nav-text"> 做法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%9F%E7%90%86"><span class="nav-number">2.1.2.</span> <span class="nav-text"> 原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%83%E5%92%8C%E7%BA%A7%E6%95%B0"><span class="nav-number">2.1.3.</span> <span class="nav-text"> 调和级数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BA%95%E6%95%B0%E8%B6%8A%E5%A4%A7-log-%E6%95%B0%E8%B6%8A%E5%B0%8F"><span class="nav-number">2.1.4.</span> <span class="nav-text"> 底数越大，  log  数越小</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="nav-number">2.1.5.</span> <span class="nav-text"> 时间复杂度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%83%E6%B0%8F%E7%AD%9B%E7%A8%8D%E5%8A%A0%E4%BC%98%E5%8C%96%E7%89%88%E7%9A%84%E7%AD%9B%E6%B3%95"><span class="nav-number">2.2.</span> <span class="nav-text"> 埃氏筛(稍加优化版的筛法)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B4%A8%E6%95%B0%E5%AE%9A%E7%90%86"><span class="nav-number">2.2.1.</span> <span class="nav-text"> 质数定理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%9F%E7%90%86-2"><span class="nav-number">2.2.2.</span> <span class="nav-text"> 原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6-2"><span class="nav-number">2.2.3.</span> <span class="nav-text"> 时间复杂度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E7%AD%9B"><span class="nav-number">2.3.</span> <span class="nav-text"> 线性筛</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B8%E5%BF%83"><span class="nav-number">2.3.1.</span> <span class="nav-text"> 核心</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8E%9F%E7%90%86-3"><span class="nav-number">2.3.2.</span> <span class="nav-text"> 原理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E-for-%E5%BE%AA%E7%8E%AF%E7%9A%84%E8%A7%A3%E9%87%8A"><span class="nav-number">2.3.3.</span> <span class="nav-text"> 关于  for  循环的解释</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -207,7 +238,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-06 10:36:09" itemprop="dateModified" datetime="2023-05-06T10:36:09+08:00">2023-05-06</time>
+      <time title="Modified: 2023-05-06 14:38:50" itemprop="dateModified" datetime="2023-05-06T14:38:50+08:00">2023-05-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -244,21 +275,73 @@
     
     <div class="post-body" itemprop="articleBody">
         <center>质数的判定试除法 or 六倍原理、埃氏筛(稍加优化版的筛法)、线性筛</center>
-
 <span id="more"></span>
-<h2 id="mathcal-0x01-绪论"><a href="#mathcal-0x01-绪论" class="headerlink" title="$\mathcal{0x01 绪论}$"></a>$\mathcal{0x01 绪论}$</h2><h3 id="mathcal-质数的判定试除法-or-六倍原理"><a href="#mathcal-质数的判定试除法-or-六倍原理" class="headerlink" title="$\mathcal{质数的判定试除法 or 六倍原理}$"></a>$\mathcal{质数的判定试除法 or 六倍原理}$</h3><p>一个合数的约数总是成对出现的,如果$d|n$($d$能被$n$整除）,那么$(n/d)|n$,因此我们判断一个数是否为质数的时候,<br>只需要判断较小的那一个数能否整除n就行了,即只需枚举$d&lt;=(n/d)$,即$d&lt;=n$,$d&lt;=sqrt(n)$就行了。</p>
-<p>为何不用$sqrt()$？请自行百度“$sqrt()$的运算方式”。你就会知道他是一个很慢的函数。</p>
-<h4 id="1-试除法判断素数"><a href="#1-试除法判断素数" class="headerlink" title="(1)试除法判断素数"></a>(1)试除法判断素数</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">bool is_prime(int x)</span><br><span class="line">&#123;</span><br><span class="line">    if (x &lt; 2) return false;</span><br><span class="line">    for (int i = 2; i &lt;= x / i; i ++ )//核心代码</span><br><span class="line">        if (x % i == 0)</span><br><span class="line">            return false;</span><br><span class="line">    return true;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="2-试除法分解质因数（唯一分解定理）"><a href="#2-试除法分解质因数（唯一分解定理）" class="headerlink" title="(2)试除法分解质因数（唯一分解定理）"></a>(2)试除法分解质因数（<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%AE%97%E6%9C%AF%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86/10920095?fromtitle=%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86&amp;fromid=23680898&amp;fr=aladdin">唯一分解定理</a>）</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">void divide(int x)</span><br><span class="line">&#123;</span><br><span class="line">    for (int i = 2; i &lt;= x / i; i ++ )</span><br><span class="line">        if (x % i == 0)</span><br><span class="line">        &#123;</span><br><span class="line">            int s = 0;</span><br><span class="line">            while (x % i == 0) x /= i, s ++ ;</span><br><span class="line">            cout &lt;&lt; i &lt;&lt; &#x27; &#x27; &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">        &#125;</span><br><span class="line">    if (x &gt; 1) cout &lt;&lt; x &lt;&lt; &#x27; &#x27; &lt;&lt; 1 &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="3-一个合数分解而成的质因数最多只包含一个大于-sqrt-n-的质因数。"><a href="#3-一个合数分解而成的质因数最多只包含一个大于-sqrt-n-的质因数。" class="headerlink" title="(3)一个合数分解而成的质因数最多只包含一个大于$sqrt(n)$的质因数。"></a>(3)一个合数分解而成的质因数最多只包含一个大于$sqrt(n)$的质因数。</h4><blockquote>
-<p>反证法,若$n$可以被分解成两个大于$sqrt(n)$的质因数,则这两个质因数相乘的结果大于$n$,与事实矛盾</p>
+<h2 id="0x01-绪论"><a class="markdownIt-Anchor" href="#0x01-绪论"></a> 0x01 绪论</h2>
+<h3 id="质数的判定试除法-or-六倍原理"><a class="markdownIt-Anchor" href="#质数的判定试除法-or-六倍原理"></a> 质数的判定试除法 or 六倍原理</h3>
+<p>一个合数的约数总是成对出现的，如果  d|n  (  d  能被  n  整除），那么  (n/d)|n  ，因此我们判断一个数是否为质数的时候，<br />
+只需要判断较小的那一个数能否整除n就行了，即只需枚举  d&lt;=(n/d)  ，即  d&lt;=n  ，  d&lt;=sqrt(n)  就行了。</p>
+<p>为何不用  sqrt()  ？请自行百度“  sqrt()  的运算方式”。你就会知道他是一个很慢的函数。</p>
+<h4 id="试除法判断素数"><a class="markdownIt-Anchor" href="#试除法判断素数"></a> 试除法判断素数</h4>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">is_prime</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; <span class="number">2</span>) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )<span class="comment">//核心代码</span></span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="试除法分解质因数唯一分解定理"><a class="markdownIt-Anchor" href="#试除法分解质因数唯一分解定理"></a> 试除法分解质因数（<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%AE%97%E6%9C%AF%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86/10920095?fromtitle=%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86&amp;fromid=23680898&amp;fr=aladdin">唯一分解定理</a>）</h4>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">divide</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )</span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">int</span> s = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">while</span> (x % i == <span class="number">0</span>) x /= i， s ++ ;</span><br><span class="line">            cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">if</span> (x &gt; <span class="number">1</span>) cout &lt;&lt; x &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"><a class="markdownIt-Anchor" href="#一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"></a> 一个合数分解而成的质因数最多只包含一个大于 sqrt(n)  的质因数。</h4>
+<blockquote>
+<p>反证法，若 n 可以被分解成两个大于 sqrt(n) 的质因数，则这两个质因数相乘的结果大于 n ，与事实矛盾</p>
 </blockquote>
-<h4 id="4-当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"><a href="#4-当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数" class="headerlink" title="(4)当枚举到某一个数$i$的时候,$n$的因子里面已经不包含$2-i-1$里面的数,"></a>(4)当枚举到某一个数$i$的时候,$n$的因子里面已经不包含$2-i-1$里面的数,</h4><p>如果$n%i==0$,则$i$的因子里面也已经不包含$2-i-1$里面的数,因此每次枚举的数都是质数.</p>
-<h4 id="5-算数基本定理-唯一分解定理-任何一个大于1的自然数-N-如果-N-不为质数-那么-N-可以唯一分解成有限个质数的乘积"><a href="#5-算数基本定理-唯一分解定理-任何一个大于1的自然数-N-如果-N-不为质数-那么-N-可以唯一分解成有限个质数的乘积" class="headerlink" title="(5)算数基本定理(唯一分解定理):任何一个大于1的自然数$N$,如果$N$不为质数,那么$N$可以唯一分解成有限个质数的乘积"></a>(5)算数基本定理(唯一分解定理):任何一个大于1的自然数$N$,如果$N$不为质数,那么$N$可以唯一分解成有限个质数的乘积</h4><p>$N=P1a1P2a2P3a3……Pnan$，这里$P1&lt;P2&lt;P3……&lt;Pn$均为质数，其中指数$ai$是正整数。<br>这样的分解称为 $N$ 的标准分解式。最早证明是由欧几里得给出的，由陈述证明。<br>此定理可推广至更一般的交换代数和代数数论。</p>
-<h4 id="6-质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，"><a href="#6-质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，" class="headerlink" title="(6)质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，"></a>(6)质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，</h4><p>每个正整数都能够以唯一的方式表示成它的质因数的乘积。</p>
-<h4 id="7-两个没有共同质因子的正整数称为互质。因为-1-没有质因子，-1-与任何正整数（包括-1-本身）都是互质。"><a href="#7-两个没有共同质因子的正整数称为互质。因为-1-没有质因子，-1-与任何正整数（包括-1-本身）都是互质。" class="headerlink" title="(7)两个没有共同质因子的正整数称为互质。因为$1$没有质因子，$1$与任何正整数（包括$1$本身）都是互质。"></a>(7)两个没有共同质因子的正整数称为互质。因为$1$没有质因子，$1$与任何正整数（包括$1$本身）都是互质。</h4><h4 id="8-只有一个质因子的正整数为质数。"><a href="#8-只有一个质因子的正整数为质数。" class="headerlink" title="(8)只有一个质因子的正整数为质数。"></a>(8)只有一个质因子的正整数为质数。</h4><h3 id="mathcal-筛质数"><a href="#mathcal-筛质数" class="headerlink" title="$\mathcal{筛质数}$"></a>$\mathcal{筛质数}$</h3><h4 id="mathcal-朴素筛法"><a href="#mathcal-朴素筛法" class="headerlink" title="$\mathcal{朴素筛法}$"></a>$\mathcal{朴素筛法}$</h4><p>(1)做法:把$2~(n-1)$中的所有的数的倍数都标记上,最后没有被标记的数就是质数.<br>(2)原理:假定有一个数$p$未被$2~(p-1)$中的数标记过,那么说明,不存在$2~(p-1)$中的任何一个数的倍数是$p$,也就是说$p$不是$2~(p-1)$中的任何数的倍数,也就是说$2~(p-1)$中不存在p的约数,因此,根据质数的定义可知:<code>p是质数</code><br>(3)调和级数:当$n$趋近于正无穷的时候,$1/2+1/3+1/4+1/5+…+1/n=lnn+c$.($c$是欧阳常数,约等于$0.577$左右.).<br>(4)底数越大,$log$数越小<br>(5)时间复杂度:约为$O(nlogn)$;(注:此处的$log$数特指以2为底的$log$数).</p>
-<h4 id="mathcal-埃氏筛-稍加优化版的筛法"><a href="#mathcal-埃氏筛-稍加优化版的筛法" class="headerlink" title="$\mathcal{埃氏筛(稍加优化版的筛法)}$"></a>$\mathcal{埃氏筛(稍加优化版的筛法)}$</h4><p>(1)质数定理:$1~n$中有$n/lnn$个质数.<br>(2)原理:在朴素筛法的过程中只用质数项去筛.<br>(3)时间复杂度:粗略估计:$O(n)$.实际:$O(nlog(logn))$.<br>(4)$1~n$中,只计算质数项的话,$”1/2+1/3+1/4+1/5+…+1/n”$的大小约为$log(logn)$.</p>
-<h4 id="mathcal-线性筛"><a href="#mathcal-线性筛" class="headerlink" title="$\mathcal{线性筛}$"></a>$\mathcal{线性筛}$</h4><p>(1)若$n$在$10$的$6$次方的话,线性筛和埃氏筛的时间效率差不多,若$n$在$10$的$7$次方的话,线性筛会比埃氏筛快了大概一倍.<br>(2)思考:一:线性筛法为什么是线性的?<br>二:线性筛法的原理是什么?<br>(3)核心:$1~n$内的合数$p$只会被其最小质因子筛掉.<br>(4)原理:$1~n$之内的任何一个合数一定会被筛掉,而且筛的时候只用最小质因子来筛,<br>然后每一个数都只有一个最小质因子,因此每个数都只会被筛一次,因此线性筛法是线性的.<br>(5)枚举到$i$的最小质因子的时候就会停下来,即<code>if(i%primes[j]==0) break;</code><br>(6)因为从小到大枚举的所有质数,所以当<code>i%primes[j]!=0</code>时,<code>primes[j]</code>一定小于$i$的最小质因子,<br><code>primes[j]</code>一定是<code>primes[j]*i</code>的最小质因子.<br>(7)因为是从小到大枚举的所有质数,所以当<code>i%primes[j]==0</code>时,<code>primes[j]</code>一定是$i$的最小质因子,<br>而<code>primes[j]</code>又是<code>primes[j]</code>的最小质因子,因此<code>primes[j]</code>是<code>i*primes[j]</code>的最小质因子.<br>(8)关于$for$循环的解释:<br>注:首先要把握住一个重点:我们枚举的时候是从小到大枚举的所有质数<br>1.当<code>i%primes[j]==0</code>时,因为是从小到大枚举的所有质数,所以<code>primes[j]</code>就是i的最小质因子,而<code>primes[j]</code>又是其本身<br><code>primes[j]</code>的最小质因子,因此当<code>i%primes[j]==0</code>时,<code>primes[j]</code>是<code>primes[j]i</code>的最小质因子.<br>2.当<code>i%primes[j]!=0</code>时,因为是从小到大枚举的所有质数,且此时并没有出现过有质数满足<code>i%primes[j]==0</code>,<br>因此此时的<code>primes[j]</code>一定小于i的最小质因子,而<code>primes[j]</code>又是其本身<code>primes[j]</code>的最小质因子,<br>所以当<code>i%primes[j]!=0</code>时,<code>primes[j]</code>也是<code>primes[j]i</code>的最小质因子.<br>3.综合1,2得知,在内层$for$循环里面无论何时,<code>primes[j]</code>都是<code>primes[j]i</code>的最小质因子,因此<code>st[primes[j]i]=true</code><br>语句就是用<code>primes[j]i</code>这个数的最小质因子来筛掉这个数.</p>
+<h4 id="当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"><a class="markdownIt-Anchor" href="#当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"></a> 当枚举到某一个数  i  的时候，  n  的因子里面已经不包含  2-i-1  里面的数，</h4>
+<p>如果  n%i==0  ，则  i  的因子里面也已经不包含  2-i-1  里面的数，因此每次枚举的数都是质数.</p>
+<h4 id="算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"><a class="markdownIt-Anchor" href="#算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"></a> 算数基本定理(唯一分解定理):任何一个大于1的自然数  N  ，如果  N  不为质数，那么  N  可以唯一分解成有限个质数的乘积</h4>
+<p>N=P_1 * a_1P2a2P3a3…Pnan ，这里  P1&lt;P2&lt;P3…&lt;Pn  均为质数，其中指数  ai  是正整数。<br />
+这样的分解称为   N   的标准分解式。最早证明是由欧几里得给出的，由陈述证明。<br />
+此定理可推广至更一般的交换代数和代数数论。</p>
+<p>质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，</p>
+<p>每个正整数都能够以唯一的方式表示成它的质因数的乘积。</p>
+<p>两个没有共同质因子的正整数称为互质。因为  1  没有质因子，  1  与任何正整数（包括  1  本身）都是互质。</p>
+<p>只有一个质因子的正整数为质数。</p>
+<h2 id="质数筛法"><a class="markdownIt-Anchor" href="#质数筛法"></a> 质数筛法</h2>
+<h3 id="朴素筛法"><a class="markdownIt-Anchor" href="#朴素筛法"></a> 朴素筛法</h3>
+<h4 id="做法"><a class="markdownIt-Anchor" href="#做法"></a> 做法</h4>
+<p>把 2~(n-1) 中的所有的数的倍数都标记上，最后没有被标记的数就是质数.</p>
+<h4 id="原理"><a class="markdownIt-Anchor" href="#原理"></a> 原理</h4>
+<p>假定有一个数  p  未被  2~(p-1)  中的数标记过，那么说明，不存在  2~(p-1)  中的任何一个数的倍数是  p  ，也就是说  p  不是  2~(p-1)  中的任何数的倍数，也就是说  2~(p-1)  中不存在p的约数，因此，根据质数的定义可知:<code>p是质数</code></p>
+<h4 id="调和级数"><a class="markdownIt-Anchor" href="#调和级数"></a> 调和级数</h4>
+<p>当  n  趋近于正无穷的时候，  1/2+1/3+1/4+1/5+…+1/n=lnn+c  .(  c  是欧阳常数，约等于  0.577  左右)</p>
+<h4 id="底数越大-log-数越小"><a class="markdownIt-Anchor" href="#底数越大-log-数越小"></a> 底数越大，  log  数越小</h4>
+<h4 id="时间复杂度"><a class="markdownIt-Anchor" href="#时间复杂度"></a> 时间复杂度</h4>
+<p>约为  O(nlogn)  (注:此处的  log  数特指以 2 为底的  log  数).</p>
+<h3 id="埃氏筛稍加优化版的筛法"><a class="markdownIt-Anchor" href="#埃氏筛稍加优化版的筛法"></a> 埃氏筛(稍加优化版的筛法)</h3>
+<h4 id="质数定理"><a class="markdownIt-Anchor" href="#质数定理"></a> 质数定理</h4>
+<p>1~n  中有  n / ln(n)  个质数</p>
+<h4 id="原理-2"><a class="markdownIt-Anchor" href="#原理-2"></a> 原理</h4>
+<p>在朴素筛法的过程中只用质数项去筛</p>
+<h4 id="时间复杂度-2"><a class="markdownIt-Anchor" href="#时间复杂度-2"></a> 时间复杂度</h4>
+<p>粗略估计:  O(n)  实际:  O(nlog(logn))</p>
+<p>1~n  中，只计算质数项的话，  “1/2+1/3+1/4+1/5+…+1/n”  的大小约为  log(logn)</p>
+<h3 id="线性筛"><a class="markdownIt-Anchor" href="#线性筛"></a> 线性筛</h3>
+<p>若  n  在  10  的  6  次方的话，线性筛和埃氏筛的时间效率差不多，若  n  在  10  的  7  次方的话，线性筛会比埃氏筛快了大概一倍.</p>
+<blockquote>
+<p>思考:一:线性筛法为什么是线性的?<br />
+二:线性筛法的原理是什么?</p>
+</blockquote>
+<h4 id="核心"><a class="markdownIt-Anchor" href="#核心"></a> 核心</h4>
+<p>1~n  内的合数  p  只会被其最小质因子筛掉.</p>
+<h4 id="原理-3"><a class="markdownIt-Anchor" href="#原理-3"></a> 原理</h4>
+<p>1~n  之内的任何一个合数一定会被筛掉，而且筛的时候只用最小质因子来筛，<br />
+然后每一个数都只有一个最小质因子，因此每个数都只会被筛一次，因此线性筛法是线性的.</p>
+<p>枚举到  <code>i</code>  的最小质因子的时候就会停下来，即 <code>if(i%primes[j]==0) break;</code><br />
+因为从小到大枚举的所有质数，所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 一定小于  <code>i</code>  的最小质因子，<code>primes[j]</code> 一定是 <code>primes[j]*i</code> 的最小质因子.<br />
+因为是从小到大枚举的所有质数，所以当<code>i%primes[j]==0</code>时，<code>primes[j]</code>一定是   <code>i</code>  的最小质因子，<br />
+而 <code>primes[j]</code> 又是 <code>primes[j]</code> 的最小质因子，因此 <code>primes[j]</code> 是 <code>i * primes[j]</code> 的最小质因子.</p>
+<h4 id="关于-for-循环的解释"><a class="markdownIt-Anchor" href="#关于-for-循环的解释"></a> 关于  for  循环的解释</h4>
+<p>注:首先要把握住一个重点:我们枚举的时候是从小到大枚举的所有质数</p>
+<p>1.当 <code>i%primes[j]==0</code> 时，因为是从小到大枚举的所有质数，所以 <code>primes[j]</code> 就是i的最小质因子，而 <code>primes[j]</code> 又是其本身<br />
+<code>primes[j]</code>的最小质因子，因此当 <code>i%primes[j]==0</code> 时， <code>primes[j]</code> 是 <code>primes[j]i</code> 的最小质因子.</p>
+<p>2.当 <code>i%primes[j]!=0</code> 时，因为是从小到大枚举的所有质数，且此时并没有出现过有质数满足 <code>i%primes[j]==0</code> ，<br />
+因此此时的 <code>primes[j]</code> 一定小于 <code>i</code> 的最小质因子，而 <code>primes[j]</code> 又是其本身 <code>primes[j]</code> 的最小质因子，<br />
+所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 也是 <code>primes[j]i</code> 的最小质因子.</p>
+<p>3.综合1，2得知，在内层  for  循环里面无论何时， <code>primes[j]</code> 都是 <code>primes[j]i</code> 的最小质因子，因此 <code>st[primes[j]i]=true</code><br />
+语句就是用<code>primes[j]i</code>这个数的最小质因子来筛掉这个数.</p>
 
     </div>
 
@@ -343,7 +426,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
 
   <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.4.3/mermaid.min.js","integrity":"sha256-e0o3JYsdjqKajf9eOe22FhioYSz9WofRY4dLKo3F6do="}}</script>
   <script src="/js/third-party/tags/mermaid.js"></script>
