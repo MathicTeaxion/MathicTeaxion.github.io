@@ -27,7 +27,7 @@
 <meta property="og:description" content="本篇章是用于Pintia考试的面向对象程序设计题库复习资料--《编程题》">
 <meta property="og:locale">
 <meta property="article:published_time" content="2023-04-30T08:47:50.000Z">
-<meta property="article:modified_time" content="2023-05-06T03:23:05.264Z">
+<meta property="article:modified_time" content="2023-05-15T14:34:36.533Z">
 <meta property="article:author" content="Mathic_Teaxion">
 <meta property="article:tag" content="Pintia">
 <meta name="twitter:card" content="summary">
@@ -136,7 +136,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -149,6 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#7-1-jmu-java-03%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%9F%BA%E7%A1%80-01-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95%E4%B8%8Etostring"><span class="nav-number">1.</span> <span class="nav-text"> 7-1 jmu-Java-03面向对象基础-01-构造方法与toString</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-2-%E5%AD%A6%E7%94%9F%E7%B1%BB-%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text"> 7-2 学生类-构造函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-3-%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AAbankaccount%E7%B1%BB"><span class="nav-number">3.</span> <span class="nav-text"> 7-3 设计一个BankAccount类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-4-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text"> 7-4 构造方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-5-%E5%9B%BE%E5%BD%A2%E7%BB%A7%E6%89%BF"><span class="nav-number">5.</span> <span class="nav-text"> 7-5 图形继承</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -235,7 +236,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-06 11:23:05" itemprop="dateModified" datetime="2023-05-06T11:23:05+08:00">2023-05-06</time>
+      <time title="Modified: 2023-05-15 22:34:36" itemprop="dateModified" datetime="2023-05-15T22:34:36+08:00">2023-05-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -273,7 +274,128 @@
     <div class="post-body" itemprop="articleBody">
         <center>本篇章是用于Pintia考试的面向对象程序设计题库复习资料--《编程题》</center>
 <span id="more"></span>
-
+<h2 id="7-1-jmu-java-03面向对象基础-01-构造方法与tostring"><a class="markdownIt-Anchor" href="#7-1-jmu-java-03面向对象基础-01-构造方法与tostring"></a> <strong>7-1 jmu-Java-03面向对象基础-01-构造方法与toString</strong></h2>
+<p>定义一个有关人的<code>Person</code>类，内含属性：<br />
+<code>String name</code>、<code>int age</code>、<code>boolean gender</code>、<code>int id</code>，所有的变量必须为私有(<code>private</code>)。<br />
+**注意：**属性顺序请严格按照上述顺序依次出现。</p>
+<p>1.编写无参构造函数：</p>
+<ul>
+<li>打印&quot;This is constructor&quot;。</li>
+<li>将name,age,gender,id按照<code>name,age,gender,id</code>格式输出</li>
+</ul>
+<p>2.编写有参构造函数</p>
+<p>依次对<code>name,age,gender</code>赋值。</p>
+<p>3.覆盖toString函数：</p>
+<p>按照格式：<code>类名 [name=, age=, gender=, id=]</code>输出。建议使用Eclipse自动生成.</p>
+<p>4.对每个属性生成setter/getter方法</p>
+<p>5.main方法中</p>
+<ul>
+<li>首先从屏幕读取n，代表要创建的对象个数。</li>
+<li>然后输入n行name age gender , 调用上面2编写的有参构造函数新建对象。</li>
+<li>然后将刚才创建的所有对象<code>逆序</code>输出。</li>
+<li>接下来使用无参构造函数新建一个Person对象，并直接打印该对象。</li>
+</ul>
+<p>输入样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">a 11 false</span><br><span class="line">b 12 true</span><br><span class="line">c 10 false</span><br></pre></td></tr></table></figure>
+<p>输出样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Person [name=c, age=10, gender=false, id=0]</span><br><span class="line">Person [name=b, age=12, gender=true, id=0]</span><br><span class="line">Person [name=a, age=11, gender=false, id=0]</span><br><span class="line">This is constructor</span><br><span class="line">null,0,false,0</span><br><span class="line">Person [name=null, age=0, gender=false, id=0]</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> age;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">boolean</span> gender;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> id;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Person</span><span class="params">()</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;This is constructor&quot;</span>);</span><br><span class="line">        System.out.printf(<span class="string">&quot;%s,%d,%b,%d\n&quot;</span>, name, age, gender, id);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Person</span><span class="params">(String name, <span class="type">int</span> age, <span class="type">boolean</span> gender)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.name = name;</span><br><span class="line">        <span class="built_in">this</span>.age = age;</span><br><span class="line">        <span class="built_in">this</span>.gender = gender;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> String.format(<span class="string">&quot;Person [name=%s, age=%d, gender=%b, id=%d]&quot;</span>, name, age, gender, id);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setAge</span><span class="params">(<span class="type">int</span> age)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getAge</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setGender</span><span class="params">(<span class="type">boolean</span> gender)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.gender = gender;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">getGender</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> gender;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">int</span> id)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> in.nextInt();</span><br><span class="line">        Person[] people = <span class="keyword">new</span> <span class="title class_">Person</span>[n];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> in.next();</span><br><span class="line">            <span class="type">int</span> <span class="variable">age</span> <span class="operator">=</span> in.nextInt();</span><br><span class="line">            <span class="type">boolean</span> <span class="variable">gender</span> <span class="operator">=</span> in.nextBoolean();</span><br><span class="line">            people[i] = <span class="keyword">new</span> <span class="title class_">Person</span>(name, age, gender);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">            System.out.println(people[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">Person</span> <span class="variable">p</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>();</span><br><span class="line">        System.out.println(p);</span><br><span class="line">        in.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="7-2-学生类-构造函数"><a class="markdownIt-Anchor" href="#7-2-学生类-构造函数"></a> <strong>7-2 学生类-构造函数</strong></h2>
+<p>定义一个有关学生的Student类，内含类成员变量：<br />
+String name、String sex、int age，所有的变量必须为私有(private)。</p>
+<p>1.编写有参构造函数：<br />
+能对name,sex,age赋值。</p>
+<p>2.覆盖toString函数：</p>
+<p>按照格式：类名 [name=, sex=, age=]输出。使用idea自动生成,然后在修改成该输出格式</p>
+<p>3.对每个属性生成setter/getter方法</p>
+<p>4.main方法中</p>
+<p>•输入1行name age sex , 调用上面的有参构造函数新建对象。</p>
+<p>输入样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tom 15 male</span><br></pre></td></tr></table></figure>
+<p>输出样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Student [name=&#x27;tom&#x27;, sex=&#x27;male&#x27;, age=15]</span><br></pre></td></tr></table></figure>
+<h2 id="7-3-设计一个bankaccount类"><a class="markdownIt-Anchor" href="#7-3-设计一个bankaccount类"></a> <strong>7-3 设计一个BankAccount类</strong></h2>
+<p>设计一个BankAccount类，这个类包括：<br />
+（1）一个int型的balance表时账户余额。<br />
+（2）一个无参构造方法，将账户余额初始化为0。<br />
+（3）一个带一个参数的构造方法，将账户余额初始化为该输入的参数。<br />
+（4）一个getBlance（）方法，返回账户余额。<br />
+（5）一个withdraw（）方法：带一个amount参数，并从账户余额中提取amount指定的款额。<br />
+（6）一个deposit（）方法：带一个amount参数，并将amount指定的款额存储到该银行账户上。<br />
+设计一个Main类进行测试，分别输入账户余额、提取额度以及存款额度，并分别输出账户余额。</p>
+<p>输入格式:</p>
+<p>依次输入账户余额、提取额度、存款额度</p>
+<p>输出格式:</p>
+<p>依次输出初始账户余额、提取amount额度后的账户余额、存入amount后的账户余额</p>
+<p>输入样例:</p>
+<p>在这里给出一组输入。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">700</span><br><span class="line">70</span><br><span class="line">7</span><br></pre></td></tr></table></figure>
+<p>输出样例:</p>
+<p>在这里给出相应的输出。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">700</span><br><span class="line">630</span><br><span class="line">637</span><br></pre></td></tr></table></figure>
+<h2 id="7-4-构造方法"><a class="markdownIt-Anchor" href="#7-4-构造方法"></a> <strong>7-4 构造方法</strong></h2>
+<p>请补充以下代码，完成输出要求。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Main</span><span class="params">()</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;构造方法一被调用了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Main</span><span class="params">(<span class="type">int</span> x)</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>();</span><br><span class="line">        System.out.println(<span class="string">&quot;构造方法二被调用了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Main</span><span class="params">(<span class="type">boolean</span> b)</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>(<span class="number">1</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;构造方法三被调用了&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输入格式:</p>
+<p>无</p>
+<p>输出格式:</p>
+<p>输出以下三行：<br />
+构造方法一被调用了<br />
+构造方法二被调用了<br />
+构造方法三被调用了</p>
+<p>输入样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure>
+<p>输出样例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">构造方法一被调用了</span><br><span class="line">构造方法二被调用了</span><br><span class="line">构造方法三被调用了</span><br></pre></td></tr></table></figure>
+<h2 id="7-5-图形继承"><a class="markdownIt-Anchor" href="#7-5-图形继承"></a> <strong>7-5 图形继承</strong></h2>
+<p>编写程序，实现图形类的继承，并定义相应类对象并进行测试。</p>
+<ol>
+<li>类Shape，无属性，有一个返回0.0的求图形面积的公有方法 <code>public double getArea();//求图形面积</code></li>
+<li>类Circle，继承自Shape，有一个私有实型的属性radius（半径），重写父类继承来的求面积方法，求圆的面积</li>
+<li>类Rectangle，继承自Shape，有两个私有实型属性width和length，重写父类继承来的求面积方法，求矩形的面积</li>
+<li>类Ball，继承自Circle，其属性从父类继承，重写父类求面积方法，求球表面积，此外，定义一求球体积的方法<code>public double getVolume();//求球体积</code></li>
+<li>类Box，继承自Rectangle，除从父类继承的属性外，再定义一个属性height，重写父类继承来的求面积方法，求立方体表面积，此外，定义一求立方体体积的方法 <code>public double getVolume();//求立方体体积</code></li>
+<li>注意：</li>
+</ol>
+<ul>
+<li>每个类均有构造方法，且构造方法内必须输出如下内容：<code>Constructing 类名</code></li>
+<li>每个类属性均为私有，且必须有getter和setter方法（可用Eclipse自动生成）</li>
+<li>输出的数值均保留两位小数</li>
+</ul>
+<p>主方法内，主要实现四个功能（1-4）：<br />
+从键盘输入1，则定义圆类，从键盘输入圆的半径后，主要输出圆的面积；<br />
+从键盘输入2，则定义矩形类，从键盘输入矩形的宽和长后，主要输出矩形的面积；<br />
+从键盘输入3，则定义球类，从键盘输入球的半径后，主要输出球的表面积和体积；<br />
+从键盘输入4，则定义立方体类，从键盘输入立方体的宽、长和高度后，主要输出立方体的表面积和体积；</p>
+<p>假如数据输入非法（包括圆、矩形、球及立方体对象的属性不大于0和输入选择值非1-4），系统输出<code>Wrong Format</code></p>
+<p>输入格式:</p>
+<p>共四种合法输入</p>
+<ul>
+<li>1 圆半径</li>
+<li>2 矩形宽、长</li>
+<li>3 球半径</li>
+<li>4 立方体宽、长、高</li>
+</ul>
+<p>输出格式:</p>
+<p>按照以上需求提示依次输出</p>
+<p>输入样例1:</p>
+<p>在这里给出一组输入。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 1.0</span><br></pre></td></tr></table></figure>
+<p>输出样例1:</p>
+<p>在这里给出相应的输出。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Constructing Shape</span><br><span class="line">Constructing Circle</span><br><span class="line">Circle&#x27;s area:3.14</span><br></pre></td></tr></table></figure>
+<p>输入样例2:</p>
+<p>在这里给出一组输入。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 3.6 2.1 0.01211</span><br></pre></td></tr></table></figure>
+<p>输出样例2:</p>
+<p>在这里给出相应的输出。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Constructing Shape</span><br><span class="line">Constructing Rectangle</span><br><span class="line">Constructing Box</span><br><span class="line">Box&#x27;s surface area:15.26</span><br><span class="line">Box&#x27;s volume:0.09</span><br></pre></td></tr></table></figure>
+<p>输入样例3:</p>
+<p>在这里给出一组输入。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2 -2.3 5.110</span><br></pre></td></tr></table></figure>
+<p>输出样例2:</p>
+<p>在这里给出相应的输出。例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Wrong Format</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -316,8 +438,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%87%BD%E6%95%B0%E9%A2%98%EF%BC%89/" rel="prev" title="Oop_java于Pintia平台的题目合集（函数题）">
-                  <i class="fa fa-chevron-left"></i> Oop_java于Pintia平台的题目合集（函数题）
+                <a href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%87%BD%E6%95%B0%E9%A2%98%EF%BC%89/" rel="prev" title="">
+                  <i class="fa fa-chevron-left"></i> 
                 </a>
             </div>
             <div class="post-nav-item">
