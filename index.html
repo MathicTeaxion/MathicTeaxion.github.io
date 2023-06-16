@@ -95,7 +95,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">20</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">9</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">17</span></a></li><li class="menu-item menu-item-friendslinks"><a href="/friends/" rel="section"><i class="fa fa-users fa-fw"></i>FriendsLinks</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">21</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">15</span></a></li><li class="menu-item menu-item-friendslinks"><a href="/friends/" rel="section"><i class="fa fa-users fa-fw"></i>FriendsLinks</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -195,7 +195,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/12/hashmap/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/16/luogu-reports/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -213,7 +213,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/05/12/hashmap/" class="post-title-link" itemprop="url">Untitled</a>
+          <a href="/2023/06/16/luogu-reports/" class="post-title-link" itemprop="url">洛谷日报 2018-至今の索引</a>
         </h2>
 
         <div class="post-meta-container">
@@ -223,15 +223,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
+      
 
-      <time title="Created: 2023-05-12 22:17:03" itemprop="dateCreated datePublished" datetime="2023-05-12T22:17:03+08:00">2023-05-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-13 04:45:17" itemprop="dateModified" datetime="2023-05-13T04:45:17+08:00">2023-05-13</time>
+      <time title="Created: 2023-06-16 13:52:51 / Modified: 14:05:13" itemprop="dateCreated datePublished" datetime="2023-06-16T13:52:51+08:00">2023-06-16</time>
     </span>
 
   
@@ -251,27 +245,105 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="小根堆"><a class="markdownIt-Anchor" href="#小根堆"></a> 小根堆</h2>
-<h2 id="堆排序"><a class="markdownIt-Anchor" href="#堆排序"></a> 堆排序</h2>
-<h2 id="哈希表-hash"><a class="markdownIt-Anchor" href="#哈希表-hash"></a> 哈希表 （Hash）</h2>
-<h3 id="存储结构"><a class="markdownIt-Anchor" href="#存储结构"></a> 存储结构</h3>
-<h4 id="开放寻址法"><a class="markdownIt-Anchor" href="#开放寻址法"></a> 开放寻址法</h4>
-<ul>
-<li>处理冲突的思路：只开一个一维数组，范围要开到题目数据范围的 2-3 倍</li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e+6</span>+<span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">100000</span>;; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">bool</span> flag = <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">2</span>;j * j &lt;= i;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(i % j == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                flag = <span class="literal">false</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(flag)</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; i &lt;&lt; endl;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="拉链法邻接表"><a class="markdownIt-Anchor" href="#拉链法邻接表"></a> 拉链法（邻接表）</h4>
-<ul>
-<li>
-<p>x mod 10^5（一般要取成一个质数，冲突的概率是最小的）</p>
-</li>
-<li>
-<p>如果有冲突的，在槽上增加链结点。</p>
-</li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e6</span>+<span class="number">4</span>;</span><br><span class="line"><span class="type">int</span> h[N], e[N], ne[N], idx;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> k = (x % N + N)% N; <span class="comment">//保证求余为正数</span></span><br><span class="line"></span><br><span class="line">    e[idx] = x;</span><br><span class="line">    ne[idx] = h[k];</span><br><span class="line">    h[k] = idx++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">find</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> k = (x % N + N) % N;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = h[k];i != <span class="number">-1</span>;i = ne[i])</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(e[i] == x) <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;n);</span><br><span class="line">    <span class="built_in">memset</span>(h, <span class="number">-1</span>, <span class="keyword">sizeof</span> h); <span class="comment">// 清空槽的操作</span></span><br><span class="line">    <span class="keyword">while</span>(n--)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">char</span> op[<span class="number">2</span>];</span><br><span class="line">        <span class="type">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%s%d&quot;</span>,op,&amp;x);</span><br><span class="line">        <span class="keyword">if</span>(*op == <span class="string">&#x27;I&#x27;</span>)<span class="built_in">insert</span>(x);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">find</span>(x)) <span class="built_in">puts</span>(<span class="string">&quot;Yes&quot;</span>);</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">puts</span>(<span class="string">&quot;No&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="字符串哈希方式"><a class="markdownIt-Anchor" href="#字符串哈希方式"></a> 字符串哈希方式</h3>
+          <center>luogu 日报还是能学到不少东西捏</center>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/06/16/luogu-reports/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
 
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Mathic_Teaxion">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mathic's OI&&CTF">
+      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/" class="post-title-link" itemprop="url">读书笔记--“所赖君子见机，达人知命”</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-05-18 22:01:06" itemprop="dateCreated datePublished" datetime="2023-05-18T22:01:06+08:00">2023-05-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-22 16:40:08" itemprop="dateModified" datetime="2023-05-22T16:40:08+08:00">2023-05-22</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span class="firestore-visitors-count"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>当我的思绪飘移到杨修时，我仿佛能够看到一条横亘在我和他之间的大河——漫天黄沙飞舞，一条大河从不知处来，往不知处走，而我和杨修便在一片历史的烟尘中面对面伫立在河的两岸。我细细地审视着他的一生，从起到落，尽看的是得意、彷徨、自信和无奈。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -689,303 +761,6 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E7%BC%96%E7%A8%8B%E9%A2%98%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Mathic_Teaxion">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mathic's OI&&CTF">
-      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E7%BC%96%E7%A8%8B%E9%A2%98%EF%BC%89/" class="post-title-link" itemprop="url">Oop_java于Pintia平台的题目合集（编程题）</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-30 16:47:50" itemprop="dateCreated datePublished" datetime="2023-04-30T16:47:50+08:00">2023-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-15 22:34:36" itemprop="dateModified" datetime="2023-05-15T22:34:36+08:00">2023-05-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/uni/" itemprop="url" rel="index"><span itemprop="name">Uni</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-item" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="firestore-visitors-count"></span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <center>本篇章是用于Pintia考试的面向对象程序设计题库复习资料--《编程题》</center>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E7%BC%96%E7%A8%8B%E9%A2%98%EF%BC%89/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%87%BD%E6%95%B0%E9%A2%98%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Mathic_Teaxion">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mathic's OI&&CTF">
-      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%87%BD%E6%95%B0%E9%A2%98%EF%BC%89/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-30 16:47:43" itemprop="dateCreated datePublished" datetime="2023-04-30T16:47:43+08:00">2023-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-13 22:07:30" itemprop="dateModified" datetime="2023-05-13T22:07:30+08:00">2023-05-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/uni/" itemprop="url" rel="index"><span itemprop="name">Uni</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-item" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="firestore-visitors-count"></span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <center>本篇章是用于Pintia考试的面向对象程序设计题库复习资料--《函数题》</center>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%87%BD%E6%95%B0%E9%A2%98%EF%BC%89/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%88%A4%E6%96%AD%E9%A2%98%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Mathic_Teaxion">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mathic's OI&&CTF">
-      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%88%A4%E6%96%AD%E9%A2%98%EF%BC%89/" class="post-title-link" itemprop="url">Oop_java于Pintia平台的题目合集（判断题）</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-04-30 16:04:34" itemprop="dateCreated datePublished" datetime="2023-04-30T16:04:34+08:00">2023-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-06 11:23:21" itemprop="dateModified" datetime="2023-05-06T11:23:21+08:00">2023-05-06</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/uni/" itemprop="url" rel="index"><span itemprop="name">Uni</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-item" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="firestore-visitors-count"></span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <center>本篇章是用于Pintia考试的面向对象程序设计题库复习资料--《判断题》</center>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/04/30/oop-java%E4%BA%8Epintia%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%A2%98%E7%9B%AE%E5%90%88%E9%9B%86-%E5%88%A4%E6%96%AD%E9%A2%98%EF%BC%89/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/24/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1155,6 +930,195 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/24/NSSCTF-RoundXI%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Mathic_Teaxion">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mathic's OI&&CTF">
+      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/04/24/NSSCTF-RoundXI%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/" class="post-title-link" itemprop="url">NSSCTF_RoundXI详解与思路分享</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-04-24 19:44:04" itemprop="dateCreated datePublished" datetime="2023-04-24T19:44:04+08:00">2023-04-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-02 21:43:13" itemprop="dateModified" datetime="2023-05-02T21:43:13+08:00">2023-05-02</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span class="firestore-visitors-count"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <center>抱歉，这篇文章鸽了（</center>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/04/24/NSSCTF-RoundXI%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/24/WriteUp-HDCTF2023%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Mathic_Teaxion">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mathic's OI&&CTF">
+      <meta itemprop="description" content="鲸饮未吞海，剑气已横秋">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Mathic's OI&&CTF">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/04/24/WriteUp-HDCTF2023%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/" class="post-title-link" itemprop="url">WriteUp_HDCTF2023的Crypto详解以及代码思路</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-04-24 19:42:43" itemprop="dateCreated datePublished" datetime="2023-04-24T19:42:43+08:00">2023-04-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-06 10:52:45" itemprop="dateModified" datetime="2023-05-06T10:52:45+08:00">2023-05-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ctf%E5%AF%86%E7%A0%81%E5%AD%A6%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">CTF密码学题解</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span class="firestore-visitors-count"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <center>抱歉，这篇文章鸽了（</center>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/04/24/WriteUp-HDCTF2023%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
