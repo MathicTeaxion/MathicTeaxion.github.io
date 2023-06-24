@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>NSSCTF_RoundXI详解与思路分享</title>
-    <url>/2023/04/24/NSSCTF-RoundXI%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>抱歉，这篇文章鸽了（</center>
-<span id="more"></span>
-<p><img src="https://www.nssctf.cn/files/2023/4/6/fad6f84051.png" alt="" /></p>
-<h1 id="crypto"><a class="markdownIt-Anchor" href="#crypto"></a> Crypto</h1>
-<h2 id="ez_enc"><a class="markdownIt-Anchor" href="#ez_enc"></a> ez_enc</h2>
-<p><a href="https://www.nssctf.cn/problem/3624">题目附件链接</a></p>
-<h2 id="mymessage"><a class="markdownIt-Anchor" href="#mymessage"></a> MyMessage</h2>
-<p><a href="https://www.nssctf.cn/problem/3626">题目附件链接</a></p>
-<h2 id="mygame"><a class="markdownIt-Anchor" href="#mygame"></a> MyGame</h2>
-<p><a href="https://www.nssctf.cn/problem/3627">题目附件链接</a></p>
-<h2 id="ez_signin"><a class="markdownIt-Anchor" href="#ez_signin"></a> ez_signin</h2>
-<p><a href="https://www.nssctf.cn/problem/3623">题目附件链接</a></p>
-<h2 id="ez_fac"><a class="markdownIt-Anchor" href="#ez_fac"></a> ez_fac</h2>
-<p><a href="https://www.nssctf.cn/problem/3622">题目附件链接</a></p>
-<h2 id="ntr"><a class="markdownIt-Anchor" href="#ntr"></a> NTR</h2>
-<p><a href="https://www.nssctf.cn/problem/3625">题目附件链接</a></p>
-<p>​</p>
-]]></content>
-      <tags>
-        <tag>CTF_WriteUp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023牛客寒假算法基础集训营1补题记</title>
     <url>/2023/05/03/2023%E7%89%9B%E5%AE%A2%E5%AF%92%E5%81%87%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E9%9B%86%E8%AE%AD%E8%90%A51%E8%A1%A5%E9%A2%98%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>A_简单前后缀模拟，B_四维dp（…），C_简单贪心，D_给出的初始矩形，大体把平面分为了四个部分每一个部分讨论一下取最大值，E_利用叉积判断第三个操作是否一定用过，F_连通块利用并查集DSU，G_维护到叶子结点的线段树不需要懒标记，H_用整个大的减去剩余块的成本，K_dp或者贪心构造，L_期望计算，M_手推方程</p>
@@ -51,6 +26,31 @@
       </categories>
       <tags>
         <tag>牛客多校</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NSSCTF_RoundXI详解与思路分享</title>
+    <url>/2023/04/24/NSSCTF-RoundXI%E8%AF%A6%E8%A7%A3%E4%B8%8E%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>抱歉，这篇文章鸽了（</center>
+<span id="more"></span>
+<p><img src="https://www.nssctf.cn/files/2023/4/6/fad6f84051.png" alt="" /></p>
+<h1 id="crypto"><a class="markdownIt-Anchor" href="#crypto"></a> Crypto</h1>
+<h2 id="ez_enc"><a class="markdownIt-Anchor" href="#ez_enc"></a> ez_enc</h2>
+<p><a href="https://www.nssctf.cn/problem/3624">题目附件链接</a></p>
+<h2 id="mymessage"><a class="markdownIt-Anchor" href="#mymessage"></a> MyMessage</h2>
+<p><a href="https://www.nssctf.cn/problem/3626">题目附件链接</a></p>
+<h2 id="mygame"><a class="markdownIt-Anchor" href="#mygame"></a> MyGame</h2>
+<p><a href="https://www.nssctf.cn/problem/3627">题目附件链接</a></p>
+<h2 id="ez_signin"><a class="markdownIt-Anchor" href="#ez_signin"></a> ez_signin</h2>
+<p><a href="https://www.nssctf.cn/problem/3623">题目附件链接</a></p>
+<h2 id="ez_fac"><a class="markdownIt-Anchor" href="#ez_fac"></a> ez_fac</h2>
+<p><a href="https://www.nssctf.cn/problem/3622">题目附件链接</a></p>
+<h2 id="ntr"><a class="markdownIt-Anchor" href="#ntr"></a> NTR</h2>
+<p><a href="https://www.nssctf.cn/problem/3625">题目附件链接</a></p>
+<p>​</p>
+]]></content>
+      <tags>
+        <tag>CTF_WriteUp</tag>
       </tags>
   </entry>
   <entry>
@@ -97,6 +97,39 @@
       </categories>
       <tags>
         <tag>Crypto_WriteUp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>XCPC简单实用小技巧整理</title>
+    <url>/2021/06/24/base-basic/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>位运算</p>
+<span id="more"></span>
+<h2 id="位运算的常见应用"><a class="markdownIt-Anchor" href="#位运算的常见应用"></a> 位运算的常见应用</h2>
+<h3 id="集合枚举"><a class="markdownIt-Anchor" href="#集合枚举"></a> 集合枚举</h3>
+<p>好像在状态压缩里面的集合枚举经常用到。</p>
+<blockquote>
+<p>比如现在有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 件物品，编号从 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span>,我们可以用一个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span></span></span></span> 位二进制数来表示每个物品取或不取的状态，二进制数从右往左数第 k 位的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>01</mn></mrow><annotation encoding="application/x-tex">01</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">1</span></span></span></span> 状态表示编号为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 的物品取了还是没有取（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>表示取了，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 表示没有取)。</p>
+</blockquote>
+<p>在枚举集合进行运算的过程当中，我们经常遇到要枚举当前集合的子集或超集的情况。</p>
+<ul>
+<li>假设 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">n = 5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> ，当前状态为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mo stretchy="false">(</mo><mn>11001</mn><msub><mo stretchy="false">)</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">x = (11001)_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></li>
+<li>其所有子集的二进制表示为:<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>11001</mn><mo separator="true">,</mo><mn>11000</mn><mo separator="true">,</mo><mn>10001</mn><mo separator="true">,</mo><mn>10000</mn><mo separator="true">,</mo><mn>01001</mn><mo separator="true">,</mo><mn>01000</mn><mo separator="true">,</mo><mn>00001</mn><mo separator="true">,</mo><mn>00000</mn></mrow><annotation encoding="application/x-tex">11001,11000,10001,10000,01001,01000,00001,00000</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span></li>
+<li>其所有超集的二进制表示为:<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>11001</mn><mo separator="true">,</mo><mn>11011</mn><mo separator="true">,</mo><mn>11101</mn><mo separator="true">,</mo><mn>11111</mn></mrow><annotation encoding="application/x-tex">11001,11011,11101,11111</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span></span></span></span></li>
+</ul>
+<p>枚举所有状态的非空子集的代码如下：（ 时间复杂度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mn>3</mn><mi>n</mi></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O( 3^n )</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord">3</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> ）</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; <span class="number">1</span> &lt;&lt; n;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> j = i; j ; j = (j - <span class="number">1</span>) &amp; i)&#123;</span><br><span class="line">        <span class="comment">//j 遍历了 i 的所有非空子集</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>有时候我们需要根据一个数的二进制中含有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 的个数来进行集合枚举。例如，所有含有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn></mrow><annotation encoding="application/x-tex">3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> 个 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mi>i</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">bit</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal">b</span><span class="mord mathnormal">i</span><span class="mord mathnormal">t</span></span></span></span> 的整数（不包含符号位）可以表示如下：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>00111</mn><mo separator="true">,</mo><mn>01011</mn><mo separator="true">,</mo><mn>01101</mn><mo separator="true">,</mo><mn>01110</mn><mo separator="true">,</mo><mn>10011</mn><mo separator="true">,</mo><mn>10101</mn><mo separator="true">,</mo><mn>10110</mn><mo separator="true">,</mo><mn>11001</mn><mo separator="true">,</mo><mn>11010</mn><mo separator="true">,</mo><mn>11100</mn></mrow><annotation encoding="application/x-tex">00111,01011,01101,01110,10011,10101,10110,11001,11010,11100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>（这里均为二进制）</p>
+<p>（另）如何求出当前01序列的下一个排列呢，代码如下：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> x, y;<span class="comment">//x 为当前的数，y 为要求的下一个数</span></span><br><span class="line"><span class="type">int</span> t = (x | (x - <span class="number">1</span>)) + <span class="number">1</span>;<span class="comment">//把最后一段连续的1变成0，并将前一位变成1</span></span><br><span class="line">y = t | ((((t &amp; -t)/(x &amp; -x)) &gt;&gt; <span class="number">1</span>) - <span class="number">1</span>);<span class="comment">//补上少了的1的个数</span></span><br></pre></td></tr></table></figure>
+<h3 id="其他小应用"><a class="markdownIt-Anchor" href="#其他小应用"></a> 其他小应用</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">x &gt;&gt; n <span class="comment">//等价于 x * (2^n)</span></span><br><span class="line">x &lt;&lt; k <span class="comment">//等价于 x / (2^k)    ----整除</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> f = ((x ^ y) &lt; <span class="number">0</span>);</span><br><span class="line"><span class="comment">//判断两数符号是否相同</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> f = (x &amp; (x - <span class="number">1</span>)) == <span class="number">0</span>;</span><br><span class="line"><span class="comment">//判断一个数是否是2的幂次方</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">lowbit</span><span class="params">(x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x - x &amp; (x - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">lowbit</span><span class="params">(x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x &amp; (-x);</span><br><span class="line">&#125;<span class="comment">//得到右数第一个1和后面的0构成的数</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> x = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;x;i++) x = x &amp; (x - <span class="number">1</span>);</span><br><span class="line"><span class="comment">//计算一个数的2进制有几个1</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Basic</tag>
       </tags>
   </entry>
   <entry>
@@ -163,6 +196,85 @@
 ]]></content>
       <tags>
         <tag>洛谷</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mathic の 代码风格</title>
+    <url>/2023/05/06/mathic%E3%81%AE%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>MathicTeaxion 选手在 OI 和 ACM 竞赛中总结的代码规范，欢迎来踩！</center>
+<span id="more"></span>
+<h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2>
+<p><code>#include​</code> 语句必须置于整个程序的开头。</p>
+<p>不应 <code>using namespace foo;</code> 若有必要可以 <code>using foo::bar;</code></p>
+<p>单行字符数必须不超过<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span>。</p>
+<h2 id="预编译"><a class="markdownIt-Anchor" href="#预编译"></a> 预编译</h2>
+<p><code>#include​</code> 的多个库顺序可有以下两种：</p>
+<p>C++ 标准库在前，之后是 C​ 标准库，再后为其它（如交互库等）（工程代码中，本 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mi>p</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">cpp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">p</span><span class="mord mathnormal">p</span></span></span></span> 所对应的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">.</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">.h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">.</span><span class="mord mathnormal">h</span></span></span></span> 文件应置于开头。）<br />
+（仅适用于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mi>i</mi></mrow><annotation encoding="application/x-tex">Oi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mord mathnormal">i</span></span></span></span> ）按字典序依次排列。</p>
+<p>如果有多层嵌套<code>#if </code> , <code>#endif</code> , <code>#endif​</code>后应有对应的注释标识出与其对应的​<code>#if​</code>。</p>
+<p>尽量不要适用<code>#define​</code>而使用 <code>const</code> ,  <code>typedef</code> , <code>inline</code>。</p>
+<p>所有预编译命令不应缩进（见下）。</p>
+<h2 id="缩进"><a class="markdownIt-Anchor" href="#缩进"></a> 缩进</h2>
+<p>每个代码块采用  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>  空格缩进。</p>
+<h2 id="空格及换行"><a class="markdownIt-Anchor" href="#空格及换行"></a> 空格及换行</h2>
+<p>大括号不换行。</p>
+<h3 id="需要加空格的地方"><a class="markdownIt-Anchor" href="#需要加空格的地方"></a> 需要加空格的地方：</h3>
+<ul>
+<li>二元运算符（包括赋值运算符）两侧（运算符例外，见下）；</li>
+<li><code>.,</code> 及 <code>;</code> 的右边（如果其不处于行尾）；</li>
+<li><code>if</code>, <code>for</code>等控制流关键字与其后的左括号之间 ；</li>
+<li><code>do-while</code>中的<code>while</code>、<code>if-else</code>中的<code>else</code>与其前面的右大括号之间；</li>
+<li>所有左大括号的左侧（根据不换行的策略，左大括号不应处于行首）；</li>
+<li><code>? :</code>的两侧（包括构造函数初始化列表中的<code>:</code>）；<br />
+类型中<code>*</code>,<code>&amp;</code>的左侧（如：<code>const int &amp;a</code>, <code>int A(int *&amp;a)</code>）；<br />
+花括号与其内部语句/数组初始化列表之间（如果在同一行）；<br />
+常成员函数的<code>const</code>两侧。</li>
+</ul>
+<h3 id="一定不能加空格的地方"><a class="markdownIt-Anchor" href="#一定不能加空格的地方"></a> 一定不能加空格的地方：</h3>
+<p>小括号及中括号与其内部的表达式/参数列表之间；<br />
+函数名与左括号之间（包括声明/定义/使用）；<br />
+单目运算符（ <code>!</code> , <code>-</code> , <code>*</code> , <code>&amp;</code> , <code>~</code> ）之后（或自增自减运算符与其操作数之间）；<br />
+<code>,</code> 及 <code>;</code> 的左侧；<br />
+类型中*,&amp;的右侧；<br />
+<code>.</code> , <code>-&gt;</code> , <code>::</code> 的两侧；<br />
+<code>operator</code> 与所要重载的运算符之间（运算符与参数列表之间，根据第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 条，也不应空格）。<br />
+若表达式过长内部可以换行，运算符处于行首（而非行尾）；缩进以使表达式对齐为准；换行的优先级较高的子表达式也应加括号以避免误读。</p>
+<p>参数列表/初始化列表过长时内部也可换行，逗号处于行尾；缩四空格。</p>
+<p>极短的函数可以写到一行（但绝不能超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span> 字符）。</p>
+<p>例子：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">struct AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct&#123;</span><br><span class="line">  int aVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongVariable, d;</span><br><span class="line">  AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct(int a, int b, int c, int d)</span><br><span class="line">      : aVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongVariable(a) &#123;</span><br><span class="line">    this-&gt;d = b + c * d;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">inline int min(int x, int y) &#123; return x &lt; y ? x : y; &#125;</span><br><span class="line">int gcd(int x, int y) &#123; return y ? gcd(y, x % y) : x; &#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">  int thisVariableIsToBeLong = 2, thisVariableIsToBeLongerAndLonger = 23;</span><br><span class="line">  AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct s(</span><br><span class="line">      thisVariableIsToBeLong, thisVariableIsToBeLong,</span><br><span class="line">      thisVariableIsToBeLongerAndLonger,</span><br><span class="line">      thisVariableIsToBeLongerAndLonger</span><br><span class="line">  );</span><br><span class="line">  printf(&quot;%d\n&quot;, s.d);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="空行"><a class="markdownIt-Anchor" href="#空行"></a> 空行</h2>
+<p>所有 <code>#include &lt;foobar&gt;</code> 与 <code>using foo::bar;</code> 之间不应空行，之后应空一行。</p>
+<p>一系列常量定义的上下应有空行。</p>
+<p>函数/结构体定义两侧应有空行（一系列短小到可以写到一行的函数，如<code>min</code> , <code>max</code> ，之间可以不空行）。</p>
+<p>一系列全局变量定义的上下应有空行。</p>
+<p>语句之间可根据其意义酌情空行。</p>
+<p>任何位置不能出现连续的两个（或以上）空行。</p>
+<p>函数定义<br />
+<code>main​</code>函数返回值必须为​<code>int</code> ​, <code>return 0​</code>不可忽略；</p>
+<p>类/结构体传参在大多数情况下不应传值（除非难以避免地产生拷贝，或一些特殊要求），而应传引用。</p>
+<p>极其简短的函数可以写作一行（但绝不能超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span> 字符），此时花括号内部应有空格（空函数体 <code>&#123;&#125;</code> 除外）。</p>
+<p>单个函数的长度不应过长（例如超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>100</mn></mrow><annotation encoding="application/x-tex">100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span> 行）。</p>
+<p>命名规则<br />
+一般情况下应采用驼峰命名法，变量开头小写，函数/类/结构体开头大写。</p>
+<p>结构体/类成员函数，可以小写开头。</p>
+<p>特例：</p>
+<p><code>main</code>函数；<br />
+变量可以以一个小写字母命名；<br />
+全局数组名可使用 1 个大写字母 + 0~2 个数字命名，如A, T1,F01；<br />
+模板。如 <code>readInt</code> ,  <code>pow_mod</code> ;<br />
+采用对应算法缩写，如 <code>KMP</code> ,  <code>CRT</code> ,  <code>NTT</code>  , <code>CDQ</code> ；<br />
+简短的 <code>inline</code> 函数，如 <code>min</code> ,  <code>upd</code> (用作数据结构中的 update 操作);<br />
+常量可以大写字母命名，如 <code>N</code> ,  <code>M</code> ；<br />
+临时变量可以以下划线开头。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Example Code</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cctype&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">long</span> <span class="type">long</span> LL;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">readInt</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> ans = <span class="number">0</span>, c;</span><br><span class="line">  <span class="keyword">while</span> (!<span class="built_in">isdigit</span>(c = <span class="built_in">getchar</span>()));</span><br><span class="line">  <span class="keyword">do</span> ans = ans * <span class="number">10</span> + c - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">  <span class="keyword">while</span> (<span class="built_in">isdigit</span>(c = <span class="built_in">getchar</span>()));</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> mod = <span class="number">998244353</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> g = <span class="number">3</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">200050</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> LL <span class="title">pow_mod</span><span class="params">(LL x, <span class="type">int</span> p)</span> </span>&#123;</span><br><span class="line">  LL ans = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> ((p += mod - <span class="number">1</span>) %= (mod - <span class="number">1</span>); p; p &gt;&gt;= <span class="number">1</span>, (x *= x) %= mod)</span><br><span class="line">    <span class="keyword">if</span> (p &amp; <span class="number">1</span>) (ans *= x) %= mod;</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LL inv[N];</span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">NTT</span><span class="params">(LL *A, <span class="type">int</span> len, <span class="type">int</span> opt)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>, j = <span class="number">0</span>; i &lt; len; ++i) &#123;</span><br><span class="line">    <span class="type">int</span> k = len;</span><br><span class="line">    <span class="keyword">while</span> (~j &amp; k) j ^= (k &gt;&gt;= <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span> (i &lt; j) std::<span class="built_in">swap</span>(A[i], A[j]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> h = <span class="number">2</span>; h &lt;= len; h &lt;&lt;= <span class="number">1</span>) &#123;</span><br><span class="line">    LL wn = <span class="built_in">pow_mod</span>(g, (mod - <span class="number">1</span>) / h * opt);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; len; j += h) &#123;</span><br><span class="line">      LL w = <span class="number">1</span>;</span><br><span class="line">      <span class="keyword">for</span> (<span class="type">int</span> i = j; i &lt; j + (h &gt;&gt; <span class="number">1</span>); ++i) &#123;</span><br><span class="line">        LL _tmp1 = A[i], _tmp2 = A[i + (h &gt;&gt; <span class="number">1</span>)] * w;</span><br><span class="line">        A[i] = (_tmp1 + _tmp2) % mod;</span><br><span class="line">        A[i + (h &gt;&gt; <span class="number">1</span>)] = (_tmp1 - _tmp2) % mod;</span><br><span class="line">        (w *= wn) %= mod;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (opt == <span class="number">-1</span>)</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">      (A[i] *= -(mod - <span class="number">1</span>) / len) %= mod;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LL F[N], G[N];</span><br><span class="line">LL T1[N * <span class="number">4</span>], T2[N * <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Conv</span><span class="params">(LL *A, <span class="type">int</span> n, LL *B, <span class="type">int</span> m)</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> len = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">while</span> (len &lt;= n + m) len &lt;&lt;= <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    T1[i] = (i &lt; n ? A[i] : <span class="number">0</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    T2[i] = (i &lt; m ? B[i] : <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">  <span class="built_in">NTT</span>(T1, len, <span class="number">1</span>);</span><br><span class="line">  <span class="built_in">NTT</span>(T2, len, <span class="number">1</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    (T1[i] *= T2[i]) %= mod;</span><br><span class="line">  <span class="built_in">NTT</span>(T1, len, <span class="number">-1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Solve</span><span class="params">(<span class="type">int</span> l, <span class="type">int</span> r)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (l == r - <span class="number">1</span>) &#123;</span><br><span class="line">    F[l] = (l == <span class="number">0</span> ? <span class="number">1</span> : F[l] * inv[l] % mod);</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="type">int</span> mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="built_in">Solve</span>(l, mid);</span><br><span class="line">  <span class="built_in">Conv</span>(F + l, mid - l, G, r - l);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = mid; i &lt; r; ++i)</span><br><span class="line">    (F[i] += T1[i - l]) %= mod;</span><br><span class="line">  <span class="built_in">Solve</span>(mid, r);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  n = <span class="built_in">readInt</span>();</span><br><span class="line"></span><br><span class="line">  inv[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; ++i)</span><br><span class="line">    inv[i] = -(mod / i) * inv[mod % i] % mod;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%lld&quot;</span>, &amp;G[i]);</span><br><span class="line">    (G[i] *= i) %= mod;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">Solve</span>(<span class="number">0</span>, n + <span class="number">1</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, (F[i] + mod) % mod);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注：此为多项式 exp​ 模板。</p>
+]]></content>
+      <categories>
+        <category>代码规范</category>
+      </categories>
+      <tags>
+        <tag>代码风格</tag>
       </tags>
   </entry>
   <entry>
@@ -311,82 +423,133 @@
       </tags>
   </entry>
   <entry>
-    <title>Mathic の 代码风格</title>
-    <url>/2023/05/06/mathic%E3%81%AE%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>MathicTeaxion 选手在 OI 和 ACM 竞赛中总结的代码规范，欢迎来踩！</center>
+    <title>字符串算法--KMP，字典树</title>
+    <url>/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>KMP特点：1.  i  不回退  2.  j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。</p>
 <span id="more"></span>
-<h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2>
-<p><code>#include​</code> 语句必须置于整个程序的开头。</p>
-<p>不应 <code>using namespace foo;</code> 若有必要可以 <code>using foo::bar;</code></p>
-<p>单行字符数必须不超过<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span>。</p>
-<h2 id="预编译"><a class="markdownIt-Anchor" href="#预编译"></a> 预编译</h2>
-<p><code>#include​</code> 的多个库顺序可有以下两种：</p>
-<p>C++ 标准库在前，之后是 C​ 标准库，再后为其它（如交互库等）（工程代码中，本 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mi>p</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">cpp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">c</span><span class="mord mathnormal">p</span><span class="mord mathnormal">p</span></span></span></span> 所对应的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">.</mi><mi>h</mi></mrow><annotation encoding="application/x-tex">.h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">.</span><span class="mord mathnormal">h</span></span></span></span> 文件应置于开头。）<br />
-（仅适用于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mi>i</mi></mrow><annotation encoding="application/x-tex">Oi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mord mathnormal">i</span></span></span></span> ）按字典序依次排列。</p>
-<p>如果有多层嵌套<code>#if </code> , <code>#endif</code> , <code>#endif​</code>后应有对应的注释标识出与其对应的​<code>#if​</code>。</p>
-<p>尽量不要适用<code>#define​</code>而使用 <code>const</code> ,  <code>typedef</code> , <code>inline</code>。</p>
-<p>所有预编译命令不应缩进（见下）。</p>
-<h2 id="缩进"><a class="markdownIt-Anchor" href="#缩进"></a> 缩进</h2>
-<p>每个代码块采用  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>  空格缩进。</p>
-<h2 id="空格及换行"><a class="markdownIt-Anchor" href="#空格及换行"></a> 空格及换行</h2>
-<p>大括号不换行。</p>
-<h3 id="需要加空格的地方"><a class="markdownIt-Anchor" href="#需要加空格的地方"></a> 需要加空格的地方：</h3>
-<ul>
-<li>二元运算符（包括赋值运算符）两侧（运算符例外，见下）；</li>
-<li><code>.,</code> 及 <code>;</code> 的右边（如果其不处于行尾）；</li>
-<li><code>if</code>, <code>for</code>等控制流关键字与其后的左括号之间 ；</li>
-<li><code>do-while</code>中的<code>while</code>、<code>if-else</code>中的<code>else</code>与其前面的右大括号之间；</li>
-<li>所有左大括号的左侧（根据不换行的策略，左大括号不应处于行首）；</li>
-<li><code>? :</code>的两侧（包括构造函数初始化列表中的<code>:</code>）；<br />
-类型中<code>*</code>,<code>&amp;</code>的左侧（如：<code>const int &amp;a</code>, <code>int A(int *&amp;a)</code>）；<br />
-花括号与其内部语句/数组初始化列表之间（如果在同一行）；<br />
-常成员函数的<code>const</code>两侧。</li>
-</ul>
-<h3 id="一定不能加空格的地方"><a class="markdownIt-Anchor" href="#一定不能加空格的地方"></a> 一定不能加空格的地方：</h3>
-<p>小括号及中括号与其内部的表达式/参数列表之间；<br />
-函数名与左括号之间（包括声明/定义/使用）；<br />
-单目运算符（ <code>!</code> , <code>-</code> , <code>*</code> , <code>&amp;</code> , <code>~</code> ）之后（或自增自减运算符与其操作数之间）；<br />
-<code>,</code> 及 <code>;</code> 的左侧；<br />
-类型中*,&amp;的右侧；<br />
-<code>.</code> , <code>-&gt;</code> , <code>::</code> 的两侧；<br />
-<code>operator</code> 与所要重载的运算符之间（运算符与参数列表之间，根据第 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 条，也不应空格）。<br />
-若表达式过长内部可以换行，运算符处于行首（而非行尾）；缩进以使表达式对齐为准；换行的优先级较高的子表达式也应加括号以避免误读。</p>
-<p>参数列表/初始化列表过长时内部也可换行，逗号处于行尾；缩四空格。</p>
-<p>极短的函数可以写到一行（但绝不能超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span> 字符）。</p>
-<p>例子：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">struct AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct&#123;</span><br><span class="line">  int aVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongVariable, d;</span><br><span class="line">  AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct(int a, int b, int c, int d)</span><br><span class="line">      : aVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongVariable(a) &#123;</span><br><span class="line">    this-&gt;d = b + c * d;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">inline int min(int x, int y) &#123; return x &lt; y ? x : y; &#125;</span><br><span class="line">int gcd(int x, int y) &#123; return y ? gcd(y, x % y) : x; &#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">  int thisVariableIsToBeLong = 2, thisVariableIsToBeLongerAndLonger = 23;</span><br><span class="line">  AVeryVeryVeryVeryVeryVeryVeryVeryVeryLongStruct s(</span><br><span class="line">      thisVariableIsToBeLong, thisVariableIsToBeLong,</span><br><span class="line">      thisVariableIsToBeLongerAndLonger,</span><br><span class="line">      thisVariableIsToBeLongerAndLonger</span><br><span class="line">  );</span><br><span class="line">  printf(&quot;%d\n&quot;, s.d);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="空行"><a class="markdownIt-Anchor" href="#空行"></a> 空行</h2>
-<p>所有 <code>#include &lt;foobar&gt;</code> 与 <code>using foo::bar;</code> 之间不应空行，之后应空一行。</p>
-<p>一系列常量定义的上下应有空行。</p>
-<p>函数/结构体定义两侧应有空行（一系列短小到可以写到一行的函数，如<code>min</code> , <code>max</code> ，之间可以不空行）。</p>
-<p>一系列全局变量定义的上下应有空行。</p>
-<p>语句之间可根据其意义酌情空行。</p>
-<p>任何位置不能出现连续的两个（或以上）空行。</p>
-<p>函数定义<br />
-<code>main​</code>函数返回值必须为​<code>int</code> ​, <code>return 0​</code>不可忽略；</p>
-<p>类/结构体传参在大多数情况下不应传值（除非难以避免地产生拷贝，或一些特殊要求），而应传引用。</p>
-<p>极其简短的函数可以写作一行（但绝不能超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>80</mn></mrow><annotation encoding="application/x-tex">80</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span></span></span></span> 字符），此时花括号内部应有空格（空函数体 <code>&#123;&#125;</code> 除外）。</p>
-<p>单个函数的长度不应过长（例如超过 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>100</mn></mrow><annotation encoding="application/x-tex">100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span> 行）。</p>
-<p>命名规则<br />
-一般情况下应采用驼峰命名法，变量开头小写，函数/类/结构体开头大写。</p>
-<p>结构体/类成员函数，可以小写开头。</p>
-<p>特例：</p>
-<p><code>main</code>函数；<br />
-变量可以以一个小写字母命名；<br />
-全局数组名可使用 1 个大写字母 + 0~2 个数字命名，如A, T1,F01；<br />
-模板。如 <code>readInt</code> ,  <code>pow_mod</code> ;<br />
-采用对应算法缩写，如 <code>KMP</code> ,  <code>CRT</code> ,  <code>NTT</code>  , <code>CDQ</code> ；<br />
-简短的 <code>inline</code> 函数，如 <code>min</code> ,  <code>upd</code> (用作数据结构中的 update 操作);<br />
-常量可以大写字母命名，如 <code>N</code> ,  <code>M</code> ；<br />
-临时变量可以以下划线开头。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Example Code</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cctype&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">long</span> <span class="type">long</span> LL;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">readInt</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> ans = <span class="number">0</span>, c;</span><br><span class="line">  <span class="keyword">while</span> (!<span class="built_in">isdigit</span>(c = <span class="built_in">getchar</span>()));</span><br><span class="line">  <span class="keyword">do</span> ans = ans * <span class="number">10</span> + c - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">  <span class="keyword">while</span> (<span class="built_in">isdigit</span>(c = <span class="built_in">getchar</span>()));</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> mod = <span class="number">998244353</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> g = <span class="number">3</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">200050</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> LL <span class="title">pow_mod</span><span class="params">(LL x, <span class="type">int</span> p)</span> </span>&#123;</span><br><span class="line">  LL ans = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> ((p += mod - <span class="number">1</span>) %= (mod - <span class="number">1</span>); p; p &gt;&gt;= <span class="number">1</span>, (x *= x) %= mod)</span><br><span class="line">    <span class="keyword">if</span> (p &amp; <span class="number">1</span>) (ans *= x) %= mod;</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LL inv[N];</span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">NTT</span><span class="params">(LL *A, <span class="type">int</span> len, <span class="type">int</span> opt)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>, j = <span class="number">0</span>; i &lt; len; ++i) &#123;</span><br><span class="line">    <span class="type">int</span> k = len;</span><br><span class="line">    <span class="keyword">while</span> (~j &amp; k) j ^= (k &gt;&gt;= <span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span> (i &lt; j) std::<span class="built_in">swap</span>(A[i], A[j]);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> h = <span class="number">2</span>; h &lt;= len; h &lt;&lt;= <span class="number">1</span>) &#123;</span><br><span class="line">    LL wn = <span class="built_in">pow_mod</span>(g, (mod - <span class="number">1</span>) / h * opt);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; len; j += h) &#123;</span><br><span class="line">      LL w = <span class="number">1</span>;</span><br><span class="line">      <span class="keyword">for</span> (<span class="type">int</span> i = j; i &lt; j + (h &gt;&gt; <span class="number">1</span>); ++i) &#123;</span><br><span class="line">        LL _tmp1 = A[i], _tmp2 = A[i + (h &gt;&gt; <span class="number">1</span>)] * w;</span><br><span class="line">        A[i] = (_tmp1 + _tmp2) % mod;</span><br><span class="line">        A[i + (h &gt;&gt; <span class="number">1</span>)] = (_tmp1 - _tmp2) % mod;</span><br><span class="line">        (w *= wn) %= mod;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> (opt == <span class="number">-1</span>)</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">      (A[i] *= -(mod - <span class="number">1</span>) / len) %= mod;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">LL F[N], G[N];</span><br><span class="line">LL T1[N * <span class="number">4</span>], T2[N * <span class="number">4</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Conv</span><span class="params">(LL *A, <span class="type">int</span> n, LL *B, <span class="type">int</span> m)</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> len = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">while</span> (len &lt;= n + m) len &lt;&lt;= <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    T1[i] = (i &lt; n ? A[i] : <span class="number">0</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    T2[i] = (i &lt; m ? B[i] : <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">  <span class="built_in">NTT</span>(T1, len, <span class="number">1</span>);</span><br><span class="line">  <span class="built_in">NTT</span>(T2, len, <span class="number">1</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">    (T1[i] *= T2[i]) %= mod;</span><br><span class="line">  <span class="built_in">NTT</span>(T1, len, <span class="number">-1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Solve</span><span class="params">(<span class="type">int</span> l, <span class="type">int</span> r)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (l == r - <span class="number">1</span>) &#123;</span><br><span class="line">    F[l] = (l == <span class="number">0</span> ? <span class="number">1</span> : F[l] * inv[l] % mod);</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="type">int</span> mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="built_in">Solve</span>(l, mid);</span><br><span class="line">  <span class="built_in">Conv</span>(F + l, mid - l, G, r - l);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = mid; i &lt; r; ++i)</span><br><span class="line">    (F[i] += T1[i - l]) %= mod;</span><br><span class="line">  <span class="built_in">Solve</span>(mid, r);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  n = <span class="built_in">readInt</span>();</span><br><span class="line"></span><br><span class="line">  inv[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; ++i)</span><br><span class="line">    inv[i] = -(mod / i) * inv[mod % i] % mod;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%lld&quot;</span>, &amp;G[i]);</span><br><span class="line">    (G[i] *= i) %= mod;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">Solve</span>(<span class="number">0</span>, n + <span class="number">1</span>);</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lld\n&quot;</span>, (F[i] + mod) % mod);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>注：此为多项式 exp​ 模板。</p>
-]]></content>
+<h1 id="kmp算法"><a class="markdownIt-Anchor" href="#kmp算法"></a> KMP算法</h1>
+<blockquote>
+<p>实际上，完全没必要从 S​ 的每一个字符开始，暴力穷举每一种情况，Knuth、Morris和 Pratt 对该算法进行了改进，称为 ​ KMP  算法。</p>
+</blockquote>
+<p>而 KMP 的精髓在于，对于每次失配之后，我都不会从头重新开始枚举，而是根据我已经得知的数据，从某个特定的位置开始匹配；而对于模式串的每一位，都有唯一的“特定变化位置”，这个在失配之后的特定变化位置可以帮助我们利用已有的数据不用从头匹配，从而节约时间。</p>
+<p><strong>特点：1.   i  不回退  2.   j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。</strong></p>
+<h2 id="实现流程"><a class="markdownIt-Anchor" href="#实现流程"></a> 实现流程</h2>
+<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327195717908-1728308013.png" alt="image" /></p>
+<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327195854428-439903413.png" alt="" /></p>
+<p>为了清楚地表述目的，  T  与  S  失配前的部分作为  T’  来表述，此时寻找下一个开始匹配的标志头。而找到下一个标志头的方式为：</p>
+<blockquote>
+<p>找到   T’  的最长相同前缀与后缀</p>
+</blockquote>
+<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327200218970-204893744.png" alt="image" /></p>
+<p><img src="https://img2022.cnblogs.com/blog/1452231/202207/1452231-20220725200649652-71907780.png" alt="image" /></p>
+<p><font color=red>这样找所有的前缀和后缀比较，是不是也是暴力穷举？那该怎么办呢？<br></br>ans:当然是要用到动态规划递推啦。</font></p>
+<h3 id="构建-nxt-数组"><a class="markdownIt-Anchor" href="#构建-nxt-数组"></a> 构建 Nxt 数组</h3>
+<p>nxt  数组用于表示当前字符匹配失败时，模式串应该回退到哪个位置。对于模式串 p ，我们遍历其每个字符，并用一个指针  j  表示已匹配的字符数。当模式串中的两个字符匹配时，我们更新指针 j 的值，否则，我们回退  j  到  nxt[j]  的位置。通过这种方式，我们可以为模式串构建一个  nxt  数组，其中  nxt[i]  表示当模式串中第  i  个字符匹配失败时，应该回退到的位置。</p>
+<h3 id="实际字符匹配过程"><a class="markdownIt-Anchor" href="#实际字符匹配过程"></a> 实际字符匹配过程</h3>
+<p>我们使用两个指针  i  和  j  分别遍历原字符串  s  和模式串  p  。如果当前字符匹配，则同时移动  i  和  j  。如果字符不匹配，我们根据  nxt  数组回退  j  的位置，直到找到匹配的字符或回退到模式串的开头。当  j  等于模式串长度  m  时，表示找到了一个匹配，输出匹配位置，并将  j  重置为  0  。</p>
+<h2 id="模板代码实现"><a class="markdownIt-Anchor" href="#模板代码实现"></a> 模板代码实现</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e+6</span> + <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> nxt[N], n, m;</span><br><span class="line"><span class="type">char</span> p[N], s[N];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; s + <span class="number">1</span> &gt;&gt; m &gt;&gt; p + <span class="number">1</span>;</span><br><span class="line">    <span class="comment">// build next arraylist</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>, j = <span class="number">0</span>; i &lt;= m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (j &amp;&amp; p[i] != p[j + <span class="number">1</span>]) j = nxt[j];</span><br><span class="line">        <span class="keyword">if</span> (p[i] == p[j + <span class="number">1</span>]) j++;</span><br><span class="line">        nxt[i] = j;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// marry the str</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i  = <span class="number">1</span>, j = <span class="number">0</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (j &amp;&amp; s[i] != p[j + <span class="number">1</span>]) j = nxt[j];</span><br><span class="line">        <span class="keyword">if</span> (s[i] == p[j + <span class="number">1</span>]) j++;</span><br><span class="line">        <span class="keyword">if</span> (j == m) &#123;</span><br><span class="line">            cout &lt;&lt; i - m &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">            j = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="字典树又名trie树-前缀树"><a class="markdownIt-Anchor" href="#字典树又名trie树-前缀树"></a> 字典树(又名Trie树、前缀树)</h1>
+<p>字典树是一种高效的字符串数据结构，尤其适用于处理大量字符串的时候，它通过将<strong>字符串的公共前缀合并在一起</strong>，节省空间并提高查询速度。</p>
+<h2 id="实现流程-2"><a class="markdownIt-Anchor" href="#实现流程-2"></a> 实现流程</h2>
+<h3 id="初始化变量和数据结构"><a class="markdownIt-Anchor" href="#初始化变量和数据结构"></a> 初始化变量和数据结构</h3>
+<p>定义一个字典树结构（ tree 数组）和一个记录字符串出现次数的数组（ vis 数组）。同时定义一个计数器  flag  用于记录字典树中节点的数量。二维数组  tree  表示字典树的结构，其中  <code>tree[i][j]</code>  表示第  <code>i </code> 个节点的第  <code>j</code>  个子节点。</p>
+<h3 id="子功能实现"><a class="markdownIt-Anchor" href="#子功能实现"></a> 子功能实现</h3>
+<h4 id="insert"><a class="markdownIt-Anchor" href="#insert"></a> insert</h4>
+<p>实现一个  insert  函数，用于向字典树中插入一个字符串。它遍历字符串中的每个字符，将字符转换为数组下标（通过减去’  a  '并加上  1  ）。如果当前字符对应的子节点不存在，则创建一个新的节点并更新节点计数器。最后，在字符串末尾的节点中，更新字符串出现的次数。</p>
+<h4 id="query"><a class="markdownIt-Anchor" href="#query"></a> query</h4>
+<p>实现一个  query  函数，用于查询字典树中字符串的出现次数。它遍历字符串中的每个字符，将字符转换为数组下标。如果当前字符对应的子节点不存在，说明字符串不存在，查询结束。否则，将指针移动到子节点。最后，返回字符串末尾节点对应的出现次数。</p>
+<h3 id="主程序逻辑"><a class="markdownIt-Anchor" href="#主程序逻辑"></a> 主程序逻辑</h3>
+<p>读取操作数量  n  ，然后循环处理每个操作。对于每个操作，读取操作类型（  ope  ）和操作字符串（  str  ）。如果操作类型为 &quot; i &quot; ，调用  insert  函数插入字符串；如果操作类型为其他（例如查询操作），调用  query  函数查询字符串，并输出查询结果。</p>
+<h2 id="模板代码实现-2"><a class="markdownIt-Anchor" href="#模板代码实现-2"></a> 模板代码实现</h2>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e+6</span> + <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n, flag = <span class="number">1</span>;</span><br><span class="line">string ope, str;</span><br><span class="line"><span class="type">int</span> tree[N][<span class="number">27</span>], vis[N][<span class="number">27</span>];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(string str)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> pos = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> tmp = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        tmp = str[i] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (tree[pos][tmp] == <span class="number">0</span>) tree[pos][tmp] = flag ++;</span><br><span class="line">        pos = tree[pos][tmp];</span><br><span class="line">    &#125;</span><br><span class="line">    vis[pos][tmp] ++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">query</span><span class="params">(string str)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> pos = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> tmp = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i  = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        tmp = str[i] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (tree[pos][tmp] == <span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">        pos = tree[pos][tmp];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> vis[pos][tmp];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">while</span> (n--)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; ope &gt;&gt; str;</span><br><span class="line">        <span class="keyword">if</span> (ope == <span class="string">&quot;i&quot;</span>) <span class="built_in">insert</span>(str);</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="built_in">query</span>(str) &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>代码规范</category>
+        <category>算法学习笔记</category>
       </categories>
       <tags>
-        <tag>代码风格</tag>
+        <tag>KMP</tag>
+        <tag>字典树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浅析数论--埃氏筛/欧拉筛/杜教筛</title>
+    <url>/2018/01/24/%E6%B5%85%E6%9E%90%E6%95%B0%E8%AE%BA-%E5%9F%83%E6%B0%8F%E7%AD%9B-%E6%AC%A7%E6%8B%89%E7%AD%9B-%E6%9D%9C%E6%95%99%E7%AD%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>质数的判定试除法 or 六倍原理、埃氏筛(稍加优化版的筛法)、线性筛</center>
+<span id="more"></span>
+<h2 id="0x01-绪论"><a class="markdownIt-Anchor" href="#0x01-绪论"></a> 0x01 绪论</h2>
+<h3 id="质数的判定试除法-or-六倍原理"><a class="markdownIt-Anchor" href="#质数的判定试除法-or-六倍原理"></a> 质数的判定试除法 or 六倍原理</h3>
+<p>一个合数的约数总是成对出现的，如果  d|n  (  d  能被  n  整除），那么  (n/d)|n  ，因此我们判断一个数是否为质数的时候，<br />
+只需要判断较小的那一个数能否整除n就行了，即只需枚举  d&lt;=(n/d)  ，即  d&lt;=n  ，  d&lt;=sqrt(n)  就行了。</p>
+<p>为何不用  sqrt()  ？请自行百度“  sqrt()  的运算方式”。你就会知道他是一个很慢的函数。</p>
+<h4 id="试除法判断素数"><a class="markdownIt-Anchor" href="#试除法判断素数"></a> 试除法判断素数</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">is_prime</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; <span class="number">2</span>) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )<span class="comment">//核心代码</span></span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="试除法分解质因数唯一分解定理"><a class="markdownIt-Anchor" href="#试除法分解质因数唯一分解定理"></a> 试除法分解质因数（<a href="https://baike.baidu.com/item/%E7%AE%97%E6%9C%AF%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86/10920095?fromtitle=%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86&amp;fromid=23680898&amp;fr=aladdin">唯一分解定理</a>）</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">divide</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )</span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">int</span> s = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">while</span> (x % i == <span class="number">0</span>) x /= i， s ++ ;</span><br><span class="line">            cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">if</span> (x &gt; <span class="number">1</span>) cout &lt;&lt; x &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"><a class="markdownIt-Anchor" href="#一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"></a> 一个合数分解而成的质因数最多只包含一个大于 sqrt(n)  的质因数。</h4>
+<blockquote>
+<p>反证法，若 n 可以被分解成两个大于 sqrt(n) 的质因数，则这两个质因数相乘的结果大于 n ，与事实矛盾</p>
+</blockquote>
+<h4 id="当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"><a class="markdownIt-Anchor" href="#当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"></a> 当枚举到某一个数  i  的时候，  n  的因子里面已经不包含  2-i-1  里面的数，</h4>
+<p>如果  n%i==0  ，则  i  的因子里面也已经不包含  2-i-1  里面的数，因此每次枚举的数都是质数.</p>
+<h4 id="算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"><a class="markdownIt-Anchor" href="#算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"></a> 算数基本定理(唯一分解定理):任何一个大于1的自然数  N  ，如果  N  不为质数，那么  N  可以唯一分解成有限个质数的乘积</h4>
+<p>N=P_1 * a_1P2a2P3a3…Pnan ，这里  P1&lt;P2&lt;P3…&lt;Pn  均为质数，其中指数  ai  是正整数。<br />
+这样的分解称为   N   的标准分解式。最早证明是由欧几里得给出的，由陈述证明。<br />
+此定理可推广至更一般的交换代数和代数数论。</p>
+<p>质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，</p>
+<p>每个正整数都能够以唯一的方式表示成它的质因数的乘积。</p>
+<p>两个没有共同质因子的正整数称为互质。因为  1  没有质因子，  1  与任何正整数（包括  1  本身）都是互质。</p>
+<p>只有一个质因子的正整数为质数。</p>
+<h2 id="质数筛法"><a class="markdownIt-Anchor" href="#质数筛法"></a> 质数筛法</h2>
+<h3 id="朴素筛法"><a class="markdownIt-Anchor" href="#朴素筛法"></a> 朴素筛法</h3>
+<h4 id="做法"><a class="markdownIt-Anchor" href="#做法"></a> 做法</h4>
+<p>把 2~(n-1) 中的所有的数的倍数都标记上，最后没有被标记的数就是质数.</p>
+<h4 id="原理"><a class="markdownIt-Anchor" href="#原理"></a> 原理</h4>
+<p>假定有一个数  p  未被  2~(p-1)  中的数标记过，那么说明，不存在  2~(p-1)  中的任何一个数的倍数是  p  ，也就是说  p  不是  2~(p-1)  中的任何数的倍数，也就是说  2~(p-1)  中不存在p的约数，因此，根据质数的定义可知:<code>p是质数</code></p>
+<h4 id="调和级数"><a class="markdownIt-Anchor" href="#调和级数"></a> 调和级数</h4>
+<p>当  n  趋近于正无穷的时候，  1/2+1/3+1/4+1/5+…+1/n=lnn+c  .(  c  是欧阳常数，约等于  0.577  左右)</p>
+<h4 id="底数越大-log-数越小"><a class="markdownIt-Anchor" href="#底数越大-log-数越小"></a> 底数越大，  log  数越小</h4>
+<h4 id="时间复杂度"><a class="markdownIt-Anchor" href="#时间复杂度"></a> 时间复杂度</h4>
+<p>约为  O(nlogn)  (注:此处的  log  数特指以 2 为底的  log  数).</p>
+<h3 id="埃氏筛稍加优化版的筛法"><a class="markdownIt-Anchor" href="#埃氏筛稍加优化版的筛法"></a> 埃氏筛(稍加优化版的筛法)</h3>
+<h4 id="质数定理"><a class="markdownIt-Anchor" href="#质数定理"></a> 质数定理</h4>
+<p>1~n  中有  n / ln(n)  个质数</p>
+<h4 id="原理-2"><a class="markdownIt-Anchor" href="#原理-2"></a> 原理</h4>
+<p>在朴素筛法的过程中只用质数项去筛</p>
+<h4 id="时间复杂度-2"><a class="markdownIt-Anchor" href="#时间复杂度-2"></a> 时间复杂度</h4>
+<p>粗略估计:  O(n)  实际:  O(nlog(logn))</p>
+<p>1~n  中，只计算质数项的话，  “1/2+1/3+1/4+1/5+…+1/n”  的大小约为  log(logn)</p>
+<h3 id="线性筛"><a class="markdownIt-Anchor" href="#线性筛"></a> 线性筛</h3>
+<p>若  n  在  10  的  6  次方的话，线性筛和埃氏筛的时间效率差不多，若  n  在  10  的  7  次方的话，线性筛会比埃氏筛快了大概一倍.</p>
+<blockquote>
+<p>思考:一:线性筛法为什么是线性的?<br />
+二:线性筛法的原理是什么?</p>
+</blockquote>
+<h4 id="核心"><a class="markdownIt-Anchor" href="#核心"></a> 核心</h4>
+<p>1~n  内的合数  p  只会被其最小质因子筛掉.</p>
+<h4 id="原理-3"><a class="markdownIt-Anchor" href="#原理-3"></a> 原理</h4>
+<p>1~n  之内的任何一个合数一定会被筛掉，而且筛的时候只用最小质因子来筛，<br />
+然后每一个数都只有一个最小质因子，因此每个数都只会被筛一次，因此线性筛法是线性的.</p>
+<p>枚举到  <code>i</code>  的最小质因子的时候就会停下来，即 <code>if(i%primes[j]==0) break;</code><br />
+因为从小到大枚举的所有质数，所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 一定小于  <code>i</code>  的最小质因子，<code>primes[j]</code> 一定是 <code>primes[j]*i</code> 的最小质因子.<br />
+因为是从小到大枚举的所有质数，所以当<code>i%primes[j]==0</code>时，<code>primes[j]</code>一定是   <code>i</code>  的最小质因子，<br />
+而 <code>primes[j]</code> 又是 <code>primes[j]</code> 的最小质因子，因此 <code>primes[j]</code> 是 <code>i * primes[j]</code> 的最小质因子.</p>
+<h4 id="关于-for-循环的解释"><a class="markdownIt-Anchor" href="#关于-for-循环的解释"></a> 关于  for  循环的解释</h4>
+<p>注:首先要把握住一个重点:我们枚举的时候是从小到大枚举的所有质数</p>
+<p>1.当 <code>i%primes[j]==0</code> 时，因为是从小到大枚举的所有质数，所以 <code>primes[j]</code> 就是i的最小质因子，而 <code>primes[j]</code> 又是其本身<br />
+<code>primes[j]</code>的最小质因子，因此当 <code>i%primes[j]==0</code> 时， <code>primes[j]</code> 是 <code>primes[j]i</code> 的最小质因子.</p>
+<p>2.当 <code>i%primes[j]!=0</code> 时，因为是从小到大枚举的所有质数，且此时并没有出现过有质数满足 <code>i%primes[j]==0</code> ，<br />
+因此此时的 <code>primes[j]</code> 一定小于 <code>i</code> 的最小质因子，而 <code>primes[j]</code> 又是其本身 <code>primes[j]</code> 的最小质因子，<br />
+所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 也是 <code>primes[j]i</code> 的最小质因子.</p>
+<p>3.综合1，2得知，在内层  for  循环里面无论何时， <code>primes[j]</code> 都是 <code>primes[j]i</code> 的最小质因子，因此 <code>st[primes[j]i]=true</code><br />
+语句就是用<code>primes[j]i</code>这个数的最小质因子来筛掉这个数.</p>
+]]></content>
+      <categories>
+        <category>算法学习笔记</category>
+      </categories>
+      <tags>
+        <tag>埃氏筛</tag>
+        <tag>欧拉筛</tag>
+        <tag>杜教筛</tag>
       </tags>
   </entry>
   <entry>
@@ -491,136 +654,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
       </categories>
       <tags>
         <tag>Eratosthenes筛法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅析数论--埃氏筛/欧拉筛/杜教筛</title>
-    <url>/2018/01/24/%E6%B5%85%E6%9E%90%E6%95%B0%E8%AE%BA-%E5%9F%83%E6%B0%8F%E7%AD%9B-%E6%AC%A7%E6%8B%89%E7%AD%9B-%E6%9D%9C%E6%95%99%E7%AD%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>质数的判定试除法 or 六倍原理、埃氏筛(稍加优化版的筛法)、线性筛</center>
-<span id="more"></span>
-<h2 id="0x01-绪论"><a class="markdownIt-Anchor" href="#0x01-绪论"></a> 0x01 绪论</h2>
-<h3 id="质数的判定试除法-or-六倍原理"><a class="markdownIt-Anchor" href="#质数的判定试除法-or-六倍原理"></a> 质数的判定试除法 or 六倍原理</h3>
-<p>一个合数的约数总是成对出现的，如果  d|n  (  d  能被  n  整除），那么  (n/d)|n  ，因此我们判断一个数是否为质数的时候，<br />
-只需要判断较小的那一个数能否整除n就行了，即只需枚举  d&lt;=(n/d)  ，即  d&lt;=n  ，  d&lt;=sqrt(n)  就行了。</p>
-<p>为何不用  sqrt()  ？请自行百度“  sqrt()  的运算方式”。你就会知道他是一个很慢的函数。</p>
-<h4 id="试除法判断素数"><a class="markdownIt-Anchor" href="#试除法判断素数"></a> 试除法判断素数</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">is_prime</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (x &lt; <span class="number">2</span>) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )<span class="comment">//核心代码</span></span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="试除法分解质因数唯一分解定理"><a class="markdownIt-Anchor" href="#试除法分解质因数唯一分解定理"></a> 试除法分解质因数（<a href="https://baike.baidu.com/item/%E7%AE%97%E6%9C%AF%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86/10920095?fromtitle=%E5%94%AF%E4%B8%80%E5%88%86%E8%A7%A3%E5%AE%9A%E7%90%86&amp;fromid=23680898&amp;fr=aladdin">唯一分解定理</a>）</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">divide</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= x / i; i ++ )</span><br><span class="line">        <span class="keyword">if</span> (x % i == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="type">int</span> s = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">while</span> (x % i == <span class="number">0</span>) x /= i， s ++ ;</span><br><span class="line">            cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">if</span> (x &gt; <span class="number">1</span>) cout &lt;&lt; x &lt;&lt; <span class="string">&#x27; &#x27;</span> &lt;&lt; <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"><a class="markdownIt-Anchor" href="#一个合数分解而成的质因数最多只包含一个大于-sqrtn-的质因数"></a> 一个合数分解而成的质因数最多只包含一个大于 sqrt(n)  的质因数。</h4>
-<blockquote>
-<p>反证法，若 n 可以被分解成两个大于 sqrt(n) 的质因数，则这两个质因数相乘的结果大于 n ，与事实矛盾</p>
-</blockquote>
-<h4 id="当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"><a class="markdownIt-Anchor" href="#当枚举到某一个数-i-的时候-n-的因子里面已经不包含-2-i-1-里面的数"></a> 当枚举到某一个数  i  的时候，  n  的因子里面已经不包含  2-i-1  里面的数，</h4>
-<p>如果  n%i==0  ，则  i  的因子里面也已经不包含  2-i-1  里面的数，因此每次枚举的数都是质数.</p>
-<h4 id="算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"><a class="markdownIt-Anchor" href="#算数基本定理唯一分解定理任何一个大于1的自然数-n-如果-n-不为质数那么-n-可以唯一分解成有限个质数的乘积"></a> 算数基本定理(唯一分解定理):任何一个大于1的自然数  N  ，如果  N  不为质数，那么  N  可以唯一分解成有限个质数的乘积</h4>
-<p>N=P_1 * a_1P2a2P3a3…Pnan ，这里  P1&lt;P2&lt;P3…&lt;Pn  均为质数，其中指数  ai  是正整数。<br />
-这样的分解称为   N   的标准分解式。最早证明是由欧几里得给出的，由陈述证明。<br />
-此定理可推广至更一般的交换代数和代数数论。</p>
-<p>质因子（或质因数）在数论里是指能整除给定正整数的质数。根据算术基本定理，不考虑排列顺序的情况下，</p>
-<p>每个正整数都能够以唯一的方式表示成它的质因数的乘积。</p>
-<p>两个没有共同质因子的正整数称为互质。因为  1  没有质因子，  1  与任何正整数（包括  1  本身）都是互质。</p>
-<p>只有一个质因子的正整数为质数。</p>
-<h2 id="质数筛法"><a class="markdownIt-Anchor" href="#质数筛法"></a> 质数筛法</h2>
-<h3 id="朴素筛法"><a class="markdownIt-Anchor" href="#朴素筛法"></a> 朴素筛法</h3>
-<h4 id="做法"><a class="markdownIt-Anchor" href="#做法"></a> 做法</h4>
-<p>把 2~(n-1) 中的所有的数的倍数都标记上，最后没有被标记的数就是质数.</p>
-<h4 id="原理"><a class="markdownIt-Anchor" href="#原理"></a> 原理</h4>
-<p>假定有一个数  p  未被  2~(p-1)  中的数标记过，那么说明，不存在  2~(p-1)  中的任何一个数的倍数是  p  ，也就是说  p  不是  2~(p-1)  中的任何数的倍数，也就是说  2~(p-1)  中不存在p的约数，因此，根据质数的定义可知:<code>p是质数</code></p>
-<h4 id="调和级数"><a class="markdownIt-Anchor" href="#调和级数"></a> 调和级数</h4>
-<p>当  n  趋近于正无穷的时候，  1/2+1/3+1/4+1/5+…+1/n=lnn+c  .(  c  是欧阳常数，约等于  0.577  左右)</p>
-<h4 id="底数越大-log-数越小"><a class="markdownIt-Anchor" href="#底数越大-log-数越小"></a> 底数越大，  log  数越小</h4>
-<h4 id="时间复杂度"><a class="markdownIt-Anchor" href="#时间复杂度"></a> 时间复杂度</h4>
-<p>约为  O(nlogn)  (注:此处的  log  数特指以 2 为底的  log  数).</p>
-<h3 id="埃氏筛稍加优化版的筛法"><a class="markdownIt-Anchor" href="#埃氏筛稍加优化版的筛法"></a> 埃氏筛(稍加优化版的筛法)</h3>
-<h4 id="质数定理"><a class="markdownIt-Anchor" href="#质数定理"></a> 质数定理</h4>
-<p>1~n  中有  n / ln(n)  个质数</p>
-<h4 id="原理-2"><a class="markdownIt-Anchor" href="#原理-2"></a> 原理</h4>
-<p>在朴素筛法的过程中只用质数项去筛</p>
-<h4 id="时间复杂度-2"><a class="markdownIt-Anchor" href="#时间复杂度-2"></a> 时间复杂度</h4>
-<p>粗略估计:  O(n)  实际:  O(nlog(logn))</p>
-<p>1~n  中，只计算质数项的话，  “1/2+1/3+1/4+1/5+…+1/n”  的大小约为  log(logn)</p>
-<h3 id="线性筛"><a class="markdownIt-Anchor" href="#线性筛"></a> 线性筛</h3>
-<p>若  n  在  10  的  6  次方的话，线性筛和埃氏筛的时间效率差不多，若  n  在  10  的  7  次方的话，线性筛会比埃氏筛快了大概一倍.</p>
-<blockquote>
-<p>思考:一:线性筛法为什么是线性的?<br />
-二:线性筛法的原理是什么?</p>
-</blockquote>
-<h4 id="核心"><a class="markdownIt-Anchor" href="#核心"></a> 核心</h4>
-<p>1~n  内的合数  p  只会被其最小质因子筛掉.</p>
-<h4 id="原理-3"><a class="markdownIt-Anchor" href="#原理-3"></a> 原理</h4>
-<p>1~n  之内的任何一个合数一定会被筛掉，而且筛的时候只用最小质因子来筛，<br />
-然后每一个数都只有一个最小质因子，因此每个数都只会被筛一次，因此线性筛法是线性的.</p>
-<p>枚举到  <code>i</code>  的最小质因子的时候就会停下来，即 <code>if(i%primes[j]==0) break;</code><br />
-因为从小到大枚举的所有质数，所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 一定小于  <code>i</code>  的最小质因子，<code>primes[j]</code> 一定是 <code>primes[j]*i</code> 的最小质因子.<br />
-因为是从小到大枚举的所有质数，所以当<code>i%primes[j]==0</code>时，<code>primes[j]</code>一定是   <code>i</code>  的最小质因子，<br />
-而 <code>primes[j]</code> 又是 <code>primes[j]</code> 的最小质因子，因此 <code>primes[j]</code> 是 <code>i * primes[j]</code> 的最小质因子.</p>
-<h4 id="关于-for-循环的解释"><a class="markdownIt-Anchor" href="#关于-for-循环的解释"></a> 关于  for  循环的解释</h4>
-<p>注:首先要把握住一个重点:我们枚举的时候是从小到大枚举的所有质数</p>
-<p>1.当 <code>i%primes[j]==0</code> 时，因为是从小到大枚举的所有质数，所以 <code>primes[j]</code> 就是i的最小质因子，而 <code>primes[j]</code> 又是其本身<br />
-<code>primes[j]</code>的最小质因子，因此当 <code>i%primes[j]==0</code> 时， <code>primes[j]</code> 是 <code>primes[j]i</code> 的最小质因子.</p>
-<p>2.当 <code>i%primes[j]!=0</code> 时，因为是从小到大枚举的所有质数，且此时并没有出现过有质数满足 <code>i%primes[j]==0</code> ，<br />
-因此此时的 <code>primes[j]</code> 一定小于 <code>i</code> 的最小质因子，而 <code>primes[j]</code> 又是其本身 <code>primes[j]</code> 的最小质因子，<br />
-所以当 <code>i%primes[j]!=0</code> 时， <code>primes[j]</code> 也是 <code>primes[j]i</code> 的最小质因子.</p>
-<p>3.综合1，2得知，在内层  for  循环里面无论何时， <code>primes[j]</code> 都是 <code>primes[j]i</code> 的最小质因子，因此 <code>st[primes[j]i]=true</code><br />
-语句就是用<code>primes[j]i</code>这个数的最小质因子来筛掉这个数.</p>
-]]></content>
-      <categories>
-        <category>算法学习笔记</category>
-      </categories>
-      <tags>
-        <tag>埃氏筛</tag>
-        <tag>欧拉筛</tag>
-        <tag>杜教筛</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>字符串算法--KMP，字典树</title>
-    <url>/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>KMP特点：1.  i  不回退  2.  j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。</p>
-<span id="more"></span>
-<h1 id="kmp算法"><a class="markdownIt-Anchor" href="#kmp算法"></a> KMP算法</h1>
-<blockquote>
-<p>实际上，完全没必要从 S​ 的每一个字符开始，暴力穷举每一种情况，Knuth、Morris和 Pratt 对该算法进行了改进，称为 ​ KMP  算法。</p>
-</blockquote>
-<p>而 KMP 的精髓在于，对于每次失配之后，我都不会从头重新开始枚举，而是根据我已经得知的数据，从某个特定的位置开始匹配；而对于模式串的每一位，都有唯一的“特定变化位置”，这个在失配之后的特定变化位置可以帮助我们利用已有的数据不用从头匹配，从而节约时间。</p>
-<p><strong>特点：1.   i  不回退  2.   j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。</strong></p>
-<h2 id="实现流程"><a class="markdownIt-Anchor" href="#实现流程"></a> 实现流程</h2>
-<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327195717908-1728308013.png" alt="image" /></p>
-<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327195854428-439903413.png" alt="" /></p>
-<p>为了清楚地表述目的，  T  与  S  失配前的部分作为  T’  来表述，此时寻找下一个开始匹配的标志头。而找到下一个标志头的方式为：</p>
-<blockquote>
-<p>找到   T’  的最长相同前缀与后缀</p>
-</blockquote>
-<p><img src="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327200218970-204893744.png" alt="image" /></p>
-<p><img src="https://img2022.cnblogs.com/blog/1452231/202207/1452231-20220725200649652-71907780.png" alt="image" /></p>
-<p><font color=red>这样找所有的前缀和后缀比较，是不是也是暴力穷举？那该怎么办呢？<br></br>ans:当然是要用到动态规划递推啦。</font></p>
-<h3 id="构建-nxt-数组"><a class="markdownIt-Anchor" href="#构建-nxt-数组"></a> 构建 Nxt 数组</h3>
-<p>nxt  数组用于表示当前字符匹配失败时，模式串应该回退到哪个位置。对于模式串 p ，我们遍历其每个字符，并用一个指针  j  表示已匹配的字符数。当模式串中的两个字符匹配时，我们更新指针 j 的值，否则，我们回退  j  到  nxt[j]  的位置。通过这种方式，我们可以为模式串构建一个  nxt  数组，其中  nxt[i]  表示当模式串中第  i  个字符匹配失败时，应该回退到的位置。</p>
-<h3 id="实际字符匹配过程"><a class="markdownIt-Anchor" href="#实际字符匹配过程"></a> 实际字符匹配过程</h3>
-<p>我们使用两个指针  i  和  j  分别遍历原字符串  s  和模式串  p  。如果当前字符匹配，则同时移动  i  和  j  。如果字符不匹配，我们根据  nxt  数组回退  j  的位置，直到找到匹配的字符或回退到模式串的开头。当  j  等于模式串长度  m  时，表示找到了一个匹配，输出匹配位置，并将  j  重置为  0  。</p>
-<h2 id="模板代码实现"><a class="markdownIt-Anchor" href="#模板代码实现"></a> 模板代码实现</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e+6</span> + <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> nxt[N], n, m;</span><br><span class="line"><span class="type">char</span> p[N], s[N];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; s + <span class="number">1</span> &gt;&gt; m &gt;&gt; p + <span class="number">1</span>;</span><br><span class="line">    <span class="comment">// build next arraylist</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>, j = <span class="number">0</span>; i &lt;= m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (j &amp;&amp; p[i] != p[j + <span class="number">1</span>]) j = nxt[j];</span><br><span class="line">        <span class="keyword">if</span> (p[i] == p[j + <span class="number">1</span>]) j++;</span><br><span class="line">        nxt[i] = j;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// marry the str</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i  = <span class="number">1</span>, j = <span class="number">0</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span> (j &amp;&amp; s[i] != p[j + <span class="number">1</span>]) j = nxt[j];</span><br><span class="line">        <span class="keyword">if</span> (s[i] == p[j + <span class="number">1</span>]) j++;</span><br><span class="line">        <span class="keyword">if</span> (j == m) &#123;</span><br><span class="line">            cout &lt;&lt; i - m &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">            j = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="字典树又名trie树-前缀树"><a class="markdownIt-Anchor" href="#字典树又名trie树-前缀树"></a> 字典树(又名Trie树、前缀树)</h1>
-<p>字典树是一种高效的字符串数据结构，尤其适用于处理大量字符串的时候，它通过将<strong>字符串的公共前缀合并在一起</strong>，节省空间并提高查询速度。</p>
-<h2 id="实现流程-2"><a class="markdownIt-Anchor" href="#实现流程-2"></a> 实现流程</h2>
-<h3 id="初始化变量和数据结构"><a class="markdownIt-Anchor" href="#初始化变量和数据结构"></a> 初始化变量和数据结构</h3>
-<p>定义一个字典树结构（ tree 数组）和一个记录字符串出现次数的数组（ vis 数组）。同时定义一个计数器  flag  用于记录字典树中节点的数量。二维数组  tree  表示字典树的结构，其中  <code>tree[i][j]</code>  表示第  <code>i </code> 个节点的第  <code>j</code>  个子节点。</p>
-<h3 id="子功能实现"><a class="markdownIt-Anchor" href="#子功能实现"></a> 子功能实现</h3>
-<h4 id="insert"><a class="markdownIt-Anchor" href="#insert"></a> insert</h4>
-<p>实现一个  insert  函数，用于向字典树中插入一个字符串。它遍历字符串中的每个字符，将字符转换为数组下标（通过减去’  a  '并加上  1  ）。如果当前字符对应的子节点不存在，则创建一个新的节点并更新节点计数器。最后，在字符串末尾的节点中，更新字符串出现的次数。</p>
-<h4 id="query"><a class="markdownIt-Anchor" href="#query"></a> query</h4>
-<p>实现一个  query  函数，用于查询字典树中字符串的出现次数。它遍历字符串中的每个字符，将字符转换为数组下标。如果当前字符对应的子节点不存在，说明字符串不存在，查询结束。否则，将指针移动到子节点。最后，返回字符串末尾节点对应的出现次数。</p>
-<h3 id="主程序逻辑"><a class="markdownIt-Anchor" href="#主程序逻辑"></a> 主程序逻辑</h3>
-<p>读取操作数量  n  ，然后循环处理每个操作。对于每个操作，读取操作类型（  ope  ）和操作字符串（  str  ）。如果操作类型为 &quot; i &quot; ，调用  insert  函数插入字符串；如果操作类型为其他（例如查询操作），调用  query  函数查询字符串，并输出查询结果。</p>
-<h2 id="模板代码实现-2"><a class="markdownIt-Anchor" href="#模板代码实现-2"></a> 模板代码实现</h2>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e+6</span> + <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n, flag = <span class="number">1</span>;</span><br><span class="line">string ope, str;</span><br><span class="line"><span class="type">int</span> tree[N][<span class="number">27</span>], vis[N][<span class="number">27</span>];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(string str)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> pos = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> tmp = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        tmp = str[i] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (tree[pos][tmp] == <span class="number">0</span>) tree[pos][tmp] = flag ++;</span><br><span class="line">        pos = tree[pos][tmp];</span><br><span class="line">    &#125;</span><br><span class="line">    vis[pos][tmp] ++;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">query</span><span class="params">(string str)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> pos = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> tmp = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i  = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        tmp = str[i] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (tree[pos][tmp] == <span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">        pos = tree[pos][tmp];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> vis[pos][tmp];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">while</span> (n--)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; ope &gt;&gt; str;</span><br><span class="line">        <span class="keyword">if</span> (ope == <span class="string">&quot;i&quot;</span>) <span class="built_in">insert</span>(str);</span><br><span class="line">        <span class="keyword">else</span> cout &lt;&lt; <span class="built_in">query</span>(str) &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>算法学习笔记</category>
-      </categories>
-      <tags>
-        <tag>KMP</tag>
-        <tag>字典树</tag>
       </tags>
   </entry>
   <entry>
@@ -856,20 +889,6 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
       </tags>
   </entry>
   <entry>
-    <title>读书笔记--“所赖君子见机，达人知命”</title>
-    <url>/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我的思绪飘移到杨修时，我仿佛能够看到一条横亘在我和他之间的大河——漫天黄沙飞舞，一条大河从不知处来，往不知处走，而我和杨修便在一片历史的烟尘中面对面伫立在河的两岸。我细细地审视着他的一生，从起到落，尽看的是得意、彷徨、自信和无奈。</p>
-<span id="more"></span>
-<p>杨修的一生，仿佛可以化作一声叹息，叹的是千百年来书生文臣们的建业梦、救国梦。他们一直在求索，也一直在彷徨。正如《滕王阁序》里所言，“所赖君子见机，达人知命”——“时运不齐，命途多舛”自是大多数书生意气的真实写照，而真正功成名就、名留青史的，</p>
-<p>正是那些“穷且益坚，不坠青云之志”的志士——但谁又能向天、向自己许诺成为一个志士呢？失意、绝望、彷徨、无奈，总让被裹挟在历史长河里的一位位英俊之才不知究竟该去往何处。千古以来，多少才俊的一生，似乎都可以被概括成现实主义和理想主义的碰撞，让人叹惋。</p>
-<p>而当我在河这边叹杨修时，杨修又是否会在对岸叹我呢？我渐渐意识到，“我叹杨修”和“杨修叹我”之间，其实是“我叹我自己”——这或许是一种文艺形式最为高妙的地方吧。它是一面镜子，当我与戏里的角色共鸣时，又何尝不是在和自己共鸣？在我反思戏中角儿们的一生时，</p>
-<p>又何尝不是在反思自己的一生？这种化虚为实、化无形为有形的力量，这种反思的态度、共鸣的体验，让我终于能从不同的角度审视一出戏，进而审视我的人生。人生如戏，戏如人生。从这门课上我曾学过、感受过的一切，必然会春风化雨般，散作满天星辰，陪我走完一段又一段值得我反复求索的人生之路。</p>
-]]></content>
-      <tags>
-        <tag>reading</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>读书笔记--刘震云《壹句顶壹万句》</title>
     <url>/2022/11/30/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%88%98%E9%9C%87%E4%BA%91%E3%80%8A%E5%A3%B9%E5%8F%A5%E9%A1%B6%E5%A3%B9%E4%B8%87%E5%8F%A5%E3%80%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>读完整部小说，宛如读完了一部普通人的史诗。荡气回肠，平易中见深远。一个圈，一条线，在我看来，便是这本书想要通过“生活”让我们聆听的奥秘。但实际上也不是奥秘，因为它们从始至终都弥散在生活的每一个角落里。</p>
@@ -1048,6 +1067,20 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
       </categories>
       <tags>
         <tag>Reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读书笔记--“所赖君子见机，达人知命”</title>
+    <url>/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我的思绪飘移到杨修时，我仿佛能够看到一条横亘在我和他之间的大河——漫天黄沙飞舞，一条大河从不知处来，往不知处走，而我和杨修便在一片历史的烟尘中面对面伫立在河的两岸。我细细地审视着他的一生，从起到落，尽看的是得意、彷徨、自信和无奈。</p>
+<span id="more"></span>
+<p>杨修的一生，仿佛可以化作一声叹息，叹的是千百年来书生文臣们的建业梦、救国梦。他们一直在求索，也一直在彷徨。正如《滕王阁序》里所言，“所赖君子见机，达人知命”——“时运不齐，命途多舛”自是大多数书生意气的真实写照，而真正功成名就、名留青史的，</p>
+<p>正是那些“穷且益坚，不坠青云之志”的志士——但谁又能向天、向自己许诺成为一个志士呢？失意、绝望、彷徨、无奈，总让被裹挟在历史长河里的一位位英俊之才不知究竟该去往何处。千古以来，多少才俊的一生，似乎都可以被概括成现实主义和理想主义的碰撞，让人叹惋。</p>
+<p>而当我在河这边叹杨修时，杨修又是否会在对岸叹我呢？我渐渐意识到，“我叹杨修”和“杨修叹我”之间，其实是“我叹我自己”——这或许是一种文艺形式最为高妙的地方吧。它是一面镜子，当我与戏里的角色共鸣时，又何尝不是在和自己共鸣？在我反思戏中角儿们的一生时，</p>
+<p>又何尝不是在反思自己的一生？这种化虚为实、化无形为有形的力量，这种反思的态度、共鸣的体验，让我终于能从不同的角度审视一出戏，进而审视我的人生。人生如戏，戏如人生。从这门课上我曾学过、感受过的一切，必然会春风化雨般，散作满天星辰，陪我走完一段又一段值得我反复求索的人生之路。</p>
+]]></content>
+      <tags>
+        <tag>reading</tag>
       </tags>
   </entry>
 </search>
