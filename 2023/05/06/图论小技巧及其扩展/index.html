@@ -162,7 +162,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F%E5%AD%98%E5%9B%BE"><span class="nav-number">1.</span> <span class="nav-text"> 链式前向星存图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E5%BB%BA%E8%BE%B9"><span class="nav-number">2.</span> <span class="nav-text"> 反向建边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%9A%E7%82%B9%E8%BF%9E%E8%BE%B9"><span class="nav-number">3.</span> <span class="nav-text"> 虚点连边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%AE%B5%E6%A0%91%E4%BC%98%E5%8C%96%E5%BB%BA%E8%BE%B9"><span class="nav-number">4.</span> <span class="nav-text"> 线段树优化建边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%86%E7%82%B9%E6%9E%84%E5%9B%BE"><span class="nav-number">5.</span> <span class="nav-text"> 拆点构图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E8%AE%BA%E5%BB%BA%E6%A8%A1"><span class="nav-number">6.</span> <span class="nav-text"> 图论建模</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#let-us-ac-it%E9%A2%98%E9%9D%A2"><span class="nav-number">6.1.</span> <span class="nav-text"> Let us AC it–题面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%88%E4%B8%80%E9%81%93%E4%BE%8B%E9%A2%98"><span class="nav-number">6.2.</span> <span class="nav-text"> 又一道例题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E8%AE%BA%E4%B8%AD%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9D%91"><span class="nav-number">7.</span> <span class="nav-text"> 图论中要注意的坑</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F%E5%AD%98%E5%9B%BE"><span class="nav-number">1.</span> <span class="nav-text">链式前向星存图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E5%BB%BA%E8%BE%B9"><span class="nav-number">2.</span> <span class="nav-text">反向建边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%9A%E7%82%B9%E8%BF%9E%E8%BE%B9"><span class="nav-number">3.</span> <span class="nav-text">虚点连边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%AE%B5%E6%A0%91%E4%BC%98%E5%8C%96%E5%BB%BA%E8%BE%B9"><span class="nav-number">4.</span> <span class="nav-text">线段树优化建边</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%86%E7%82%B9%E6%9E%84%E5%9B%BE"><span class="nav-number">5.</span> <span class="nav-text">拆点构图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E8%AE%BA%E5%BB%BA%E6%A8%A1"><span class="nav-number">6.</span> <span class="nav-text">图论建模</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Let-us-AC-it%E2%80%94%E9%A2%98%E9%9D%A2"><span class="nav-number">6.1.</span> <span class="nav-text">Let us AC it—题面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%88%E4%B8%80%E9%81%93%E4%BE%8B%E9%A2%98"><span class="nav-number">6.2.</span> <span class="nav-text">又一道例题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E8%AE%BA%E4%B8%AD%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9D%91"><span class="nav-number">7.</span> <span class="nav-text">图论中要注意的坑</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -287,10 +287,9 @@
     <div class="post-body" itemprop="articleBody">
         <p>图论，其实是数学的一门分支，它以图为研究对象。最基础的图论应该是著名的哥尼斯堡七桥问题，那是一个经典的一笔画问题。</p>
 <p>竞赛中我们比较常见的是 <strong>最短路算法 最小生成树算法 拓扑排序</strong> 等等。</p>
-<p>本篇文章我们不说那些大家都懂烂了的图论算法，讲一些实用的 <s>(没什么用的)</s> 图论小技巧。</p>
+<p>本篇文章我们不说那些大家都懂烂了的图论算法，讲一些实用的 <del>(没什么用的)</del> 图论小技巧。</p>
 <span id="more"></span>
-<h2 id="链式前向星存图"><a class="markdownIt-Anchor" href="#链式前向星存图"></a> 链式前向星存图</h2>
-<p>最最基础的存图的基本分为两种，使用二维数组和使用 vector ，但这两种方法都有所缺陷。</p>
+<h2 id="链式前向星存图"><a href="#链式前向星存图" class="headerlink" title="链式前向星存图"></a>链式前向星存图</h2><p>最最基础的存图的基本分为两种，使用二维数组和使用 vector ，但这两种方法都有所缺陷。</p>
 <p>使用二维数组查询速度很快，但空间复杂度是 O(n^2) 的，一般的题目都接受不了。</p>
 <p>使用 vector 可以减少空间复杂度，但是时间就比较不确定了。</p>
 <p>所以就出现了一种神奇的存图方式，<strong>链表思想的链式前向星</strong>。</p>
@@ -304,10 +303,9 @@
 <p>这样就可以满足我们从某个点遍历枚举下个点的需要。</p>
 <p>前向星链表被疯狂应用在各个图论题目中，基本上是一个图论题都可以用到吧，属于非常基础的图论技能。</p>
 <p><strong>需要注意的是对于双向边的题目，链式前向星的数组需要开边数的两倍，不然会 RE 。</strong></p>
-<h2 id="反向建边"><a class="markdownIt-Anchor" href="#反向建边"></a> 反向建边</h2>
-<p>对于一个有向图，某些问题中我们需要反向建边来完成操作</p>
+<h2 id="反向建边"><a href="#反向建边" class="headerlink" title="反向建边"></a>反向建边</h2><p>对于一个有向图，某些问题中我们需要反向建边来完成操作</p>
 <p>比如求其他 n 个点到 k 点的最短路。</p>
-<p><s>对每个点跑一遍最短路不就好了吗？</s></p>
+<p><del>对每个点跑一遍最短路不就好了吗？</del></p>
 <p>事实上我们只需要跑一遍最短路就可以了，只需要把边反向建。</p>
 <p>反向建图情况下 k 点到每个点的最短路就是正常情况下该点到 k 点的最短路。</p>
 <p>例题 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1629">P1629 邮递员送信</a></p>
@@ -315,103 +313,86 @@
 <p>例题 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3916">P3916 图的遍历</a></p>
 <p>是否需要反向建边，根据题意判断即可。</p>
 <p>反向建边还可以来判断某条边是否在最短路上。</p>
-<p>对于一个有向图，我们从 11 号点跑一遍正向的最短路 dis[ ] ，从 n 号点跑一遍反向的最短路 dis1[ ]<br />
-如果 dis[x] + w(x,y) + dis1[y] = dis[n] 那么我们就可以得出，这条边是在 1 到 n 的最短路上的。</p>
+<p>对于一个有向图，我们从 11 号点跑一遍正向的最短路 dis[ ] ，从 n 号点跑一遍反向的最短路 dis1[ ]<br>如果 dis[x] + w(x,y) + dis1[y] = dis[n] 那么我们就可以得出，这条边是在 1 到 n 的最短路上的。</p>
 <p>当然如果是无向图的话直接跑就可以了。</p>
-<h2 id="虚点连边"><a class="markdownIt-Anchor" href="#虚点连边"></a> 虚点连边</h2>
-<p>虚点连边是一种很有效的优化建边复杂度的方式</p>
+<h2 id="虚点连边"><a href="#虚点连边" class="headerlink" title="虚点连边"></a>虚点连边</h2><p>虚点连边是一种很有效的优化建边复杂度的方式</p>
 <p>我们可能会遇见这样一种题，给你几个点，其他的点离这些给出的点的最近距离是多少。</p>
 <p>我们可以对于每一个点进行 Spfa，但似乎这样并不是很好操作。</p>
 <p>我们可以自己给出一个点，然后向每个被标记的点连一条单向边，这样就只需要进行一次 Spfa 就可以了。</p>
 <p>举个例子，橙色为标记点，数字为最近距离。</p>
-<p><img src="https://z4a.net/images/2019/02/25/k1ef821096fa7bd112.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k1ef821096fa7bd112.png" alt=""></p>
 <p>例题 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P3393">P3393 逃离僵尸岛</a></p>
 <p>但似乎这个直接广搜也可以。</p>
 <p>如果对于两个点集 A 和 B，你需要对 A 中的每一个点向 B 中的每一个点都建一条边，如果直接操作，复杂度很明显是 O(n^2) 的，有没有更快的方法呢？</p>
 <p>我们可以建一个虚点 P ，然后对 A 里的每一个点向 P 连一条单向边边，然后对 P 向 B 中的每一个点建一条单向边，这样只需要 O(2n) 的复杂度就可以完成了。</p>
 <p>画个图理解一下。</p>
 <p>(优化前)</p>
-<p><img src="https://z4a.net/images/2019/02/25/k2.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k2.png" alt=""></p>
 <p>(优化后)</p>
-<p><img src="https://z4a.net/images/2019/02/25/k3.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k3.png" alt=""></p>
 <p>例题 <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/P1983">P1983 车站分级</a></p>
 <p>虚点连边只是听起来很高大上的操作，但实际上很简单。</p>
 <p>对于有边权的情况，虚点连得边的边权需要注意(一般为 0 )</p>
-<h2 id="线段树优化建边"><a class="markdownIt-Anchor" href="#线段树优化建边"></a> 线段树优化建边</h2>
-<p>说到优化建边，就一定要介绍一下线段树优化建边了。</p>
+<h2 id="线段树优化建边"><a href="#线段树优化建边" class="headerlink" title="线段树优化建边"></a>线段树优化建边</h2><p>说到优化建边，就一定要介绍一下线段树优化建边了。</p>
 <p>这也是一个听起来非常高大上但实际上不是很难的技巧。</p>
 <p>给你一个点 X ，让你和一个点集里的每一个点都连一条边。看起来并没有什么好方法，只能乖乖地一个一个连</p>
 <p>如果这个点集是连续的呢？我们就可以用线段树来优化建边了。</p>
 <p>我们知道线段树是这个结构的</p>
-<p><img src="https://z4a.net/images/2019/02/25/k4.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k4.png" alt=""></p>
 <p>我们知道，线段树的点是能够代表一段区间的，那么我们怎样应用这个性质呢？</p>
-<p>首先，我们需要对于线段树的每个父亲与他的儿子建一条单向边，效果如下</p>
-<p><img src="https://z4a.net/images/2019/02/25/k5.png" alt="" /></p>
+<p>首先，我们需要对于线段树的每个父亲与他的儿子建一条单向边，效果如下 </p>
+<p><img src="https://z4a.net/images/2019/02/25/k5.png" alt=""></p>
 <p>这有什么用呢？因为我们所要求的点集是一段连续的区间，而线段树的结点可以表示某一段区间，我们可以在线段树上找到对应的区间，然后向线段树上的点建边，就可以加快建边速度了。</p>
 <p>例如我们要向 [1,8] 里的所有点建边，我们只需要将 X 和线段树上 [1,8] 那个点连一条单向边就可以了。</p>
 <p>[2,6] 的例子</p>
-<p><img src="https://z4a.net/images/2019/02/25/k6.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k6.png" alt=""></p>
 <p>我们在线段树上的边边权一般都是 0 ，边权直接赋给 X 连到线段树上的那条边即可</p>
 <p>建树和寻找的代码和普通线段树差不多。需要注意的是线段树上结点的编号不要和已有的点重复，最后的结点直接连上该点就好。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">build</span><span class="params">(<span class="type">int</span> &amp;p,<span class="type">int</span> l,<span class="type">int</span> r)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l==r)&#123;</span><br><span class="line">        p=l;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    p=++cnt;<span class="comment">//点的编号</span></span><br><span class="line">    <span class="type">int</span> mid=l+r&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="built_in">build</span>(lc[p],l,mid);<span class="built_in">build</span>(rc[p],mid+<span class="number">1</span>,r);</span><br><span class="line">    <span class="built_in">add</span>(lc[p],p,<span class="number">0</span>);<span class="built_in">add</span>(rc[p],p,<span class="number">0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">update</span><span class="params">(<span class="type">int</span> p,<span class="type">int</span> l,<span class="type">int</span> r,<span class="type">int</span> x,<span class="type">int</span> L,<span class="type">int</span> R,<span class="type">int</span> z)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=l &amp;&amp; r&lt;=R)&#123;</span><br><span class="line">        <span class="built_in">add</span>(x,p,z);</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> mid=l+r&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(L&lt;=mid)&#123;</span><br><span class="line">        <span class="built_in">update</span>(lc[p],l,mid,x,L,R,z);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(R&gt;mid) &#123;</span><br><span class="line">        <span class="built_in">update</span>(rc[p],mid+<span class="number">1</span>,r,x,L,R,z);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>例题 <a target="_blank" rel="noopener" href="https://www.luogu.org/problemnew/show/CF786B">CF786B Legacy</a></p>
 <p>这道题还涉及到了区间向某一个点连边的情况，我们再建一个棵线段树在树上反向建边就可以了</p>
-<h2 id="拆点构图"><a class="markdownIt-Anchor" href="#拆点构图"></a> 拆点构图</h2>
-<p>有些时候我们并不能用一个点来代表一个点（雾）</p>
+<h2 id="拆点构图"><a href="#拆点构图" class="headerlink" title="拆点构图"></a>拆点构图</h2><p>有些时候我们并不能用一个点来代表一个点（雾）</p>
 <p>诶我不是这个意思。我的意思是用几个点来表示一个点的不同情况。</p>
 <p>随机口胡的一道题</p>
-<p>一个图，每条边上有 k 个权值，第 i 次行走消耗的代价是第 i%k+1 个权值，求某一个点的单源最短路径。 ( k很小)</p>
+<p>一个图，每条边上有 k 个权值，第 i 次行走消耗的代价是第 i\%k+1 个权值，求某一个点的单源最短路径。 ( k很小)</p>
 <p>看起来直接跑 dij 和 spfa 是不对的，可以自举反例。</p>
-<p>可以使用 dfs ，用 dis[i][j] 表示到第 i 个点走了 m 步且 m%k+1=j 的最短方案，但这样太慢了。</p>
+<p>可以使用 dfs ，用 dis[i][j] 表示到第 i 个点走了 m 步且 m\%k+1=j 的最短方案，但这样太慢了。</p>
 <p>我们可以使用拆点的思想，对于一个点 i ，将它拆为 i , i+n , i+2*n , … 这样的 k 个点，作为到这个点的步数模 k 不同情况的替代点。</p>
 <p>然后我们连边的时候对某一种情况赋不同情况的权值，大概下面这样？</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//我们要对 x 到 y 连三种边 w1 w2 w3</span></span><br><span class="line"><span class="built_in">add</span>(x,y+n,w1);</span><br><span class="line"><span class="built_in">add</span>(x+n,y+<span class="number">2</span>*n,w2);</span><br><span class="line"><span class="built_in">add</span>(x+<span class="number">2</span>*n,y,w3);</span><br></pre></td></tr></table></figure>
 <p>来一张图</p>
-<p><img src="https://z4a.net/images/2019/02/25/k7.png" alt="" /></p>
+<p><img src="https://z4a.net/images/2019/02/25/k7.png" alt=""></p>
 <p>然后在得到的图上跑最短路就可以了，答案要枚举到终点的情况。</p>
 <p>类似的例题 <a target="_blank" rel="noopener" href="https://www.luogu.org/problemnew/show/P4568">P4568 飞行路线</a></p>
-<h2 id="图论建模"><a class="markdownIt-Anchor" href="#图论建模"></a> 图论建模</h2>
-<p>似乎……一些背包问题可以用最短路解决，只是没什么必要。</p>
-<h3 id="let-us-ac-it题面"><a class="markdownIt-Anchor" href="#let-us-ac-it题面"></a> Let us AC it–题面</h3>
-<p>Kodak开了一家小店赚外快，因为店小，所以只有 n 种不同价格的商品卖，不过好在批发商给力，货源充足，所以每种商品都有无限件。</p>
+<h2 id="图论建模"><a href="#图论建模" class="headerlink" title="图论建模"></a>图论建模</h2><p>似乎……一些背包问题可以用最短路解决，只是没什么必要。</p>
+<h3 id="Let-us-AC-it—题面"><a href="#Let-us-AC-it—题面" class="headerlink" title="Let us AC it—题面"></a>Let us AC it—题面</h3><p>Kodak开了一家小店赚外快，因为店小，所以只有 n 种不同价格的商品卖，不过好在批发商给力，货源充足，所以每种商品都有无限件。</p>
 <p>因为各种原因，有时候顾客会对购买的总价有特殊的要求，比如计算机科学家泰玛仕一定要总价 1024 ，给小姐姐买礼物的面包需要总价 520 或者 1314 ，或者纯粹来找茬的张三要买0元商品</p>
 <p>但是Kodak店里不一定有 1 元的商品，所以并不是所有价格都凑得出来，所以他需要一个程序解决能知道某一个总价能否凑出</p>
 <p>看起来可以用完全背包解决这个问题，但是这道题的数据范围不太友好。</p>
-<p>商品数 N &lt;= 1000  \  商品价格 a_i &lt;= 20000<br />
-顾客数 M &lt;= 300000  \ 需求价格 b_i &lt;= 40000000</p>
+<p>商品数 N &lt;= 1000  \  商品价格 a_i &lt;= 20000<br>顾客数 M &lt;= 300000  \ 需求价格 b_i &lt;= 40000000</p>
 <p>如果打完全背包，复杂度会爆炸。TAT</p>
 <p>其实这个问题就是 a_1<em>x_1+a_2</em>x_2+a_3*x_3+…?=k 的问题。我们考虑 “同余 + 最短路”</p>
-<p>依题意得，如果 k 满足要求，那么 a_m<em>k 必定也满足条件。我们可以先给它填一堆 a_m ，然后减去 p 个 a_m ，用剩下的 a_i 表示 p</em>a_m+k%a_m 设当 b%a_m=i时，需要的最小的 k×a_m+i 为 dis[i] ，剩下的即可用最短路的思想来更新，</p>
-<p>跑最短路的过程基本如下</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">memset</span>(dis,<span class="number">0x3f</span>,<span class="built_in">sizeof</span>(dis));</span><br><span class="line">dis[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">0</span>);</span><br><span class="line"><span class="keyword">while</span>(q.<span class="built_in">size</span>())&#123;</span><br><span class="line">    <span class="type">int</span> x=q.<span class="built_in">top</span>();</span><br><span class="line">    q.<span class="built_in">pop</span>();</span><br><span class="line">    <span class="keyword">if</span>(v[x]) <span class="keyword">continue</span>;</span><br><span class="line">    v[x]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        <span class="type">int</span> y=(x+a[i])%mod;</span><br><span class="line">        <span class="keyword">if</span>(dis[y]&gt;dis[x]+a[i])&#123;</span><br><span class="line">            dis[y]=dis[x]+a[i];</span><br><span class="line">            q.<span class="built_in">push</span>(y);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>可能不是太好理解，结合样例手推一下吧</p>
-<h3 id="又一道例题"><a class="markdownIt-Anchor" href="#又一道例题"></a> 又一道例题</h3>
-<p>给出 n 个 长度为 m 的 01 串，让你确定一个长度相同的 01 串，该串和给出的串中不同的位数最多。</p>
+<p>依题意得，如果 k 满足要求，那么 a_m<em>k 必定也满足条件。我们可以先给它填一堆 a_m ，然后减去 p 个 a_m ，用剩下的 a_i 表示 p</em>a_m+k\%a_m 设当 b\%a_m=i时，需要的最小的 k×a_m+i 为 dis[i] ，剩下的即可用最短路的思想来更新，</p>
+<p>跑最短路的过程基本如下<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">memset</span>(dis,<span class="number">0x3f</span>,<span class="built_in">sizeof</span>(dis));</span><br><span class="line">dis[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">0</span>);</span><br><span class="line"><span class="keyword">while</span>(q.<span class="built_in">size</span>())&#123;</span><br><span class="line">    <span class="type">int</span> x=q.<span class="built_in">top</span>();</span><br><span class="line">    q.<span class="built_in">pop</span>();</span><br><span class="line">    <span class="keyword">if</span>(v[x]) <span class="keyword">continue</span>;</span><br><span class="line">    v[x]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        <span class="type">int</span> y=(x+a[i])%mod;</span><br><span class="line">        <span class="keyword">if</span>(dis[y]&gt;dis[x]+a[i])&#123;</span><br><span class="line">            dis[y]=dis[x]+a[i];</span><br><span class="line">            q.<span class="built_in">push</span>(y);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>可能不是太好理解，结合样例手推一下吧</p>
+<h3 id="又一道例题"><a href="#又一道例题" class="headerlink" title="又一道例题"></a>又一道例题</h3><p>给出 n 个 长度为 m 的 01 串，让你确定一个长度相同的 01 串，该串和给出的串中不同的位数最多。</p>
 <p>一道看起来跟图论毫无关系的题，其实也可以当作图论来做</p>
 <p>我们可以建一个 2^m 的图，每个点都与和自身不同位数为 1 的点连一条长度为 1 的边，然后跑 bfs，得到最远距离的那个点即为所求。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(h&lt;=t)&#123;</span><br><span class="line">    <span class="type">int</span> x=v[h];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++)&#123;</span><br><span class="line">        <span class="type">int</span> z=x^(<span class="number">1</span>&lt;&lt;(i<span class="number">-1</span>));</span><br><span class="line">        <span class="keyword">if</span>(f[z]==<span class="number">0</span>)&#123;</span><br><span class="line">            f[z]=<span class="number">1</span>;</span><br><span class="line">            t++;</span><br><span class="line">            v[t]=z;</span><br><span class="line">            dis[z]=dis[x]+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    h++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>这有点类似于前面讲的虚点连边的那道题。</p>
 <p>我讲的可能比较菜，可以画图理解。</p>
-<h2 id="图论中要注意的坑"><a class="markdownIt-Anchor" href="#图论中要注意的坑"></a> 图论中要注意的坑</h2>
-<p>简单列述几个小问题</p>
+<h2 id="图论中要注意的坑"><a href="#图论中要注意的坑" class="headerlink" title="图论中要注意的坑"></a>图论中要注意的坑</h2><p>简单列述几个小问题</p>
 <ol>
-<li>
-<p>先看眼是有向图还是无向图，无向图数组开两倍。</p>
+<li><p>先看眼是有向图还是无向图，无向图数组开两倍。</p>
 </li>
-<li>
-<p>如果题目中没有声明无自环和重边，需要注意</p>
+<li><p>如果题目中没有声明无自环和重边，需要注意</p>
 </li>
-<li>
-<p>有些遍历的题要考虑环，否则可能死循环，可以使用缩点</p>
+<li><p>有些遍历的题要考虑环，否则可能死循环，可以使用缩点</p>
 </li>
-<li>
-<p>如果题目中边权小于等于零，要考虑负环、零环的情况</p>
+<li><p>如果题目中边权小于等于零，要考虑负环、零环的情况</p>
 </li>
-<li>
-<p>跑最短路的时候要赋初值。</p>
+<li><p>跑最短路的时候要赋初值。</p>
 </li>
-<li>
-<p>关于 Spfa ，能不用还是不用吧，毕竟容易被卡。</p>
+<li><p>关于 Spfa ，能不用还是不用吧，毕竟容易被卡。</p>
 </li>
 </ol>
 
