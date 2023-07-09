@@ -22,7 +22,7 @@
     <meta name="description" content="KMP特点：1.  i  不回退  2.  j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="字符串算法--KMP，字典树">
-<meta property="og:url" content="http://example.com/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/index.html">
+<meta property="og:url" content="http://example.com/2023/04/24/kmp-trie-tree/index.html">
 <meta property="og:site_name" content="Mathic&#39;s OI&amp;&amp;CTF">
 <meta property="og:description" content="KMP特点：1.  i  不回退  2.  j  回退的位置有讲究  3.构建一个辅助数组（ nxt 数组）来跳过不必要的字符比较，从而提高搜索速度。">
 <meta property="og:locale">
@@ -31,7 +31,7 @@
 <meta property="og:image" content="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327200218970-204893744.png">
 <meta property="og:image" content="https://img2022.cnblogs.com/blog/1452231/202207/1452231-20220725200649652-71907780.png">
 <meta property="article:published_time" content="2023-04-24T13:22:11.000Z">
-<meta property="article:modified_time" content="2023-05-10T11:39:34.579Z">
+<meta property="article:modified_time" content="2023-06-24T10:19:41.092Z">
 <meta property="article:author" content="Mathic_Teaxion">
 <meta property="article:tag" content="KMP">
 <meta property="article:tag" content="字典树">
@@ -39,11 +39,11 @@
 <meta name="twitter:image" content="https://img2023.cnblogs.com/blog/1452231/202303/1452231-20230327195717908-1728308013.png">
 
 
-<link rel="canonical" href="http://example.com/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/">
+<link rel="canonical" href="http://example.com/2023/04/24/kmp-trie-tree/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"http://example.com/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/","path":"2023/04/24/字符串算法--kmp，trie-树/","title":"字符串算法--KMP，字典树"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-Hans","comments":true,"permalink":"http://example.com/2023/04/24/kmp-trie-tree/","path":"2023/04/24/kmp-trie-tree/","title":"字符串算法--KMP，字典树"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>字符串算法--KMP，字典树 | Mathic's OI&&CTF</title>
@@ -104,7 +104,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">22</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">16</span></a></li><li class="menu-item menu-item-friendslinks"><a href="/friends/" rel="section"><i class="fa fa-users fa-fw"></i>FriendsLinks</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">29</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">9</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">18</span></a></li><li class="menu-item menu-item-friendslinks"><a href="/friends/" rel="section"><i class="fa fa-users fa-fw"></i>FriendsLinks</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -206,7 +206,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/24/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95--kmp%EF%BC%8Ctrie-%E6%A0%91/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/24/kmp-trie-tree/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -242,7 +242,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-10 19:39:34" itemprop="dateModified" datetime="2023-05-10T19:39:34+08:00">2023-05-10</time>
+      <time title="Modified: 2023-06-24 18:19:41" itemprop="dateModified" datetime="2023-06-24T18:19:41+08:00">2023-06-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -297,7 +297,7 @@
 <p><img src="https://img2022.cnblogs.com/blog/1452231/202207/1452231-20220725200649652-71907780.png" alt="image" /></p>
 <p><font color=red>这样找所有的前缀和后缀比较，是不是也是暴力穷举？那该怎么办呢？<br></br>ans:当然是要用到动态规划递推啦。</font></p>
 <h3 id="构建-nxt-数组"><a class="markdownIt-Anchor" href="#构建-nxt-数组"></a> 构建 Nxt 数组</h3>
-<p>nxt  数组用于表示当前字符匹配失败时，模式串应该回退到哪个位置。对于模式串 p ，我们遍历其每个字符，并用一个指针  j  表示已匹配的字符数。当模式串中的两个字符匹配时，我们更新指针 j 的值，否则，我们回退  j  到  nxt[j]  的位置。通过这种方式，我们可以为模式串构建一个  nxt  数组，其中  nxt[i]  表示当模式串中第  i  个字符匹配失败时，应该回退到的位置。</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mi>x</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">nxt</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">x</span><span class="mord mathnormal">t</span></span></span></span>  数组用于表示当前字符匹配失败时，模式串应该回退到哪个位置。对于模式串 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">p</span></span></span></span> ，我们遍历其每个字符，并用一个指针  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span>  表示已匹配的字符数。当模式串中的两个字符匹配时，我们更新指针 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> 的值，否则，我们回退  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span>  到  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mi>x</mi><mi>t</mi><mo stretchy="false">[</mo><mi>j</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">nxt[j]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">x</span><span class="mord mathnormal">t</span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span><span class="mclose">]</span></span></span></span>  的位置。通过这种方式，我们可以为模式串构建一个  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mi>x</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">nxt</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">x</span><span class="mord mathnormal">t</span></span></span></span>  数组，其中  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mi>x</mi><mi>t</mi><mo stretchy="false">[</mo><mi>i</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">nxt[i]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">x</span><span class="mord mathnormal">t</span><span class="mopen">[</span><span class="mord mathnormal">i</span><span class="mclose">]</span></span></span></span>  表示当模式串中第  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathnormal">i</span></span></span></span>  个字符匹配失败时，应该回退到的位置。</p>
 <h3 id="实际字符匹配过程"><a class="markdownIt-Anchor" href="#实际字符匹配过程"></a> 实际字符匹配过程</h3>
 <p>我们使用两个指针  i  和  j  分别遍历原字符串  s  和模式串  p  。如果当前字符匹配，则同时移动  i  和  j  。如果字符不匹配，我们根据  nxt  数组回退  j  的位置，直到找到匹配的字符或回退到模式串的开头。当  j  等于模式串长度  m  时，表示找到了一个匹配，输出匹配位置，并将  j  重置为  0  。</p>
 <h2 id="模板代码实现"><a class="markdownIt-Anchor" href="#模板代码实现"></a> 模板代码实现</h2>
