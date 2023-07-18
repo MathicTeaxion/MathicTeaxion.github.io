@@ -35,6 +35,25 @@
       </tags>
   </entry>
   <entry>
+    <title>WriteUp_HDCTF2023的Crypto详解以及代码思路</title>
+    <url>/2023/04/24/WriteUp-HDCTF2023%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>抱歉，这篇文章鸽了（</center>
+
+<span id="more"></span>
+<p><img src="https://www.nssctf.cn/files/2023/4/18/3214386459.png" alt=""></p>
+<h1 id="Crypto"><a href="#Crypto" class="headerlink" title="Crypto"></a>Crypto</h1><h2 id="Normal-Rsa-revenge"><a href="#Normal-Rsa-revenge" class="headerlink" title="Normal_Rsa(revenge)"></a>Normal_Rsa(revenge)</h2><p><a href="https://www.nssctf.cn/problem/3798">题目附件链接</a></p>
+<h2 id="爬过小山去看云"><a href="#爬过小山去看云" class="headerlink" title="爬过小山去看云"></a>爬过小山去看云</h2><p><a href="https://www.nssctf.cn/problem/3766">题目附件链接</a></p>
+<h2 id="Math-Rsa"><a href="#Math-Rsa" class="headerlink" title="Math_Rsa"></a>Math_Rsa</h2><p><a href="https://www.nssctf.cn/problem/3768">题目附件链接</a></p>
+<h2 id="Spy-DES"><a href="#Spy-DES" class="headerlink" title="Spy_DES"></a>Spy_DES</h2><p><a href="https://www.nssctf.cn/problem/3770">题目附件链接</a></p>
+]]></content>
+      <categories>
+        <category>CTF密码学题解</category>
+      </categories>
+      <tags>
+        <tag>Crypto_WriteUp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WriteUp_GDOUCTF的Crypto详解以及代码思路</title>
     <url>/2023/04/14/WriteUp-GDOUCTF%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>抱歉，这篇文章鸽了（</center>
@@ -54,22 +73,53 @@
       </tags>
   </entry>
   <entry>
-    <title>WriteUp_HDCTF2023的Crypto详解以及代码思路</title>
-    <url>/2023/04/24/WriteUp-HDCTF2023%E7%9A%84Crypto%E8%AF%A6%E8%A7%A3%E4%BB%A5%E5%8F%8A%E4%BB%A3%E7%A0%81%E6%80%9D%E8%B7%AF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>抱歉，这篇文章鸽了（</center>
-
-<span id="more"></span>
-<p><img src="https://www.nssctf.cn/files/2023/4/18/3214386459.png" alt=""></p>
-<h1 id="Crypto"><a href="#Crypto" class="headerlink" title="Crypto"></a>Crypto</h1><h2 id="Normal-Rsa-revenge"><a href="#Normal-Rsa-revenge" class="headerlink" title="Normal_Rsa(revenge)"></a>Normal_Rsa(revenge)</h2><p><a href="https://www.nssctf.cn/problem/3798">题目附件链接</a></p>
-<h2 id="爬过小山去看云"><a href="#爬过小山去看云" class="headerlink" title="爬过小山去看云"></a>爬过小山去看云</h2><p><a href="https://www.nssctf.cn/problem/3766">题目附件链接</a></p>
-<h2 id="Math-Rsa"><a href="#Math-Rsa" class="headerlink" title="Math_Rsa"></a>Math_Rsa</h2><p><a href="https://www.nssctf.cn/problem/3768">题目附件链接</a></p>
-<h2 id="Spy-DES"><a href="#Spy-DES" class="headerlink" title="Spy_DES"></a>Spy_DES</h2><p><a href="https://www.nssctf.cn/problem/3770">题目附件链接</a></p>
-]]></content>
+    <title>CET6——Words &amp;&amp; Sentence&#39;s Accumulation</title>
+    <url>/2023/05/03/cet6%E2%80%94%E2%80%94words-sentence-s-accumulation/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This article is used for Mathic’s memory of important words and sentence patterns before preparing for the CET6 examination.&gt; _ &lt;</p>
+<span id="more"></span>]]></content>
       <categories>
-        <category>CTF密码学题解</category>
+        <category>CET6</category>
       </categories>
       <tags>
-        <tag>Crypto_WriteUp</tag>
+        <tag>Words</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Acwing第112场周赛求n的全排列中字典序第k个排列中第x个数的值</title>
+    <url>/2023/07/18/acwing-round-112/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>数位DP，康托展开的基本应用，Acwing杯第112届周赛C题</center>
+
+<span id="more"></span>
+<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>已知，$ a_1,a_2,…,a_n $ 是 $ 1 \sim n $ 的全排列中字典序第 $ k $ 个排列。</p>
+<p>请你判断，一共有多少个整数 $ x $ 同时满足以下所有条件：</p>
+<ol>
+<li>$ 1 \le x \le n $</li>
+<li>$ x $ 的十进制表示不含 $ 4 $ 和 $ 7 $ 以外的数字。</li>
+<li>$ a_x $ 的十进制表示不含 $ 4 $ 和 $ 7 $ 以外的数字。</li>
+</ol>
+<h3 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h3><p>共一行，包含两个整数 $ n,k $。</p>
+<h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>如果 $ 1 \sim n $ 的全排列中字典序第 $ k $ 个排列根本不存在，则输出 <code>-1</code>。</p>
+<p>否则，输出一个整数，表示满足条件的 $ x $ 的数量。</p>
+<h3 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h3><p>前 $ 4 $ 个测试点满足 $ 1 \le n,k \le 10 $。<br>所有测试点满足 $ 1 \le n,k \le 10^9 $。</p>
+<h4 id="输入样例1："><a href="#输入样例1：" class="headerlink" title="输入样例1："></a>输入样例1：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">7 4</span><br></pre></td></tr></table></figure>
+<h4 id="输出样例1："><a href="#输出样例1：" class="headerlink" title="输出样例1："></a>输出样例1：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<h4 id="输入样例2："><a href="#输入样例2：" class="headerlink" title="输入样例2："></a>输入样例2：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4 7</span><br></pre></td></tr></table></figure>
+<h4 id="输出样例2："><a href="#输出样例2：" class="headerlink" title="输出样例2："></a>输出样例2：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<h4 id="输入样例3："><a href="#输入样例3：" class="headerlink" title="输入样例3："></a>输入样例3：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3 7</span><br></pre></td></tr></table></figure>
+<h4 id="输出样例3："><a href="#输出样例3：" class="headerlink" title="输出样例3："></a>输出样例3：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure>
+<p>我们发现 n 的范围非常大，直接暴力求解不现实。<br>因为三个条件同时处理非常困难，我们先考虑所有满足前两个条件的数。考虑到 n 不超过 $10^9$ ，x的位数不超过 9 .当x为 i 位数时，满足前两个条件的 x 有 $2^i$ 个(每一位可以有4，7两种选择）。所以一共有 $ \sum_{i = 1}^{2^i} $ 当 $i = 9$ 时共有 1022 个备选答案。可以直接用递归来枚举。接下来，我们的问题简化为：求n的全排列中字典序第 k 个排列中第x个数的值。</p>
+<h2 id="康托展开"><a href="#康托展开" class="headerlink" title="康托展开"></a>康托展开</h2><p>我们先考虑 n 的全排列的第一位，当 $k  &lt;= (n - 1)!$ 时说明排列的第一位必须为 1（后面 n - 1 位的全排列已经有 $(n - 1)!$ 个数了）</p>
+<p>当 k 大于 $(n−1)!$ 时，说明排列的第一位大于 1 。我们将 k 减去 $(n−1)!$ ，并将排列的第一位调大一个数，再次与 $(n−1)!$ 比较，看是否需要再次调整。</p>
+<p>接着考虑第二位，我们将第一位留下的 k 值与 $(n−2)!$ 进行类似比较，以此来确定第二位。依此类推，我们可以推得 n 的全排列中字典序第 k 个排列中任意一位数的值(注意每位取值要保证与前面数位不重复）。</p>
+<p>我们以样例2 $(n=4,k=7)$ 为例展开说明：</p>
+<blockquote>
+<p>1.考虑第一位：将排列的第一位设为1<br>     但由于 3! &lt; 7  ((n - 1)! &lt; k)<br>      k = k - 3!  (k = k - (n-1)!)<br>      k = 1,并将排列的第一位调为2<br>2.考虑第二位：将排列的第二位设为1<br>      2! &gt; 1   ((n - 2)! &gt; k)<br>      排列的第二位确定为1<br>3.考虑第三位: 将排列的第三位设为3(当前最小)<br>     1! &gt;= 1 排列的第三位确定为3<br>4.考虑第四位：确定为4</p>
+</blockquote>
+<p>但这样任然行不通，因为 n 的范围过大 $(10^9)$ ，直接操作会超时。但是k的范围也是 $10^9$ ，我们算得 $12!<109,13!>109$。因此，我们只需要考虑最后的几位即可（前面数位保证 $a_x=x$ ）。对于每一个备选答案，我们只需对最后的几位进行上述操作即可。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n, k, res;</span><br><span class="line"><span class="type">bool</span> vis[<span class="number">15</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">fac</span><span class="params">(<span class="type">int</span> t)</span></span>&#123;   <span class="comment">//求x的阶乘</span></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> ans = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= t; i++)&#123;</span><br><span class="line">        ans *= i;</span><br><span class="line">        <span class="keyword">if</span>(ans &gt; k) </span><br><span class="line">            <span class="keyword">return</span> k + <span class="number">1</span>;  <span class="comment">//本题特殊处理，超过k的数我们不关注其具体值</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">only47</span><span class="params">(<span class="type">int</span> x)</span></span>&#123; <span class="comment">//判断x中是否只含有4,7</span></span><br><span class="line">    <span class="keyword">while</span>(x &gt; <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="type">int</span> tmp = x % <span class="number">10</span>;</span><br><span class="line">        <span class="keyword">if</span>(tmp != <span class="number">4</span> &amp;&amp; tmp != <span class="number">7</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        x /= <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">get_num</span><span class="params">(<span class="type">int</span> pos)</span></span>&#123;  <span class="comment">//获取排列pos位置的值</span></span><br><span class="line">    <span class="type">int</span> t = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">fac</span>(t) &lt;= k)</span><br><span class="line">        t++;</span><br><span class="line">    <span class="keyword">if</span>(pos &lt;= n - t)</span><br><span class="line">        <span class="keyword">return</span> pos;</span><br><span class="line">    <span class="type">int</span> rank = k;</span><br><span class="line">    <span class="built_in">memset</span>(vis, <span class="number">0</span>, <span class="built_in">sizeof</span>(vis));</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = n - t + <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">1</span>; j &lt;= t; j++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(vis[j]) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">if</span>(rank &lt;= <span class="built_in">fac</span>(n - i))&#123;</span><br><span class="line">                vis[j] = <span class="number">1</span>;</span><br><span class="line">                <span class="keyword">if</span>(pos == i)</span><br><span class="line">                    <span class="keyword">return</span> j + n - t;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            rank -= <span class="built_in">fac</span>(n - i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">long</span> <span class="type">long</span> pos)</span></span>&#123;  <span class="comment">//枚举备选答案</span></span><br><span class="line">    <span class="keyword">if</span>(pos &gt; n)</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">if</span>(pos &gt; <span class="number">0</span> &amp;&amp; <span class="built_in">only47</span>(<span class="built_in">get_num</span>(pos)))</span><br><span class="line">        res++;</span><br><span class="line">    <span class="built_in">dfs</span>(pos * <span class="number">10</span> + <span class="number">4</span>);</span><br><span class="line">    <span class="built_in">dfs</span>(pos * <span class="number">10</span> + <span class="number">7</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>, &amp;n, &amp;k);</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">fac</span>(n) &lt; k)&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;-1\n&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    res = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">0</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>, res);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <tags>
+        <tag>康托展开</tag>
+        <tag>数位DP</tag>
       </tags>
   </entry>
   <entry>
@@ -100,18 +150,6 @@
 ]]></content>
       <tags>
         <tag>Basic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CET6——Words &amp;&amp; Sentence&#39;s Accumulation</title>
-    <url>/2023/05/03/cet6%E2%80%94%E2%80%94words-sentence-s-accumulation/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This article is used for Mathic’s memory of important words and sentence patterns before preparing for the CET6 examination.&gt; _ &lt;</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>CET6</category>
-      </categories>
-      <tags>
-        <tag>Words</tag>
       </tags>
   </entry>
   <entry>
@@ -316,61 +354,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数论学习笔记</title>
-    <url>/2023/04/24/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>数论是 Crypto 中很重要的一部分，然而我基本不会，所以从现在开始我要成为数论糕手！</center>
-
-<hr>
-<span id="more"></span>
-<h3 id="欧几里得"><a href="#欧几里得" class="headerlink" title="欧几里得"></a>欧几里得</h3><p>算是数论最基本的了吧，求两个数的最大公约数。</p>
-<script type="math/tex; mode=display">\gcd(a,b)=\begin{cases}
-a & b=0 \\
-\gcd(b,a\ \rm{mod}\ b) & b\neq 0
-\end{cases}</script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> !b ? a : <span class="built_in">gcd</span>(b, a % b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>顺便求两个数的最小公倍数。</p>
-<script type="math/tex; mode=display">{\rm lcm}(a,b)=\frac{a*b}{\gcd(a,b)}</script><p>写程序时先除后乘防炸。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">lcm</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a / <span class="built_in">gcd</span>(a, b) * b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="扩展欧几里得"><a href="#扩展欧几里得" class="headerlink" title="扩展欧几里得"></a>扩展欧几里得</h3><p>扩展欧几里得 <code>exgcd</code> 可以在求出 $\gcd(a,b)$ 的同时求出二元一次不定方程 $ax+by=\gcd(a,b)$的一组整数解。</p>
-<p>举个栗子，求 $\gcd(47,30)$ 时，得到以下式子。</p>
-<script type="math/tex; mode=display">\begin{aligned}
-& 47=30*1+17 \\
-& 30=17*1+13 \\
-& 17=13*1+4 \\
-& 13=4*3+1 \\
-\end{aligned}</script><p>把余数移到左边</p>
-<script type="math/tex; mode=display">\begin{aligned}
-& 17=47+30*(-1) \\
-& 13=30+17*(-1) \\
-& 4=17+13*(-1) \\
-& 1=13+4*(-3) \\
-\end{aligned}</script><p>从 $\gcd(47,30)=1$ 开始，将四个式子依次带入，得</p>
-<script type="math/tex; mode=display">\begin{aligned} & \gcd(47,30) \\ & =1 \\ & =13*1+4*(-3) \\ & =13*1+[17+13*(-1)]*(-3) \\ & =13*4+17*(-3) \\ & =17*3+13*4 \\ & =17*3+[30+17*(-1)]*4 \\ & =17*(-7)+30*4 \\ & =30*4+17*(-7) \\ & =30*4+[47+30*(-1)]*(-7) \\ & =30*11+47*(-7) \\ & =47*(-7)+30*11 \\ \end{aligned}</script><p>解得 $x=-7,y=11$。</p>
-<p>由上述式子可观察到，每次辗转交换了 <code>x</code> 和 <code>y</code>，并将 <code>y</code> 减去了原 <code>x</code> 与辗转相除所得商的乘积。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">exgcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, <span class="type">int</span> g, <span class="type">int</span> &amp;x, <span class="type">int</span> &amp;y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (b == <span class="number">0</span>) &#123;</span><br><span class="line">        x = <span class="number">1</span>, y = <span class="number">0</span>;</span><br><span class="line">        g = a;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="built_in">exgcd</span>(b, a % b, g, y, x);</span><br><span class="line">        y -= x * (a / b);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Eratosthenes-筛法"><a href="#Eratosthenes-筛法" class="headerlink" title="Eratosthenes 筛法"></a>Eratosthenes 筛法</h3><p>在筛选之前，先认为每个数都是素数。枚举所有数，如果这个数是素数，那么筛掉这个数的所有倍数，标记它们为“不是素数”。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> isNotPrime[MAXN + <span class="number">1</span>];</span><br><span class="line">std::vector&lt;<span class="type">int</span>&gt; primes;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">getPrimes</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (isNotPrime[i]) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i * <span class="number">2</span>; j &lt;= n; j += i) isNotPrime[j] = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    primes.<span class="built_in">reserve</span>(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) <span class="keyword">if</span> (!isNotPrime[i]) primes.<span class="built_in">push_back</span>(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>两个优化：</p>
-<ol>
-<li>第二层循环可以从 $i^2$ 开始，因为对于每个小于 $i$ 的数 $i’$，$i*i’$ 都已经在第 $i’$ 次循环筛掉了。</li>
-<li>枚举 $[2,\sqrt{n}]$ 的素数即可，因为对于每个合数 $p&gt;\sqrt{n}$，则必有素数 $k$ 满足 $p=k*k’$ 且 $k&lt; \sqrt{n}$，所以 $p$ 会在第 $k$ 次循环被筛掉。</li>
-</ol>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> isNotPrime[MAXN + <span class="number">1</span>];</span><br><span class="line">std::vector&lt;<span class="type">int</span>&gt; primes;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">getPrimes</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> m = <span class="built_in">floor</span>(<span class="built_in">sqrt</span>(n + <span class="number">0.5</span>));</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= m; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (isNotPrime[i]) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i * i; j &lt;= n; j += i) isNotPrime[j] = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    primes.<span class="built_in">reserve</span>(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) <span class="keyword">if</span> (!isNotPrime[i]) primes.<span class="built_in">push_back</span>(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="欧拉函数"><a href="#欧拉函数" class="headerlink" title="欧拉函数"></a>欧拉函数</h3><p>根据唯一分解定理，任何一个正整数 $n$ 都可以写成 $k$ 个素数的幂的积的形式，其中第 $i$ 个素数的指数为 $a_i$。即：</p>
-<script type="math/tex; mode=display">n={\prod_{i=1}^{k}} \ {p_i}^{a_i}</script><p>根据容斥原理，从总数 $n$ 中先减去每个 $p_i$ 的倍数，再把多减的补回来，再把多补的减回来 …… 最终得到公式</p>
-<script type="math/tex; mode=display">\phi(n)={\sum_{S{\subseteq}\{p_1,p_2,\ldots,p_k\}}{(-1)^{|S|}} * {\frac{n}{ {\prod_{ {p_i}{\in}S} } \ p_i }}}</script><p>把求和和容斥原理的应用全部展开之后就是</p>
-<script type="math/tex; mode=display">\phi(n)=n*\prod_{i=1}^{k} (1 - \frac{1}{p_i})</script><p>程序实现就是先令结果为 $n$，每次把结果除掉一个 $p$ 再乘上 $p-1$。嗯，不是很好理解 ……</p>
-<p>对于给定的 $n$，用类似筛法的思想枚举素数，每次找到一个素数后把它的倍数全部筛掉。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">phi</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> m = <span class="built_in">floor</span>(<span class="built_in">sqrt</span>(n + <span class="number">0.5</span>)), ans = n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= m; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % i == <span class="number">0</span>) &#123;</span><br><span class="line">            ans = ans / i * (i - <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">while</span> (n % i == <span class="number">0</span>) n /= i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (n != <span class="number">1</span>) ans = ans / n * (n - <span class="number">1</span>); <span class="comment">// 前面没筛干净的</span></span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>未完待续 ……</p>
-]]></content>
-      <categories>
-        <category>数论学习笔记</category>
-      </categories>
-      <tags>
-        <tag>Eratosthenes筛法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图论小技巧及其扩展</title>
     <url>/2023/05/06/%E5%9B%BE%E8%AE%BA%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%8F%8A%E5%85%B6%E6%89%A9%E5%B1%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>图论，其实是数学的一门分支，它以图为研究对象。最基础的图论应该是著名的哥尼斯堡七桥问题，那是一个经典的一笔画问题。</p>
@@ -545,133 +528,58 @@ a & b=0 \\
       </tags>
   </entry>
   <entry>
-    <title>读书笔记--“所赖君子见机，达人知命”</title>
-    <url>/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我的思绪飘移到杨修时，我仿佛能够看到一条横亘在我和他之间的大河——漫天黄沙飞舞，一条大河从不知处来，往不知处走，而我和杨修便在一片历史的烟尘中面对面伫立在河的两岸。我细细地审视着他的一生，从起到落，尽看的是得意、彷徨、自信和无奈。</p>
-<span id="more"></span>
-<p>杨修的一生，仿佛可以化作一声叹息，叹的是千百年来书生文臣们的建业梦、救国梦。他们一直在求索，也一直在彷徨。正如《滕王阁序》里所言，“所赖君子见机，达人知命”——“时运不齐，命途多舛”自是大多数书生意气的真实写照，而真正功成名就、名留青史的，</p>
-<p>正是那些“穷且益坚，不坠青云之志”的志士——但谁又能向天、向自己许诺成为一个志士呢？失意、绝望、彷徨、无奈，总让被裹挟在历史长河里的一位位英俊之才不知究竟该去往何处。千古以来，多少才俊的一生，似乎都可以被概括成现实主义和理想主义的碰撞，让人叹惋。</p>
-<p>而当我在河这边叹杨修时，杨修又是否会在对岸叹我呢？我渐渐意识到，“我叹杨修”和“杨修叹我”之间，其实是“我叹我自己”——这或许是一种文艺形式最为高妙的地方吧。它是一面镜子，当我与戏里的角色共鸣时，又何尝不是在和自己共鸣？在我反思戏中角儿们的一生时，</p>
-<p>又何尝不是在反思自己的一生？这种化虚为实、化无形为有形的力量，这种反思的态度、共鸣的体验，让我终于能从不同的角度审视一出戏，进而审视我的人生。人生如戏，戏如人生。从这门课上我曾学过、感受过的一切，必然会春风化雨般，散作满天星辰，陪我走完一段又一段值得我反复求索的人生之路。</p>
-]]></content>
-      <tags>
-        <tag>reading</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>读书笔记--刘震云《壹句顶壹万句》</title>
-    <url>/2022/11/30/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%88%98%E9%9C%87%E4%BA%91%E3%80%8A%E5%A3%B9%E5%8F%A5%E9%A1%B6%E5%A3%B9%E4%B8%87%E5%8F%A5%E3%80%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>读完整部小说，宛如读完了一部普通人的史诗。荡气回肠，平易中见深远。一个圈，一条线，在我看来，便是这本书想要通过“生活”让我们聆听的奥秘。但实际上也不是奥秘，因为它们从始至终都弥散在生活的每一个角落里。</p>
-<center>你只需要侧耳倾听，它们，一直都在。</center>
+    <title>数论学习笔记</title>
+    <url>/2023/04/24/%E6%95%B0%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>数论是 Crypto 中很重要的一部分，然而我基本不会，所以从现在开始我要成为数论糕手！</center>
 
+<hr>
 <span id="more"></span>
-<h1 id="总评：一个圈、一条线"><a href="#总评：一个圈、一条线" class="headerlink" title="总评：一个圈、一条线"></a>总评：一个圈、一条线</h1><p>“平易”，来自于生活的琐碎。这部小说事无巨细地反映了上世纪建国后，小城镇市民的生活风气、精神风貌。家里长、家里短；邻里关系、亲戚关系；结婚了、离婚了、拜把子了，闹掰了…书里面用极大地篇幅描述生活中一丝一缕的琐事，审视情节，便犹如审视一面镜子。人物市侩却鲜活、狭隘却灵动。通读下来，仔细回想下，我似乎可以回忆起那么几个人物——但也只是流掠而过而已。人总是这样。我们一生会遇到数不尽的、光怪陆离的人。但他们绝大多数都会离我们而去，徒留几分模糊的印象。</p>
-<p>而“深远”，则同样来自于生活的琐碎。同样是用精彩的文艺升格去勾勒生活的琐碎，以《老友记》、《生活大爆炸》和所谓“韩剧”为代表的肥皂剧，已经在描述“固定几个人”的琐碎生活上做的足够好了。但是这部小说却并不将目光聚焦于几个人。以杨百顺为线索，这部小说串联起从河南延津到山西沁源的、一个又一个由“人”攒起来的圈子，兜兜转转、洋洋洒洒，最终又回到延津。一个人的生活，可以称之为 vlog；一家人的生活，可以称之为肥皂剧——但若将目光转移到由不同地域、不同脾性、不同命运的人组成的圈子上，这些本无交集、却被命运裹挟在一起的人，则更像是一幅媲美《清明上河图》的人间众生相。他们的欢喜悲忧，聚焦在几个离散的点上看，是常人皆有的情感；但一旦我们从宏观上观察这些人的连续性，就会发现一个惊人的事实：</p>
-<p>每个人都在过属于自己的生活。</p>
-<p>似乎很“废话文学”——过自己的生活？谁不都是过自己的生活？当我们单独看生活的一个片段时，我们总能总结出一些经验教训来；但当我们仔细回味一生时，我们却无法给出什么立竿见影的结论。在生活这个噪点数目趋近于正无穷的连续函数里，你分不清什么是对的、什么是错的，更看不清什么会停留片刻、什么会亘驻永恒。生活就像薛定谔的老猫，你不走到下一秒，下一秒的可能性，就永远不会坍缩成逻辑上的唯一。</p>
-<p>生活永远是最好的老师，是只可意会、不可言传的老师。因为生活永远是整体不可积，但处处都可导。当我们追求生活的“终极奥义”时，当我们尝试用言语和智慧去分析生活中的每一处细枝末节时，最终永远只能回归到生活本身。正如书中人物命运般地从河南到山西、又从山西回到河南，正如我们尝试从生活中提炼智慧，而最终提炼出来的却是生活本身。生活教给我们的，是在“命定”和“无奈”背后的、一些更为灵巧美妙的东西。我们在复杂的生活中感叹、奔波；而当我们回过头来看时，一切选择导致的结果、一切故事最终的结局，却又都那么清晰。我们遇到的所有人、经历的所有事，仿佛飞鸿一样纷纷流掠我们的脑海，最终留下一长长的叹息。我们用一声叹息引出对生活的思考，而这思考也最终回归于对生活的叹息，回归于一个精致而简练的圈。</p>
-<p>正如吴摩西是串联起从河南到山西这个“圈”的“线”，这本书也从始至终都在探讨一个线索式的问题：生活的尽头，是归于热烈还是孤独？</p>
-<p>作者的答案是孤独。看似是在抨击热烈，实则是在质疑永恒。我们人生的每个阶段，似乎总有一两个能说“体己话”的 ta。但平凡生活中的平凡关系，从来都有一个未曾言明的保质期。即使是相濡以沫或高山流水，对面也很难明白你的心意。我们的孤独，终将由我们自己背负。</p>
-<p>“月有阴晴圆缺，此事古难全”。我们似乎永远在追求完满，却又永远达不到完满。而孤独便是不完满投射在情感上的常态。孤独从来不是完满，因为孤独从来都是悲伤的情感，是情绪上的隔离。我们的一生永远在追逐完满，背后的事实便是一直在守候既定的不完满，这也决定了完满的尽头一定是不完满、热烈的尽头一定是孤独。贯穿在生活这个圈里的，始终是一条从热烈到孤独的单程线。</p>
-<blockquote>
-<h2 id="编者按-一句胜过千年"><a href="#编者按-一句胜过千年" class="headerlink" title="编者按: 一句胜过千年"></a>编者按: 一句胜过千年</h2><p>安波舜</p>
-<p>本书是刘震云酝酿创作了三年的小说。也是他迄今最成熟最大气的作品。<br>小说的叙事风格类似明清的稗野日记，语句洗练，情节简洁，叙事直接，有汪曾祺和孙犁等前辈作家遗风。因而本书的每一个字每一句话，都构成言说的艺术，都能拧出作家的汗水。更为重要的是，作家唯有用此语言，才有对应和表现作品的内涵：与神对话的西方文化和人类生态，因为神的无处不在而愉悦自在。人与人之间虽说来往不多，但并不孤独；与人对话的中国文化和浮生百姓，却因为极端注重现实和儒家传统，由于其社群、地位和利益的不同，由于其人心难测和诚信缺失，能够说贴心话、温暖灵魂的朋友并不多，反倒生活在千年的孤独当中。<br>这样的孤独体验每个国人都有；这样平视百姓、体恤灵魂、为苍生而歌的小说自“五四”以来却是少有的。<br>小说的前半部写的是过去：孤独无助的吴摩西失去唯一能够“说得上话”的养女，为了寻找，走出延津；小说的后半部写的是现在：吴摩西养女的儿子牛爱国，同样为了摆脱孤独寻找“说得上话”的朋友，走向延津。一出一走，延宕百年。小说中所有的情节关系和人物结构，所有的社群组织和家庭和谐，乃至于性欲爱情，都和人与人能不能对上话，对的话能不能触及心灵、提供温暖、化解冲突、激发情欲有关。话，一旦成了人与人唯一沟通的东西，寻找和孤独便伴随一生。心灵的疲惫和生命的颓废，以及无边无际的茫然和累，便如影随形地产生了。<br>由此，我们忽然发现，中国人为什么活得这么累。<br>这种累，犹如漫漫长夜，祖祖辈辈磨砺着我们的神经。</p>
-</blockquote>
-<h1 id="读书笔记摘录"><a href="#读书笔记摘录" class="headerlink" title="读书笔记摘录"></a>读书笔记摘录</h1><h2 id="◆上部-出延津记（上）"><a href="#◆上部-出延津记（上）" class="headerlink" title="◆上部 出延津记（上）"></a>◆上部 出延津记（上）</h2><h3 id="2022-11-24-想法"><a href="#2022-11-24-想法" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>为什么看榆树哭呢？因为榆树茁壮成长，灯盏却没了。</p>
-<blockquote>
-<p><em>老范吃了一惊，不再拦老汪：</em><br><em>“走也行啊，可我替你发愁，拖家带口的，你去哪儿呀？”</em><br>老汪：<br>“梦里娃告诉我，让我往西。”<br>老范：<br>“往西你也找不到娃呀。”<br>老汪：<br>“不为找娃，走到哪儿不想娃，就在哪儿落脚。”<br>第二天一早，老汪带着银瓶和三个孩子，离开了老范家。三个月没哭了，走时看到东家老范家门口有两株榆树，六年前来时，还是两棵小苗，现在已经碗口粗了，看着这树，老汪哭了。</p>
-</blockquote>
-<h2 id="◆上部-出延津记（下）"><a href="#◆上部-出延津记（下）" class="headerlink" title="◆上部 出延津记（下）"></a>◆上部 出延津记（下）</h2><h3 id="2022-11-24-想法-1"><a href="#2022-11-24-想法-1" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>奇妙的人类社会。</p>
-<blockquote>
-<p>同来的往往有隔阂。过去相互不认识的，处着处着倒能成为朋友。</p>
-</blockquote>
-<h3 id="2022-11-24-想法-2"><a href="#2022-11-24-想法-2" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>人间事事，事事曲折。</p>
-<blockquote>
-<p>这些年杨百顺经历过许多事，知道每个事中皆有原委，每个原委之中，又拐着好几道弯</p>
-</blockquote>
-<h3 id="2022-11-25-想法"><a href="#2022-11-25-想法" class="headerlink" title="2022/11/25 想法"></a>2022/11/25 想法</h3><p>人生就是一个机遇接着一个机遇，一次失败接着一次失败，跌宕起伏。</p>
-<blockquote>
-<p>杨摩西这时又变回早年的杨百顺。特别是他把在村里舞的一个“拉脸”，带到了县城的社火队里。这个“拉脸”杨家庄有，县城没有。所谓“拉脸”，就是一边提肩掀胯，一边用双手遮住脸，然后一寸一寸拉开，露出你的真面目。脸一寸一寸被拉开，杨摩西舞着没在意，却惊着了众人，齐声给他喝彩。会首老冯，本来对杨摩西没抱太大希望，临时抱佛脚，还担心他舞砸；他舞砸没啥，由于他舞砸，把整个社火都耽误了，事就大了。谁知这小子一上场，不但社火舞得好，竟改变了大家对阎罗的看法。一天社火舞下来，老冯眉开眼笑，拉着杨摩西问东问西。原想着只用杨摩西一天，第二天再找合适的阎罗；其实第二天也不用找了，原来的阎罗、杂货铺掌柜老邓的肚子也好了；老邓的肚子，并不像老褚说的，肠子绞在了一起，还是蛔虫闹的；吃下老褚的药，肠子没捋顺，将蛔虫拉了出来，阴差阳错，肚子也就好了；但老冯不再理老邓，让杨摩西又舞了四天社火。</p>
-</blockquote>
-<h4 id="2022-11-25-想法-1"><a href="#2022-11-25-想法-1" class="headerlink" title="2022/11/25 想法"></a>2022/11/25 想法</h4><p>清官难断家务事。</p>
-<blockquote>
-<p>街上的事，只是一个事；家里的事，就不光是事。</p>
-<p>反正与她说不明白道理，这时再计较道理，反倒是不懂道理了。</p>
-</blockquote>
-<h2 id="◆下部-回延津记"><a href="#◆下部-回延津记" class="headerlink" title="◆下部 回延津记"></a>◆下部 回延津记</h2><h3 id="2022-11-27-想法"><a href="#2022-11-27-想法" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>平常人的感动。</p>
-<blockquote>
-<p>学会开汽车，我开着汽车，带姐去北京。</p>
-</blockquote>
-<h3 id="2022-11-27-想法-1"><a href="#2022-11-27-想法-1" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>人间社交，大抵皆如此：</p>
-<blockquote>
-<p>“不管你到天南海北，咱俩好一辈子。”</p>
-<p>五年之中，头两年两人还通信，后来渐渐淡了，后来渐渐断了。</p>
-<p>可见能否成为朋友，不在相处的长短。</p>
-</blockquote>
-<h3 id="2022-11-27-想法-2"><a href="#2022-11-27-想法-2" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>虽说人生如戏、戏如人生，但想起来是一码事、看起来是一码事，真正过起来又是另一码事。</p>
-<blockquote>
-<p>戏里说的事，也是世上的事，怎么戏里说的，就比世上的事有意思呢？</p>
-</blockquote>
-<h3 id="2022-11-28-想法"><a href="#2022-11-28-想法" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>曹青娥找到年轻的初恋侯宝山时，看到他不戴白手套了，开着过去那“拉风”的拖拉机载着老婆耕地，给孩子把尿时：</p>
-<blockquote>
-<p>曹青娥突然明白，她找的侯宝山，不是这个侯宝山；她要找的侯宝山，在这个世界上，已经死了。</p>
-<p>曹青娥这时才明白，人是掰扯不得的，掰扯了别人，就是掰扯了自己。</p>
-</blockquote>
-<h3 id="2022-11-28-想法-1"><a href="#2022-11-28-想法-1" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>唉…</p>
-<blockquote>
-<p>但老曹死后三个月，曹青娥突然开始想念爹爹老曹。夜里常梦见他。这时的老曹，又变回七十岁之前的老曹，或六十岁的老曹，或五十岁的老曹，或四十多岁的老曹，或刚买曹青娥，也就是改心时的老曹。老曹用脖子驮着她，笑着在街上走，给她买吃食；或老曹趴在地上，让曹青娥当马骑。</p>
-</blockquote>
-<h3 id="2022-11-28-想法-2"><a href="#2022-11-28-想法-2" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>和当时梦到自己把吴摩西卖给了人贩子如出一辙</p>
-<blockquote>
-<p>“妮，你嫁走了，谁管我呀？”<br>或：<br>“妮，牛书道那人没正性，不能嫁。”</p>
-</blockquote>
-<h3 id="2022-11-28-想法-3"><a href="#2022-11-28-想法-3" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>历史是个圈</p>
-<blockquote>
-<p>与当初冯文修用牛轭砸李克智一模一样</p>
-</blockquote>
-<h3 id="2022-11-28-想法-4"><a href="#2022-11-28-想法-4" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>曹青娥的人生智慧。</p>
-<blockquote>
-<p>世上烦的就是这些亲人。论起共事，用谁，都比用他们好。</p>
-<p>“我活了七十岁，明白一个道理，世上别的东西都能挑，就是日子没法挑。”</p>
-<p>我还看穿一件事，过日子是过以后，不是过从前。</p>
-</blockquote>
-<h3 id="2022-11-28-想法-5"><a href="#2022-11-28-想法-5" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>通透，不自个儿过个几十年过不出来这种智慧。</p>
-<blockquote>
-<p>“你跟她说得着，是因为她现在由丈夫养着，你就是与她说个话；等你养她，就成了过日子，到时候就该说过日子了。”</p>
-</blockquote>
-<h3 id="2022-11-29-想法"><a href="#2022-11-29-想法" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>所以其实儿女和父母本身虽然是互相照顾、互相爱护，但并不是互相理解。</p>
-<blockquote>
-<p>妈曹青娥得病三四年没说，可以说是心疼他们，但除了心疼，还有对他们的失望罢了。</p>
-<p>牛爱国突然又明白，曹青娥对他说六十年前、五十年前的事情，不对牛爱江、牛爱香、牛爱河说，并不是觉得跟他比跟其他人说得来，而是他遇到的麻烦比其他人更多，借此安慰他罢了。去年牛爱国因为庞丽娜出了事，对沁源伤了心，离开沁源前去看曹青娥，曹青娥知道事情的原委，但没对牛爱国挑破；现在曹青娥不会说话了，牛爱国像去年妈对他一样，他也没将妈的心思，对哥牛爱江和姐牛爱香挑破。</p>
-</blockquote>
-<h3 id="2022-11-29-想法-1"><a href="#2022-11-29-想法-1" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>不知道该说些什么，感觉心脏被锤了一拳。</p>
-<blockquote>
-<p>因为远，我才能送你。</p>
-<p>知道见你不容易，才想起这么多话。</p>
-<p>直到最后一班长途汽车要发车了，曹青娥才上了车。从车上往下看，空空荡荡的汽车站里，就剩下娘一个人，拄着拐杖，嘴在张着，曹青娥不禁流下了泪。</p>
-<p>“妮，下次我再走的时候，就别再喊我了。娘一个月走不动道，身子是太沉了。刚才到了梦里，我走呀走呀，走到一个河边，腿突然就轻了。河边有花有草，我说，好长时间没洗脸了，蹲这河边洗把脸吧。刚要洗脸，听到你喊我，就又回来了；一回来，又躺在这病床上。妮，下次娘走的时候，就不要再喊娘了；不是娘心狠，不是娘没话跟你说，实在是受不了了……”</p>
-<p>下次老曹老婆昏迷的时候，曹青娥就没有再喊娘。</p>
-</blockquote>
-<h3 id="2022-11-29-想法-2"><a href="#2022-11-29-想法-2" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>最思念的，还是自己的根。</p>
-<blockquote>
-<p>曹青娥临终前在喊“爹”，原来不是喊襄垣县的爹爹老曹，而是多年前失散的爹爹吴摩西。</p>
-</blockquote>
-<h3 id="2022-11-29-想法-3"><a href="#2022-11-29-想法-3" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>沧海桑田</p>
-<blockquote>
-<p>到西街一个地方，告诉牛爱国这是当年吴摩西和吴香香蒸馒头的家，现在成了一家酱菜厂；到了北街转盘处，说转盘西北角，当年是意大利神父老詹的教堂，现在成了“金盆洗脚屋”；到了东街桥下，说这里当年有吴摩西挑水的井，现在成了一个卷烟厂；回到南街，指着姜素荣杂货铺旁边的剧场，说这里当年是吴摩西大闹南街的地方，当年的一个碌碡，现在还戳在剧院门侧</p>
-</blockquote>
-<h3 id="2022-11-29-想法-4"><a href="#2022-11-29-想法-4" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>唯有门前镜湖水，春风不改旧时波。</p>
-<blockquote>
-<p>七十年前，吴摩西从河南去了陕西；七十年后，牛爱国也从河南去了陕西。</p>
-<p>牛爱国接过这沓纸，纸已经发黄，许多地方被虫蛀了。打开，纸上是一幅图，画着一座宏大的房子，看上去像一座教堂。教堂顶端有十字架，还有一座大钟。图画得倒是气派</p>
-<p>院中有一棵大槐树，牛爱国搬一个凳子，坐在大槐树下。低头想了一阵心思，猛地抬头，一个大月亮，缺了半边，顶头在半空中。虽是半个月亮，却也亮得逼人。一阵风吹来，槐树的叶子“索索”地响；脚下树叶的影子，也随声“索索”地晃动。</p>
-</blockquote>
+<h3 id="欧几里得"><a href="#欧几里得" class="headerlink" title="欧几里得"></a>欧几里得</h3><p>算是数论最基本的了吧，求两个数的最大公约数。</p>
+<script type="math/tex; mode=display">\gcd(a,b)=\begin{cases}
+a & b=0 \\
+\gcd(b,a\ \rm{mod}\ b) & b\neq 0
+\end{cases}</script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> !b ? a : <span class="built_in">gcd</span>(b, a % b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>顺便求两个数的最小公倍数。</p>
+<script type="math/tex; mode=display">{\rm lcm}(a,b)=\frac{a*b}{\gcd(a,b)}</script><p>写程序时先除后乘防炸。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">lcm</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a / <span class="built_in">gcd</span>(a, b) * b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="扩展欧几里得"><a href="#扩展欧几里得" class="headerlink" title="扩展欧几里得"></a>扩展欧几里得</h3><p>扩展欧几里得 <code>exgcd</code> 可以在求出 $\gcd(a,b)$ 的同时求出二元一次不定方程 $ax+by=\gcd(a,b)$的一组整数解。</p>
+<p>举个栗子，求 $\gcd(47,30)$ 时，得到以下式子。</p>
+<script type="math/tex; mode=display">\begin{aligned}
+& 47=30*1+17 \\
+& 30=17*1+13 \\
+& 17=13*1+4 \\
+& 13=4*3+1 \\
+\end{aligned}</script><p>把余数移到左边</p>
+<script type="math/tex; mode=display">\begin{aligned}
+& 17=47+30*(-1) \\
+& 13=30+17*(-1) \\
+& 4=17+13*(-1) \\
+& 1=13+4*(-3) \\
+\end{aligned}</script><p>从 $\gcd(47,30)=1$ 开始，将四个式子依次带入，得</p>
+<script type="math/tex; mode=display">\begin{aligned} & \gcd(47,30) \\ & =1 \\ & =13*1+4*(-3) \\ & =13*1+[17+13*(-1)]*(-3) \\ & =13*4+17*(-3) \\ & =17*3+13*4 \\ & =17*3+[30+17*(-1)]*4 \\ & =17*(-7)+30*4 \\ & =30*4+17*(-7) \\ & =30*4+[47+30*(-1)]*(-7) \\ & =30*11+47*(-7) \\ & =47*(-7)+30*11 \\ \end{aligned}</script><p>解得 $x=-7,y=11$。</p>
+<p>由上述式子可观察到，每次辗转交换了 <code>x</code> 和 <code>y</code>，并将 <code>y</code> 减去了原 <code>x</code> 与辗转相除所得商的乘积。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">exgcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, <span class="type">int</span> g, <span class="type">int</span> &amp;x, <span class="type">int</span> &amp;y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (b == <span class="number">0</span>) &#123;</span><br><span class="line">        x = <span class="number">1</span>, y = <span class="number">0</span>;</span><br><span class="line">        g = a;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="built_in">exgcd</span>(b, a % b, g, y, x);</span><br><span class="line">        y -= x * (a / b);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="Eratosthenes-筛法"><a href="#Eratosthenes-筛法" class="headerlink" title="Eratosthenes 筛法"></a>Eratosthenes 筛法</h3><p>在筛选之前，先认为每个数都是素数。枚举所有数，如果这个数是素数，那么筛掉这个数的所有倍数，标记它们为“不是素数”。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> isNotPrime[MAXN + <span class="number">1</span>];</span><br><span class="line">std::vector&lt;<span class="type">int</span>&gt; primes;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">getPrimes</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (isNotPrime[i]) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i * <span class="number">2</span>; j &lt;= n; j += i) isNotPrime[j] = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    primes.<span class="built_in">reserve</span>(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) <span class="keyword">if</span> (!isNotPrime[i]) primes.<span class="built_in">push_back</span>(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>两个优化：</p>
+<ol>
+<li>第二层循环可以从 $i^2$ 开始，因为对于每个小于 $i$ 的数 $i’$，$i*i’$ 都已经在第 $i’$ 次循环筛掉了。</li>
+<li>枚举 $[2,\sqrt{n}]$ 的素数即可，因为对于每个合数 $p&gt;\sqrt{n}$，则必有素数 $k$ 满足 $p=k*k’$ 且 $k&lt; \sqrt{n}$，所以 $p$ 会在第 $k$ 次循环被筛掉。</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">bool</span> isNotPrime[MAXN + <span class="number">1</span>];</span><br><span class="line">std::vector&lt;<span class="type">int</span>&gt; primes;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">getPrimes</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> m = <span class="built_in">floor</span>(<span class="built_in">sqrt</span>(n + <span class="number">0.5</span>));</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= m; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (isNotPrime[i]) <span class="keyword">continue</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i * i; j &lt;= n; j += i) isNotPrime[j] = <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    primes.<span class="built_in">reserve</span>(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) <span class="keyword">if</span> (!isNotPrime[i]) primes.<span class="built_in">push_back</span>(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="欧拉函数"><a href="#欧拉函数" class="headerlink" title="欧拉函数"></a>欧拉函数</h3><p>根据唯一分解定理，任何一个正整数 $n$ 都可以写成 $k$ 个素数的幂的积的形式，其中第 $i$ 个素数的指数为 $a_i$。即：</p>
+<script type="math/tex; mode=display">n={\prod_{i=1}^{k}} \ {p_i}^{a_i}</script><p>根据容斥原理，从总数 $n$ 中先减去每个 $p_i$ 的倍数，再把多减的补回来，再把多补的减回来 …… 最终得到公式</p>
+<script type="math/tex; mode=display">\phi(n)={\sum_{S{\subseteq}\{p_1,p_2,\ldots,p_k\}}{(-1)^{|S|}} * {\frac{n}{ {\prod_{ {p_i}{\in}S} } \ p_i }}}</script><p>把求和和容斥原理的应用全部展开之后就是</p>
+<script type="math/tex; mode=display">\phi(n)=n*\prod_{i=1}^{k} (1 - \frac{1}{p_i})</script><p>程序实现就是先令结果为 $n$，每次把结果除掉一个 $p$ 再乘上 $p-1$。嗯，不是很好理解 ……</p>
+<p>对于给定的 $n$，用类似筛法的思想枚举素数，每次找到一个素数后把它的倍数全部筛掉。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">phi</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> m = <span class="built_in">floor</span>(<span class="built_in">sqrt</span>(n + <span class="number">0.5</span>)), ans = n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= m; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (n % i == <span class="number">0</span>) &#123;</span><br><span class="line">            ans = ans / i * (i - <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">while</span> (n % i == <span class="number">0</span>) n /= i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (n != <span class="number">1</span>) ans = ans / n * (n - <span class="number">1</span>); <span class="comment">// 前面没筛干净的</span></span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>未完待续 ……</p>
 ]]></content>
       <categories>
-        <category>读书笔记</category>
+        <category>数论学习笔记</category>
       </categories>
       <tags>
-        <tag>Reading</tag>
+        <tag>Eratosthenes筛法</tag>
       </tags>
   </entry>
   <entry>
@@ -847,6 +755,136 @@ a & b=0 \\
       </categories>
       <tags>
         <tag>Reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读书笔记--刘震云《壹句顶壹万句》</title>
+    <url>/2022/11/30/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%88%98%E9%9C%87%E4%BA%91%E3%80%8A%E5%A3%B9%E5%8F%A5%E9%A1%B6%E5%A3%B9%E4%B8%87%E5%8F%A5%E3%80%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>读完整部小说，宛如读完了一部普通人的史诗。荡气回肠，平易中见深远。一个圈，一条线，在我看来，便是这本书想要通过“生活”让我们聆听的奥秘。但实际上也不是奥秘，因为它们从始至终都弥散在生活的每一个角落里。</p>
+<center>你只需要侧耳倾听，它们，一直都在。</center>
+
+<span id="more"></span>
+<h1 id="总评：一个圈、一条线"><a href="#总评：一个圈、一条线" class="headerlink" title="总评：一个圈、一条线"></a>总评：一个圈、一条线</h1><p>“平易”，来自于生活的琐碎。这部小说事无巨细地反映了上世纪建国后，小城镇市民的生活风气、精神风貌。家里长、家里短；邻里关系、亲戚关系；结婚了、离婚了、拜把子了，闹掰了…书里面用极大地篇幅描述生活中一丝一缕的琐事，审视情节，便犹如审视一面镜子。人物市侩却鲜活、狭隘却灵动。通读下来，仔细回想下，我似乎可以回忆起那么几个人物——但也只是流掠而过而已。人总是这样。我们一生会遇到数不尽的、光怪陆离的人。但他们绝大多数都会离我们而去，徒留几分模糊的印象。</p>
+<p>而“深远”，则同样来自于生活的琐碎。同样是用精彩的文艺升格去勾勒生活的琐碎，以《老友记》、《生活大爆炸》和所谓“韩剧”为代表的肥皂剧，已经在描述“固定几个人”的琐碎生活上做的足够好了。但是这部小说却并不将目光聚焦于几个人。以杨百顺为线索，这部小说串联起从河南延津到山西沁源的、一个又一个由“人”攒起来的圈子，兜兜转转、洋洋洒洒，最终又回到延津。一个人的生活，可以称之为 vlog；一家人的生活，可以称之为肥皂剧——但若将目光转移到由不同地域、不同脾性、不同命运的人组成的圈子上，这些本无交集、却被命运裹挟在一起的人，则更像是一幅媲美《清明上河图》的人间众生相。他们的欢喜悲忧，聚焦在几个离散的点上看，是常人皆有的情感；但一旦我们从宏观上观察这些人的连续性，就会发现一个惊人的事实：</p>
+<p>每个人都在过属于自己的生活。</p>
+<p>似乎很“废话文学”——过自己的生活？谁不都是过自己的生活？当我们单独看生活的一个片段时，我们总能总结出一些经验教训来；但当我们仔细回味一生时，我们却无法给出什么立竿见影的结论。在生活这个噪点数目趋近于正无穷的连续函数里，你分不清什么是对的、什么是错的，更看不清什么会停留片刻、什么会亘驻永恒。生活就像薛定谔的老猫，你不走到下一秒，下一秒的可能性，就永远不会坍缩成逻辑上的唯一。</p>
+<p>生活永远是最好的老师，是只可意会、不可言传的老师。因为生活永远是整体不可积，但处处都可导。当我们追求生活的“终极奥义”时，当我们尝试用言语和智慧去分析生活中的每一处细枝末节时，最终永远只能回归到生活本身。正如书中人物命运般地从河南到山西、又从山西回到河南，正如我们尝试从生活中提炼智慧，而最终提炼出来的却是生活本身。生活教给我们的，是在“命定”和“无奈”背后的、一些更为灵巧美妙的东西。我们在复杂的生活中感叹、奔波；而当我们回过头来看时，一切选择导致的结果、一切故事最终的结局，却又都那么清晰。我们遇到的所有人、经历的所有事，仿佛飞鸿一样纷纷流掠我们的脑海，最终留下一长长的叹息。我们用一声叹息引出对生活的思考，而这思考也最终回归于对生活的叹息，回归于一个精致而简练的圈。</p>
+<p>正如吴摩西是串联起从河南到山西这个“圈”的“线”，这本书也从始至终都在探讨一个线索式的问题：生活的尽头，是归于热烈还是孤独？</p>
+<p>作者的答案是孤独。看似是在抨击热烈，实则是在质疑永恒。我们人生的每个阶段，似乎总有一两个能说“体己话”的 ta。但平凡生活中的平凡关系，从来都有一个未曾言明的保质期。即使是相濡以沫或高山流水，对面也很难明白你的心意。我们的孤独，终将由我们自己背负。</p>
+<p>“月有阴晴圆缺，此事古难全”。我们似乎永远在追求完满，却又永远达不到完满。而孤独便是不完满投射在情感上的常态。孤独从来不是完满，因为孤独从来都是悲伤的情感，是情绪上的隔离。我们的一生永远在追逐完满，背后的事实便是一直在守候既定的不完满，这也决定了完满的尽头一定是不完满、热烈的尽头一定是孤独。贯穿在生活这个圈里的，始终是一条从热烈到孤独的单程线。</p>
+<blockquote>
+<h2 id="编者按-一句胜过千年"><a href="#编者按-一句胜过千年" class="headerlink" title="编者按: 一句胜过千年"></a>编者按: 一句胜过千年</h2><p>安波舜</p>
+<p>本书是刘震云酝酿创作了三年的小说。也是他迄今最成熟最大气的作品。<br>小说的叙事风格类似明清的稗野日记，语句洗练，情节简洁，叙事直接，有汪曾祺和孙犁等前辈作家遗风。因而本书的每一个字每一句话，都构成言说的艺术，都能拧出作家的汗水。更为重要的是，作家唯有用此语言，才有对应和表现作品的内涵：与神对话的西方文化和人类生态，因为神的无处不在而愉悦自在。人与人之间虽说来往不多，但并不孤独；与人对话的中国文化和浮生百姓，却因为极端注重现实和儒家传统，由于其社群、地位和利益的不同，由于其人心难测和诚信缺失，能够说贴心话、温暖灵魂的朋友并不多，反倒生活在千年的孤独当中。<br>这样的孤独体验每个国人都有；这样平视百姓、体恤灵魂、为苍生而歌的小说自“五四”以来却是少有的。<br>小说的前半部写的是过去：孤独无助的吴摩西失去唯一能够“说得上话”的养女，为了寻找，走出延津；小说的后半部写的是现在：吴摩西养女的儿子牛爱国，同样为了摆脱孤独寻找“说得上话”的朋友，走向延津。一出一走，延宕百年。小说中所有的情节关系和人物结构，所有的社群组织和家庭和谐，乃至于性欲爱情，都和人与人能不能对上话，对的话能不能触及心灵、提供温暖、化解冲突、激发情欲有关。话，一旦成了人与人唯一沟通的东西，寻找和孤独便伴随一生。心灵的疲惫和生命的颓废，以及无边无际的茫然和累，便如影随形地产生了。<br>由此，我们忽然发现，中国人为什么活得这么累。<br>这种累，犹如漫漫长夜，祖祖辈辈磨砺着我们的神经。</p>
+</blockquote>
+<h1 id="读书笔记摘录"><a href="#读书笔记摘录" class="headerlink" title="读书笔记摘录"></a>读书笔记摘录</h1><h2 id="◆上部-出延津记（上）"><a href="#◆上部-出延津记（上）" class="headerlink" title="◆上部 出延津记（上）"></a>◆上部 出延津记（上）</h2><h3 id="2022-11-24-想法"><a href="#2022-11-24-想法" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>为什么看榆树哭呢？因为榆树茁壮成长，灯盏却没了。</p>
+<blockquote>
+<p><em>老范吃了一惊，不再拦老汪：</em><br><em>“走也行啊，可我替你发愁，拖家带口的，你去哪儿呀？”</em><br>老汪：<br>“梦里娃告诉我，让我往西。”<br>老范：<br>“往西你也找不到娃呀。”<br>老汪：<br>“不为找娃，走到哪儿不想娃，就在哪儿落脚。”<br>第二天一早，老汪带着银瓶和三个孩子，离开了老范家。三个月没哭了，走时看到东家老范家门口有两株榆树，六年前来时，还是两棵小苗，现在已经碗口粗了，看着这树，老汪哭了。</p>
+</blockquote>
+<h2 id="◆上部-出延津记（下）"><a href="#◆上部-出延津记（下）" class="headerlink" title="◆上部 出延津记（下）"></a>◆上部 出延津记（下）</h2><h3 id="2022-11-24-想法-1"><a href="#2022-11-24-想法-1" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>奇妙的人类社会。</p>
+<blockquote>
+<p>同来的往往有隔阂。过去相互不认识的，处着处着倒能成为朋友。</p>
+</blockquote>
+<h3 id="2022-11-24-想法-2"><a href="#2022-11-24-想法-2" class="headerlink" title="2022/11/24 想法"></a>2022/11/24 想法</h3><p>人间事事，事事曲折。</p>
+<blockquote>
+<p>这些年杨百顺经历过许多事，知道每个事中皆有原委，每个原委之中，又拐着好几道弯</p>
+</blockquote>
+<h3 id="2022-11-25-想法"><a href="#2022-11-25-想法" class="headerlink" title="2022/11/25 想法"></a>2022/11/25 想法</h3><p>人生就是一个机遇接着一个机遇，一次失败接着一次失败，跌宕起伏。</p>
+<blockquote>
+<p>杨摩西这时又变回早年的杨百顺。特别是他把在村里舞的一个“拉脸”，带到了县城的社火队里。这个“拉脸”杨家庄有，县城没有。所谓“拉脸”，就是一边提肩掀胯，一边用双手遮住脸，然后一寸一寸拉开，露出你的真面目。脸一寸一寸被拉开，杨摩西舞着没在意，却惊着了众人，齐声给他喝彩。会首老冯，本来对杨摩西没抱太大希望，临时抱佛脚，还担心他舞砸；他舞砸没啥，由于他舞砸，把整个社火都耽误了，事就大了。谁知这小子一上场，不但社火舞得好，竟改变了大家对阎罗的看法。一天社火舞下来，老冯眉开眼笑，拉着杨摩西问东问西。原想着只用杨摩西一天，第二天再找合适的阎罗；其实第二天也不用找了，原来的阎罗、杂货铺掌柜老邓的肚子也好了；老邓的肚子，并不像老褚说的，肠子绞在了一起，还是蛔虫闹的；吃下老褚的药，肠子没捋顺，将蛔虫拉了出来，阴差阳错，肚子也就好了；但老冯不再理老邓，让杨摩西又舞了四天社火。</p>
+</blockquote>
+<h4 id="2022-11-25-想法-1"><a href="#2022-11-25-想法-1" class="headerlink" title="2022/11/25 想法"></a>2022/11/25 想法</h4><p>清官难断家务事。</p>
+<blockquote>
+<p>街上的事，只是一个事；家里的事，就不光是事。</p>
+<p>反正与她说不明白道理，这时再计较道理，反倒是不懂道理了。</p>
+</blockquote>
+<h2 id="◆下部-回延津记"><a href="#◆下部-回延津记" class="headerlink" title="◆下部 回延津记"></a>◆下部 回延津记</h2><h3 id="2022-11-27-想法"><a href="#2022-11-27-想法" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>平常人的感动。</p>
+<blockquote>
+<p>学会开汽车，我开着汽车，带姐去北京。</p>
+</blockquote>
+<h3 id="2022-11-27-想法-1"><a href="#2022-11-27-想法-1" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>人间社交，大抵皆如此：</p>
+<blockquote>
+<p>“不管你到天南海北，咱俩好一辈子。”</p>
+<p>五年之中，头两年两人还通信，后来渐渐淡了，后来渐渐断了。</p>
+<p>可见能否成为朋友，不在相处的长短。</p>
+</blockquote>
+<h3 id="2022-11-27-想法-2"><a href="#2022-11-27-想法-2" class="headerlink" title="2022/11/27 想法"></a>2022/11/27 想法</h3><p>虽说人生如戏、戏如人生，但想起来是一码事、看起来是一码事，真正过起来又是另一码事。</p>
+<blockquote>
+<p>戏里说的事，也是世上的事，怎么戏里说的，就比世上的事有意思呢？</p>
+</blockquote>
+<h3 id="2022-11-28-想法"><a href="#2022-11-28-想法" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>曹青娥找到年轻的初恋侯宝山时，看到他不戴白手套了，开着过去那“拉风”的拖拉机载着老婆耕地，给孩子把尿时：</p>
+<blockquote>
+<p>曹青娥突然明白，她找的侯宝山，不是这个侯宝山；她要找的侯宝山，在这个世界上，已经死了。</p>
+<p>曹青娥这时才明白，人是掰扯不得的，掰扯了别人，就是掰扯了自己。</p>
+</blockquote>
+<h3 id="2022-11-28-想法-1"><a href="#2022-11-28-想法-1" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>唉…</p>
+<blockquote>
+<p>但老曹死后三个月，曹青娥突然开始想念爹爹老曹。夜里常梦见他。这时的老曹，又变回七十岁之前的老曹，或六十岁的老曹，或五十岁的老曹，或四十多岁的老曹，或刚买曹青娥，也就是改心时的老曹。老曹用脖子驮着她，笑着在街上走，给她买吃食；或老曹趴在地上，让曹青娥当马骑。</p>
+</blockquote>
+<h3 id="2022-11-28-想法-2"><a href="#2022-11-28-想法-2" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>和当时梦到自己把吴摩西卖给了人贩子如出一辙</p>
+<blockquote>
+<p>“妮，你嫁走了，谁管我呀？”<br>或：<br>“妮，牛书道那人没正性，不能嫁。”</p>
+</blockquote>
+<h3 id="2022-11-28-想法-3"><a href="#2022-11-28-想法-3" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>历史是个圈</p>
+<blockquote>
+<p>与当初冯文修用牛轭砸李克智一模一样</p>
+</blockquote>
+<h3 id="2022-11-28-想法-4"><a href="#2022-11-28-想法-4" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>曹青娥的人生智慧。</p>
+<blockquote>
+<p>世上烦的就是这些亲人。论起共事，用谁，都比用他们好。</p>
+<p>“我活了七十岁，明白一个道理，世上别的东西都能挑，就是日子没法挑。”</p>
+<p>我还看穿一件事，过日子是过以后，不是过从前。</p>
+</blockquote>
+<h3 id="2022-11-28-想法-5"><a href="#2022-11-28-想法-5" class="headerlink" title="2022/11/28 想法"></a>2022/11/28 想法</h3><p>通透，不自个儿过个几十年过不出来这种智慧。</p>
+<blockquote>
+<p>“你跟她说得着，是因为她现在由丈夫养着，你就是与她说个话；等你养她，就成了过日子，到时候就该说过日子了。”</p>
+</blockquote>
+<h3 id="2022-11-29-想法"><a href="#2022-11-29-想法" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>所以其实儿女和父母本身虽然是互相照顾、互相爱护，但并不是互相理解。</p>
+<blockquote>
+<p>妈曹青娥得病三四年没说，可以说是心疼他们，但除了心疼，还有对他们的失望罢了。</p>
+<p>牛爱国突然又明白，曹青娥对他说六十年前、五十年前的事情，不对牛爱江、牛爱香、牛爱河说，并不是觉得跟他比跟其他人说得来，而是他遇到的麻烦比其他人更多，借此安慰他罢了。去年牛爱国因为庞丽娜出了事，对沁源伤了心，离开沁源前去看曹青娥，曹青娥知道事情的原委，但没对牛爱国挑破；现在曹青娥不会说话了，牛爱国像去年妈对他一样，他也没将妈的心思，对哥牛爱江和姐牛爱香挑破。</p>
+</blockquote>
+<h3 id="2022-11-29-想法-1"><a href="#2022-11-29-想法-1" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>不知道该说些什么，感觉心脏被锤了一拳。</p>
+<blockquote>
+<p>因为远，我才能送你。</p>
+<p>知道见你不容易，才想起这么多话。</p>
+<p>直到最后一班长途汽车要发车了，曹青娥才上了车。从车上往下看，空空荡荡的汽车站里，就剩下娘一个人，拄着拐杖，嘴在张着，曹青娥不禁流下了泪。</p>
+<p>“妮，下次我再走的时候，就别再喊我了。娘一个月走不动道，身子是太沉了。刚才到了梦里，我走呀走呀，走到一个河边，腿突然就轻了。河边有花有草，我说，好长时间没洗脸了，蹲这河边洗把脸吧。刚要洗脸，听到你喊我，就又回来了；一回来，又躺在这病床上。妮，下次娘走的时候，就不要再喊娘了；不是娘心狠，不是娘没话跟你说，实在是受不了了……”</p>
+<p>下次老曹老婆昏迷的时候，曹青娥就没有再喊娘。</p>
+</blockquote>
+<h3 id="2022-11-29-想法-2"><a href="#2022-11-29-想法-2" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>最思念的，还是自己的根。</p>
+<blockquote>
+<p>曹青娥临终前在喊“爹”，原来不是喊襄垣县的爹爹老曹，而是多年前失散的爹爹吴摩西。</p>
+</blockquote>
+<h3 id="2022-11-29-想法-3"><a href="#2022-11-29-想法-3" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>沧海桑田</p>
+<blockquote>
+<p>到西街一个地方，告诉牛爱国这是当年吴摩西和吴香香蒸馒头的家，现在成了一家酱菜厂；到了北街转盘处，说转盘西北角，当年是意大利神父老詹的教堂，现在成了“金盆洗脚屋”；到了东街桥下，说这里当年有吴摩西挑水的井，现在成了一个卷烟厂；回到南街，指着姜素荣杂货铺旁边的剧场，说这里当年是吴摩西大闹南街的地方，当年的一个碌碡，现在还戳在剧院门侧</p>
+</blockquote>
+<h3 id="2022-11-29-想法-4"><a href="#2022-11-29-想法-4" class="headerlink" title="2022/11/29 想法"></a>2022/11/29 想法</h3><p>唯有门前镜湖水，春风不改旧时波。</p>
+<blockquote>
+<p>七十年前，吴摩西从河南去了陕西；七十年后，牛爱国也从河南去了陕西。</p>
+<p>牛爱国接过这沓纸，纸已经发黄，许多地方被虫蛀了。打开，纸上是一幅图，画着一座宏大的房子，看上去像一座教堂。教堂顶端有十字架，还有一座大钟。图画得倒是气派</p>
+<p>院中有一棵大槐树，牛爱国搬一个凳子，坐在大槐树下。低头想了一阵心思，猛地抬头，一个大月亮，缺了半边，顶头在半空中。虽是半个月亮，却也亮得逼人。一阵风吹来，槐树的叶子“索索”地响；脚下树叶的影子，也随声“索索”地晃动。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>Reading</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读书笔记--“所赖君子见机，达人知命”</title>
+    <url>/2023/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E6%9D%A8%E4%BF%AE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>当我的思绪飘移到杨修时，我仿佛能够看到一条横亘在我和他之间的大河——漫天黄沙飞舞，一条大河从不知处来，往不知处走，而我和杨修便在一片历史的烟尘中面对面伫立在河的两岸。我细细地审视着他的一生，从起到落，尽看的是得意、彷徨、自信和无奈。</p>
+<span id="more"></span>
+<p>杨修的一生，仿佛可以化作一声叹息，叹的是千百年来书生文臣们的建业梦、救国梦。他们一直在求索，也一直在彷徨。正如《滕王阁序》里所言，“所赖君子见机，达人知命”——“时运不齐，命途多舛”自是大多数书生意气的真实写照，而真正功成名就、名留青史的，</p>
+<p>正是那些“穷且益坚，不坠青云之志”的志士——但谁又能向天、向自己许诺成为一个志士呢？失意、绝望、彷徨、无奈，总让被裹挟在历史长河里的一位位英俊之才不知究竟该去往何处。千古以来，多少才俊的一生，似乎都可以被概括成现实主义和理想主义的碰撞，让人叹惋。</p>
+<p>而当我在河这边叹杨修时，杨修又是否会在对岸叹我呢？我渐渐意识到，“我叹杨修”和“杨修叹我”之间，其实是“我叹我自己”——这或许是一种文艺形式最为高妙的地方吧。它是一面镜子，当我与戏里的角色共鸣时，又何尝不是在和自己共鸣？在我反思戏中角儿们的一生时，</p>
+<p>又何尝不是在反思自己的一生？这种化虚为实、化无形为有形的力量，这种反思的态度、共鸣的体验，让我终于能从不同的角度审视一出戏，进而审视我的人生。人生如戏，戏如人生。从这门课上我曾学过、感受过的一切，必然会春风化雨般，散作满天星辰，陪我走完一段又一段值得我反复求索的人生之路。</p>
+]]></content>
+      <tags>
+        <tag>reading</tag>
       </tags>
   </entry>
 </search>
